@@ -1,0 +1,15 @@
+outlet_id,outlet_name,state,city_or_scope,website,discovery_source,screening_status,notes
+WI001,La Comunidad News Online,Wisconsin,Madison,https://wisconsinlcnews.com/,existing registry + outlet website,candidate_verify,Spanish-language Latino community news outlet.
+WI002,Suab Hmong News,Wisconsin,Milwaukee,https://suabhmongnews.com/,CUNY immigrant media profile + existing registry,candidate_verify,Hmong-language/community TV-news operation.
+WI003,El Conquistador Latino Newspaper,Wisconsin,Milwaukee,https://www.mkenews.com/,existing registry + outlet website,candidate_verify,Spanish-language Latino newspaper/digital outlet.
+WI004,Wisconsin Latino News,Wisconsin,Statewide,https://wilatinonews.com/,existing registry,candidate_verify,Latino-focused statewide digital outlet; verify current activity.
+WI005,Spanish Journal Network,Wisconsin,Milwaukee,https://www.spanishjournal.com/,existing registry + current site,candidate_verify,Bilingual/Spanish community newspaper and digital outlet.
+WI006,La Movida Radio,Wisconsin,Madison,https://www.lamovidaradio.com/,existing registry + outlet website,candidate_verify,Spanish-language radio serving Madison Latino community.
+WI007,Hmong Community Journal,Wisconsin,,,existing registry,candidate_verify,Hmong community publication candidate; verify identity/current operation.
+WI008,Hmong Times Wisconsin,Wisconsin,,,existing registry,candidate_verify,Possible Wisconsin Hmong publication; verify exact identity and whether distinct.
+WI009,Nyob Zoo Milwaukee TV,Wisconsin,Milwaukee,,existing registry + Milwaukee media coverage,candidate_verify,Hmong-language TV news/community program.
+WI010,WNRB-LP Hmong Radio,Wisconsin,Wausau,,FCC/radio listings + existing registry,candidate_verify,Hmong community radio station licensed to Wausau Area Hmong Mutual Association.
+WI011,WORT Hmong Radio,Wisconsin,Madison,https://www.wortfm.org/,existing registry + station site,candidate_verify,Hmong-language/community programming on WORT; verify current program-level journalism.
+WI012,WJYI Hmong Radio,Wisconsin,Milwaukee,,existing registry,candidate_verify,Hmong radio candidate; verify identity/current operation.
+WI013,Wisconsin Muslim Journal,Wisconsin,Milwaukee,https://wisconsinmuslimjournal.org/,existing registry + current site,candidate_verify,Independent Muslim community online newspaper.
+WI014,El Hispano Wisconsin,Wisconsin,,,existing registry,candidate_verify,Spanish-language outlet candidate; verify exact current Wisconsin operation.
