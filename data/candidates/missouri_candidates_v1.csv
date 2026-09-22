@@ -1,0 +1,8 @@
+outlet_id,outlet_name,state,city_or_scope,website,discovery_source,screening_status,notes
+MO001,Dos Mundos,Missouri,Kansas City metro,https://dosmundos.com/,outlet website,candidate_verify,Long-running bilingual Hispanic and immigrant newspaper.
+MO002,KC Hispanic News,Missouri,Kansas City metro,https://kchispanicnews.com/,outlet website,candidate_verify,Bilingual weekly family-run Hispanic newspaper.
+MO003,Red Latina STL,Missouri,St. Louis / regional,https://www.redlatinastl.com/,outlet website,candidate_verify,Bilingual St. Louis Latino news and magazine platform.
+MO004,St. Louis Chinese American News,Missouri,St. Louis metro,https://web.scanews.com/,outlet website,candidate_verify,Weekly bilingual Chinese/Asian community newspaper.
+MO005,St. Louis Bosnian,Missouri,St. Louis,https://www.stlbosnians.com/,community archive website,candidate_verify,Digital Bosnian community archive/news-curation platform; verify original journalism share.
+MO006,Sehara Tribune,Missouri,St. Louis,,St. Louis Media History Foundation,candidate_verify,Historic Bosnian-language newspaper; current status unclear.
+MO007,Reyes Media Group,Missouri,Kansas City metro,https://dosmundos.com/,Dos Mundos,candidate_verify,Parent media organization for Dos Mundos and other Spanish-language products; classify as host/intermediary.
