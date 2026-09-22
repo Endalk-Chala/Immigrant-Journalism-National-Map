@@ -1,0 +1,5 @@
+outlet_id,outlet_name,state,city_or_scope,website,discovery_source,screening_status,notes
+SD001,El Sol Media Group / El Sol Newspaper,South Dakota,Sioux Falls / statewide,https://www.elsolmedia.com/,outlet website,candidate_verify,Spanish-language newspaper serving South Dakota.
+SD002,El Sol Television,South Dakota,Sioux Falls / statewide,https://www.elsolmedia.com/,outlet website,candidate_verify,Spanish-language TV program on KTTW FOX Sioux Falls.
+SD003,Que Pasa Sioux Falls,South Dakota,Sioux Falls,https://quepasasiouxfalls.org/,outlet website,candidate_verify,Spanish-language news/resources platform for Hispanic and immigrant community.
+SD004,Sioux Falls Somali/refugee media lead,South Dakota,Sioux Falls,,targeted web search,candidate_verify,Potential refugee-language/community media lead; no distinct newsroom verified in first pass.
