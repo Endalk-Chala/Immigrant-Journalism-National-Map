@@ -1,0 +1,10 @@
+outlet_id,outlet_name,state,city_or_scope,website,discovery_source,screening_status,notes
+KS001,Planeta Venus,Kansas,Wichita / statewide,https://www.planetavenus.online/,outlet website + Wichita Journalism Collaborative,candidate_verify,Bilingual/Spanish digital and print newsroom serving Latino Kansans.
+KS002,KWCH Spanish-language news program,Kansas,Wichita / statewide,https://www.kwch.com/,KWCH staff bio,candidate_verify,Spanish-language local TV news program launched at KWCH.
+KS003,La Grande 1340 AM,Kansas,"Kansas City, Kansas / metro",https://lagrande1340kc.com/,station website,candidate_verify,"Spanish-language radio with local news, community events and sports."
+KS004,Dos Mundos,Kansas,Kansas City metro / serves KCK,https://dosmundos.com/,outlet website,candidate_verify,Missouri-based bilingual weekly serving Greater Kansas City including Kansas side.
+KS005,KC Hispanic News,Kansas,Kansas City metro / serves KCK,https://www.kchispanicnews.com/,outlet website,candidate_verify,"Missouri-based bilingual weekly with Kansas City, Kansas coverage; market-serving case."
+KS006,Informativo Hispano Americano,Kansas,Dodge City,,Kansas Reflector,candidate_verify,Historic bilingual Dodge City publication; print ceased around 2020.
+KS007,La Estrella,Kansas,Dodge City,,Kansas press historical sources,candidate_verify,Historic Spanish-language weekly associated with Dodge City Daily Globe; current status unclear.
+KS008,La Semana,Kansas,Garden City,,historical research sources,candidate_verify,Historic Spanish-language version of Garden City Telegram; current status unclear.
+KS009,Wichita Journalism Collaborative,Kansas,Wichita,https://wichitajournalism.org/,collaborative website,candidate_verify,Journalism intermediary/collaborative that distributes Planeta Venus and other partner reporting.
