@@ -11,7 +11,7 @@ Florida,not_started,
 Georgia,not_started,
 Hawaii,not_started,
 Idaho,not_started,
-Illinois,candidate_discovery,candidate registry exists
+Illinois,verification_complete,candidate + verification
 Indiana,not_started,
 Iowa,not_started,
 Kansas,not_started,
@@ -33,7 +33,7 @@ New Mexico,not_started,
 New York,verification_complete,candidate + verification
 North Carolina,verification_complete,candidate + verification
 North Dakota,not_started,
-Ohio,candidate_discovery,candidate registry exists
+Ohio,verification_complete,candidate + verification
 Oklahoma,not_started,
 Oregon,verification_complete,candidate + verification
 Pennsylvania,verification_complete,candidate + verification
@@ -47,6 +47,6 @@ Vermont,not_started,
 Virginia,not_started,
 Washington,verification_complete,candidate + verification
 West Virginia,not_started,
-Wisconsin,candidate_discovery,candidate registry exists
+Wisconsin,verification_complete,candidate + verification
 Wyoming,not_started,
 District of Columbia,not_started,
