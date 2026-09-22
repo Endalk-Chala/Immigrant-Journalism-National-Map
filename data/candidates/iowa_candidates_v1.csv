@@ -1,0 +1,6 @@
+outlet_id,outlet_name,state,city_or_scope,website,discovery_source,screening_status,notes
+IA001,La Prensa Iowa,Iowa,Denison / Western & Central Iowa,https://www.laprensaiowa.com/,outlet website,candidate_verify,Spanish-language newspaper serving Spanish-speaking communities across western and central Iowa.
+IA002,Hola Iowa,Iowa,Des Moines / statewide,https://holaamericanews.com/,Hola America Media Group,candidate_verify,Bilingual Latino news brand serving Iowa.
+IA003,Common Thread Iowa,Iowa,Statewide,,Iowa Starting Line / New Day Iowa,candidate_verify,New social-first reporting project focused on Iowa refugee and immigrant communities.
+IA004,Hola America / Quad Cities Iowa market,Iowa,Eastern Iowa / Quad Cities,https://holaamericanews.com/,outlet website,candidate_verify,Bilingual Latino outlet serving western Illinois and eastern Iowa; multistate market case.
+IA005,Denison Free Press immigrant-community crossover,Iowa,Denison,https://www.denisonfreepress.com/,shared publisher with La Prensa,boundary_check,English-language sister paper sharing publisher/infrastructure with La Prensa; general local newspaper rather than immigrant-serving core.
