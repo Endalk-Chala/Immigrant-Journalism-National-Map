@@ -12,10 +12,10 @@ Georgia,not_started,
 Hawaii,not_started,
 Idaho,not_started,
 Illinois,verification_complete,candidate + verification
-Indiana,not_started,
-Iowa,not_started,
+Indiana,verification_complete,candidate + verification
+Iowa,verification_complete,candidate + verification
 Kansas,verification_complete,candidate + verification
-Kentucky,not_started,
+Kentucky,verification_complete,candidate + verification
 Louisiana,not_started,
 Maine,not_started,
 Maryland,not_started,
@@ -23,7 +23,7 @@ Massachusetts,not_started,
 Michigan,verification_complete,candidate + verification
 Minnesota,verification_complete,candidate + verification
 Mississippi,not_started,
-Missouri,not_started,
+Missouri,verification_complete,candidate + verification
 Montana,not_started,
 Nebraska,verification_complete,candidate + verification
 Nevada,verification_complete,candidate + verification
