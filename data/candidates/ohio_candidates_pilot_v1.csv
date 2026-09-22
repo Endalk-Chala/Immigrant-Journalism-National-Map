@@ -1,0 +1,15 @@
+outlet_id,outlet_name,state,city_or_scope,website,discovery_source,screening_status,notes
+OH001,Somali Link Newspaper,Ohio,Columbus,https://www.somalicommunitylink.com/,Somali Community Link website,candidate_verify,Hosted by Somali Community Link; current site explicitly names Somali Link Newspaper.
+OH002,Danjir News / Danjir Radio,Ohio,Columbus,https://wcrsfm.org/news/danjir-radio-returns-columbus-airwaves/,WCRS + historical newspaper sources,candidate_verify,Somali-language public affairs/news radio is current; newspaper status needs verification.
+OH003,DZM News,Ohio,Akron,https://dzmnews.com/,Outlet website,candidate_verify,Active Nepali/Bhutanese community news and video content.
+OH004,Ohio in Arabic,Ohio,,https://ohioinarabic.com/,Outlet website,seed_verified_candidate,Nonprofit Arabic-language media/service organization; began as an independent Arabic community newspaper in 2019.
+OH005,La Prensa Newspaper,Ohio,Toledo,https://laprensanewspaper.com/,Outlet website,seed_verified_candidate,Active bilingual Latino newspaper serving Ohio and Michigan.
+OH006,El Sol de Ohio,Ohio,Columbus,https://www.elsoldeohio.com/,Outlet website,seed_verified_candidate,Spanish-language newspaper serving Ohio's Hispanic community since 2010.
+OH007,Vocero Latino,Ohio,Cleveland,https://vocerolatino.com/,Outlet website,candidate_verify,Active Latino-focused Cleveland news site; About text says serving Hispanic community since 1998.
+OH008,La Villa Cleveland,Ohio,Cleveland,https://www.lavillacle.org/,Outlet website,seed_verified_candidate,People-centered media outlet serving Cleveland's Latinx and Afro-Latin communities.
+OH009,Onumba.com,Ohio,Columbus,https://onumba.com/,Outlet website,seed_verified_candidate,African/diaspora-focused journalism platform based in Columbus; parent company Fawol Africa Media.
+OH010,OCA AsiaTown Voice / IMAGE TV Ohio,Ohio,Cleveland,https://ocagc.org/,OCA Greater Cleveland website,candidate_verify,Asian-American radio/TV programming hosted by OCA Greater Cleveland; verify fit as sustained journalism.
+OH011,Lazo Cultural – Great Lakes Edition,Ohio,Northwest Ohio,https://lazocultural.com/,Toledo.com launch announcement + outlet website,candidate_verify,Bilingual monthly/digital platform launched in 2026 for Hispanic and multicultural communities across NW Ohio and SE Michigan.
+OH012,ApnaOhio,Ohio,Statewide,https://apnaohio.com/,Outlet website,candidate_verify,Indian/Asian statewide community information site; verify whether journalism output is sustained enough for inclusion.
+OH013,Al-Sahafa Newspaper,Ohio,Cleveland,http://www.al-sahafa.us/,Historical references / current activity unclear,candidate_verify,Arab-American newspaper historically based in Cleveland; current activity must be verified before inclusion.
+OH014,Connecting Cleveland,Ohio,Cleveland,,Historical Bhutanese-Nepali community media source,likely_exclude_inactive,Bilingual Bhutanese-Nepali youth newspaper was active historically but appears no longer current.
