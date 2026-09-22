@@ -7,8 +7,8 @@ California,verification_complete,candidate + verification
 Colorado,verification_complete,candidate + verification
 Connecticut,not_started,
 Delaware,not_started,
-Florida,not_started,
-Georgia,not_started,
+Florida,verification_complete,candidate + verification
+Georgia,verification_complete,candidate + verification
 Hawaii,not_started,
 Idaho,not_started,
 Illinois,verification_complete,candidate + verification
@@ -40,11 +40,11 @@ Pennsylvania,verification_complete,candidate + verification
 Rhode Island,not_started,
 South Carolina,verification_complete,candidate + verification
 South Dakota,verification_complete,candidate + verification
-Tennessee,not_started,
+Tennessee,verification_complete,candidate + verification
 Texas,verification_complete,candidate + verification
 Utah,verification_complete,candidate + verification
 Vermont,not_started,
-Virginia,not_started,
+Virginia,verification_complete,candidate + verification
 Washington,verification_complete,candidate + verification
 West Virginia,not_started,
 Wisconsin,verification_complete,candidate + verification
