@@ -1,0 +1,31 @@
+outlet_id,outlet_name,state,city_or_scope,website,discovery_source,screening_status,notes
+TX001,La Voz de Denver Harbor,Texas,Houston,,Houston Chronicle ethnic media survey,candidate_verify,Bilingual monthly newspaper serving heavily Latino northeast Houston neighborhood.
+TX002,Que Onda Magazine,Texas,Houston,https://queondamagazine.com/,Houston Chronicle ethnic media survey,candidate_verify,Bilingual Latino news/features magazine.
+TX003,The Chinese Times,Texas,Houston,https://chinesetimes.info/,Houston Chronicle ethnic media survey,candidate_verify,Chinese-language local community newspaper.
+TX004,U.S. Chinese Channel AM1050,Texas,Houston,,Houston Chronicle ethnic media survey,candidate_verify,Chinese-language radio with local/global news and emergency information.
+TX005,Southern Chinese Daily News,Texas,Houston,,Houston Chronicle ethnic media survey,candidate_verify,Chinese-language newspaper based in Houston.
+TX006,Arab Voices,Texas,Houston,https://www.arabvoices.net/,Houston Chronicle ethnic media survey / KPFT,candidate_verify,Arab/Middle Eastern news and analysis radio program.
+TX007,Indo American News,Texas,Houston,https://www.indoamerican-news.com/,Houston Chronicle ethnic media survey,candidate_verify,South Asian weekly/news magazine.
+TX008,HUM FM 103.5,Texas,Houston,https://humfmradio.com/,Houston Chronicle ethnic media survey,candidate_verify,South Asian radio; entertainment-heavy but includes local information and expert call-ins.
+TX009,Masala Radio 98.7 FM,Texas,Sugar Land / Houston,https://masalaradio.com/,Houston Chronicle ethnic media survey,candidate_verify,Indian community radio; verify journalism/public-affairs component.
+TX010,Voice of Asia,Texas,Houston,https://voiceofasia.news/,Targeted Houston ethnic media search,candidate_verify,Asian/South Asian community news outlet.
+TX011,Houston Community Media,Texas,Houston,https://houstoncommunitymedia.org/,Outlet/network website,candidate_verify,Multilingual ethnic-media network; may be coded as intermediary/host rather than outlet.
+TX012,Semana News,Texas,Houston,https://semananews.com/,Latino media directory / web search,candidate_verify,Spanish-language local news serving Hispanic/immigrant communities.
+TX013,La Voz de Houston,Texas,Houston,https://www.houstonchronicle.com/lavoz/,Houston Chronicle ethnic media survey,candidate_verify,Spanish-language Houston Chronicle product; comparison case rather than independent outlet.
+TX014,El Mundo Newspaper,Texas,Austin,https://elmundonewspaper.com/,Targeted Texas Latino media search,candidate_verify,Spanish-language Austin-area community newspaper.
+TX015,La Prensa de San Antonio,Texas,San Antonio,https://laprensatexas.com/,Targeted Texas Latino media search,candidate_verify,Bilingual/Latino community publication.
+TX016,San Antonio Hispano News candidate,Texas,San Antonio,,Targeted discovery,candidate_verify,Spanish-language local media candidate; verify exact outlet and activity.
+TX017,El Editor,Texas,Lubbock / West Texas,https://eleditor.com/,Targeted Texas Latino media search,candidate_verify,Bilingual Hispanic community newspaper.
+TX018,El Mañana de Nuevo Laredo / border audience candidate,Texas,Laredo / border,,Border media discovery,candidate_verify,Cross-border Spanish-language media serving Laredo area; verify U.S.-based institutional fit.
+TX019,Dallas Chinese News,Texas,Dallas-Fort Worth,,Dallas multicultural media directory/search,candidate_verify,Chinese-language community outlet.
+TX020,Korea Times Texas,Texas,Dallas-Fort Worth,,Dallas multicultural media directory/search,candidate_verify,Korean-language community publication.
+TX021,El Hispano News,Texas,Dallas-Fort Worth,,Targeted Latino media search,candidate_verify,Spanish-language community publication; verify current site.
+TX022,Al Día Dallas,Texas,Dallas,https://www.dallasnews.com/espanol/al-dia/,Targeted Latino media search,candidate_verify,Spanish-language product within Dallas Morning News; comparison case.
+TX023,Texas Latino News,Texas,Statewide,,Targeted discovery,candidate_verify,Latino-focused digital news candidate; verify identity/current site.
+TX024,India Herald,Texas,Houston,https://india-herald.com/,Targeted South Asian media search,candidate_verify,South Asian community newspaper.
+TX025,Pakistan Chronicle,Texas,Houston / Texas,,Targeted South Asian media search,candidate_verify,Pakistani community media candidate; verify current site/activity.
+TX026,VIETV Network,Texas,Houston,https://vietv.com/,Houston Chronicle ethnic media survey,candidate_verify,Vietnamese-language television/media network.
+TX027,Houston Vietnamese News candidate,Texas,Houston,,Houston ethnic media discovery,candidate_verify,Additional Vietnamese print/digital outlet to identify and verify.
+TX028,Dallas Weekly,Texas,Dallas,https://dallasweekly.com/,Targeted discovery / outlet website,candidate_verify,Black community outlet increasingly serving African diaspora; likely comparison case.
+TX029,Houston Forward Times,Texas,Houston,https://forwardtimes.com/,Houston community media ecosystem,candidate_verify,Black community newspaper; assess immigrant-serving relevance.
+TX030,African community media Houston candidate,Texas,Houston,,Houston Community Media / targeted search,candidate_verify,Pan-African/West African outlet to identify through HCM network.
