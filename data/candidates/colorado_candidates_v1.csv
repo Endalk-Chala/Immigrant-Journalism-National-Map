@@ -1,0 +1,11 @@
+outlet_id,outlet_name,state,city_or_scope,website,discovery_source,screening_status,notes
+CO001,La Voz Colorado,Colorado,Denver / statewide,https://lavozcolorado.com/,Denver Public Library + outlet website,candidate_verify,Long-running bilingual Latino newspaper serving Colorado.
+CO002,La Prensa de Colorado,Colorado,Denver metro / Northern Colorado / Colorado Springs,https://laprensadecolorado.com/,Denver Public Library + outlet website,candidate_verify,Spanish-language weekly serving Colorado Hispanic communities.
+CO003,El Comercio de Colorado,Colorado,Denver / Aurora / statewide,https://elcomerciodecolorado.com/,Outlet website,candidate_verify,Spanish-English newspaper/digital outlet with strong Latino and immigration coverage.
+CO004,El Semanario / The Weekly Issue,Colorado,Denver / statewide,https://www.elsemanarioonline.com/,Outlet website,candidate_verify,Long-running Latino-focused weekly/digital publication.
+CO005,Colorado Chinese News,Colorado,Denver,https://kzhb.us/,Denver Public Library + current publication evidence,candidate_verify,Chinese-language newspaper serving Colorado Chinese community.
+CO006,Asian Avenue Magazine,Colorado,Denver / statewide,https://www.asianavemag.com/,Outlet website,candidate_verify,Monthly AAPI community magazine with news and community reporting.
+CO007,Telemundo Colorado / KDEN,Colorado,Denver metro / statewide,https://www.telemundodenver.com/,NBCUniversal local station website,candidate_verify,Spanish-language local TV newsroom serving Colorado.
+CO008,Univision Colorado / Denver coverage,Colorado,Denver / statewide,https://www.univision.com/temas/denver-colorado,Univision website,candidate_verify,Spanish-language network/local-market news presence; verify distinct local newsroom structure.
+CO009,ColoradoLatino.com,Colorado,Statewide,https://www.coloradolatino.com/,Outlet/community portal website,candidate_verify,Latino information/news portal; verify sustained original journalism.
+CO010,Denver Urban Spectrum,Colorado,Denver,https://denverurbanspectrum.com/,Denver Public Library,candidate_verify,Community publication for people of color; boundary/comparison case rather than immigrant-serving core.
