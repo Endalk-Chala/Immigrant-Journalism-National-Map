@@ -1,0 +1,13 @@
+outlet_id,outlet_name,state,city_or_scope,website,discovery_source,screening_status,notes
+NV001,Philippine Times of Southern Nevada,Nevada,Las Vegas / Southern Nevada,https://ptsnv.com/,Outlet website,candidate_verify,Bilingual English-Tagalog Filipino-American newspaper.
+NV002,El Nuevo Mundo,Nevada,Las Vegas / Southern Nevada,https://elnuevomundo.lv/,Outlet website,candidate_verify,Spanish-language newspaper launched after contraction of legacy Las Vegas Spanish print media.
+NV003,Entérate Vegas,Nevada,Las Vegas,https://enteratevegas.com/,Outlet website,candidate_verify,Spanish-language digital local-news outlet.
+NV004,Noticiero Móvil,Nevada,Reno / Northern Nevada,https://noticieromovil.com/,Outlet website,candidate_verify,Spanish-English multimedia newsroom serving Northern Nevada Latino community.
+NV005,Las Vegas Chinese Daily News,Nevada,Las Vegas / Southern Nevada,https://lasvegaschinesedailynews.com/en/,Outlet website,candidate_verify,Chinese community newspaper with local reporters.
+NV006,Las Vegas Korean News,Nevada,Las Vegas,,Current 2026 digital issue archive,candidate_verify,Korean-language community newspaper.
+NV007,The Las Vegas Times / Korean Las Vegas Times,Nevada,Las Vegas,https://www.koreanlasvegastimes.com/,Current 2026 issue archive,candidate_verify,Korean-language biweekly community newspaper.
+NV008,K-LasVegas / Las Vegas Korean Magazine,Nevada,Las Vegas,https://www.k-lasvegas.org/,Outlet website,candidate_verify,Korean-American monthly magazine run by Korean Las Vegas Media Foundation.
+NV009,VietLasVegas.com,Nevada,Las Vegas,https://vietlasvegas.com/,Outlet website,candidate_verify,"Vietnamese-language information, events, news and announcements site."
+NV010,El Mundo Las Vegas,Nevada,Las Vegas,,Nevada Independent,candidate_verify,"Historic Spanish-language weekly; ceased print publication in 2025, archive/historical case."
+NV011,PHLV Radio,Nevada,Las Vegas,https://phlvradio.com/,Philippine Times coverage + station brand,candidate_verify,Filipino-American radio/digital media outlet; verify sustained news/public-affairs share.
+NV012,Nevada Immigrant Coalition News,Nevada,Statewide,https://nvimmigrantcoalition.org/news/,Coalition website,candidate_verify,"Immigrant advocacy information stream; likely not independent journalism outlet, useful boundary/infrastructure case."
