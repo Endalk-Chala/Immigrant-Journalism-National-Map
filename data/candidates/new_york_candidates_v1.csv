@@ -1,0 +1,46 @@
+outlet_id,outlet_name,state,city_or_scope,website,discovery_source,screening_status,notes
+NY001,Documented,New York,New York City,https://documentedny.com/,CUNY/NYC immigrant media discovery,candidate_verify,Nonprofit newsroom explicitly serving immigrant communities.
+NY002,The Haitian Times,New York,Brooklyn / NYC,https://haitiantimes.com/,CUNY Many Voices directory,candidate_verify,Haitian/Haitian American community newsroom.
+NY003,Africa in Harlem,New York,Harlem / NYC,https://africainharlem.nyc/,CUNY Many Voices directory,candidate_verify,African immigrant and diaspora multilingual community news.
+NY004,Feet in 2 Worlds,New York,New York City,https://fi2w.org/,CUNY Many Voices directory,candidate_verify,Nonprofit immigrant-journalist newsroom/training platform.
+NY005,El Diario / La Prensa,New York,New York City,https://eldiariony.com/,CUNY Many Voices directory,candidate_verify,Large Spanish-language daily serving Latino immigrant communities.
+NY006,Impacto Latino,New York,New York City,https://impactolatino.com/,CUNY Many Voices directory,candidate_verify,Independent Spanish-language Latino community outlet.
+NY007,La Tribuna Hispana USA,New York,NYC / Long Island / Westchester,https://latribunahispana.com/,CUNY Many Voices directory,candidate_verify,Spanish-language weekly serving NY metro Latino communities.
+NY008,El Correo NY,New York,Queens / NYC,http://www.noticiali.com,CUNY Many Voices directory,candidate_verify,Local Spanish-language outlet serving Latino community.
+NY009,New York Latino,New York,New York City,https://newyorklatino.com/,Targeted search,candidate_verify,Latino-focused news site.
+NY010,Akhon Samoy,New York,Queens / NYC,,CUNY Many Voices directory,candidate_verify,Bangladeshi weekly serving U.S. Bangladeshi community.
+NY011,Bangla Patrika,New York,Queens / NYC,,CUNY Many Voices directory,candidate_verify,Bangladeshi community newspaper.
+NY012,Bangladesh Pratidin USA,New York,Queens / NYC,,CUNY Many Voices directory,candidate_verify,Bengali-language outlet for Bangladeshi diaspora.
+NY013,Weekly Thikana,New York,Queens / NYC,https://thikana.us/,Targeted Bangladeshi media discovery,candidate_verify,Bangla-language diaspora newspaper.
+NY014,Khasokhas,New York,Queens / NYC,https://www.khasokhas.com/,CUNY Many Voices directory,candidate_verify,Nepali-language/English immigrant community newsroom.
+NY015,News India Times,New York,NYC metro,https://www.newsindiatimes.com/,CUNY Many Voices directory,candidate_verify,Indian-American news outlet within Parikh Worldwide Media.
+NY016,Desi Talk New York,New York,NYC metro,https://desitalk.com/,CUNY Many Voices directory,candidate_verify,South Asian/Indian community newspaper.
+NY017,Parikh Worldwide Media,New York,NYC metro,https://www.newsindiatimes.com/,CUNY Many Voices directory,candidate_verify,Parent media group; may be coded as host/network rather than outlet.
+NY018,Korea Daily New York,New York,New York City,,CUNY Many Voices directory,candidate_verify,Korean-language community news outlet.
+NY019,Korea Times New York,New York,New York City,https://www.koreatimes.com/,CUNY Many Voices directory,candidate_verify,Korean-language daily serving tri-state Korean community.
+NY020,K-Radio AM 1660,New York,New York City,,CUNY Many Voices directory,candidate_verify,Korean-American radio station.
+NY021,Sing Tao Daily New York,New York,New York City,,CUNY Many Voices directory,candidate_verify,Chinese-language daily serving tri-state Chinese community.
+NY022,World Journal New York,New York,New York City,https://www.worldjournal.com/,CUNY/NYC ethnic media discovery,candidate_verify,Chinese-language newspaper with New York operations.
+NY023,Sino TV,New York,New York City,https://sinovision.net/,CUNY Many Voices directory,candidate_verify,Chinese-language television/digital news network.
+NY024,Shukan NY Seikatsu,New York,New York City,https://www.nyseikatsu.com/,CUNY Many Voices directory,candidate_verify,Japanese-language weekly community newspaper.
+NY025,Alhawadeth for Arab Americans,New York,Brooklyn / NYC,http://alhawadeth.net,CUNY Many Voices directory,candidate_verify,Arabic-English Arab-American newspaper/site.
+NY026,ForumDaily,New York,NYC metro,https://www.forumdaily.com/,CUNY Many Voices directory,candidate_verify,Russian-language news for Russian-speaking Americans.
+NY027,Russian Bazaar,New York,Brooklyn / NYC,https://russian-bazaar.com/,Targeted Russian media discovery,candidate_verify,Russian-language community newspaper.
+NY028,Kurier Plus,New York,New York City,,CUNY Many Voices directory,candidate_verify,Polish-language weekly serving NY and neighboring states.
+NY029,Nowy Dziennik / Polish Daily News,New York,NYC metro,https://dziennik.com/,Targeted Polish media discovery,candidate_verify,Polish-language diaspora news outlet.
+NY030,The National Herald,New York,New York City,https://www.thenationalherald.com/,Targeted Greek media discovery,candidate_verify,Greek-American newspaper and digital outlet.
+NY031,AKTINA FM / AKTINA TV,New York,New York City,https://www.aktina.org/,CUNY Many Voices directory,candidate_verify,Greek/Cypriot community broadcast programming.
+NY032,French Morning,New York,New York City,https://frenchmorning.com/,CUNY Many Voices directory,candidate_verify,French-language news for Francophone communities in U.S.
+NY033,Caribbean Life,New York,Brooklyn / NYC,https://www.caribbeanlife.com/,CUNY Many Voices directory,candidate_verify,Caribbean community newspaper/digital outlet.
+NY034,Caribbean American Weekly,New York,New York City,,CUNY Many Voices directory,candidate_verify,Caribbean diaspora news and analysis.
+NY035,Caribbean Times,New York,New York City,,CUNY Many Voices directory,candidate_verify,Caribbean community newspaper.
+NY036,Caribbean People,New York,New York City,,CUNY Many Voices directory,candidate_verify,Caribbean community media outlet.
+NY037,Forward,New York,New York City,https://forward.com/,CUNY Many Voices directory,candidate_verify,Jewish news outlet with immigrant/diaspora roots; verify fit under current inclusion rule.
+NY038,Jewish Telegraphic Agency,New York,New York City,https://www.jta.org/,Targeted diaspora media discovery,candidate_verify,Jewish diaspora news service; verify immigrant-serving relevance.
+NY039,QNS / Queens community ethnic-media products,New York,Queens / NYC,https://qns.com/,NYC/CUNY directory context,candidate_verify,Host/network comparison; verify distinct immigrant-language products rather than count parent alone.
+NY040,BronxNet community immigrant-language programming,New York,Bronx / NYC,https://bronxnet.org/,NYC community media discovery,candidate_verify,Host platform with multilingual/community programs; requires program-level coding.
+NY041,Black Star News,New York,New York City,https://blackstarnews.com/,CUNY Many Voices directory,candidate_verify,African/Black diaspora-focused journalism; likely boundary/comparison case.
+NY042,New York Amsterdam News,New York,Harlem / NYC,https://amsterdamnews.com/,CUNY Many Voices directory,candidate_verify,Historic Black press; comparison/boundary case for African diaspora relevance.
+NY043,Queens Latino,New York,Queens / NYC,,Targeted Latino media discovery,candidate_verify,Spanish-language local candidate; verify identity/current operation.
+NY044,Noticia Long Island,New York,Long Island,https://noticiali.com/,CUNY Latino/community media discovery,candidate_verify,Spanish-language Latino newspaper serving Long Island.
+NY045,Diario Las Américas New York presence candidate,New York,New York City,,Targeted Latino media discovery,candidate_verify,Verify whether there is a distinct NY-based operation before inclusion.
