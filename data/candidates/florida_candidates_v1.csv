@@ -1,0 +1,11 @@
+outlet_id,outlet_name,state,city_or_scope,website,discovery_source,screening_status,notes
+FL001,Le Floridien,Florida,South Florida / Haitian diaspora,https://lefloridien.com/,outlet website,candidate_verify,Bilingual Haitian-American newspaper based in South Florida.
+FL002,Island TV,Florida,Miami-Dade / South Florida,https://islandtv.tv/,outlet website,candidate_verify,Caribbean/Haitian television network with Creole-language news and community programming.
+FL003,WQVN 1360,Florida,Miami / South Florida,https://wqvn.com/,station website,candidate_verify,Haitian community radio station with news, talk and cultural programming.
+FL004,WSRF 1580 AM / 99.5 FM,Florida,South Florida,https://wsrf.com/,station website,candidate_verify,Haitian-American radio station with Creole/French news and talk.
+FL005,Radyo Lekol,Florida,Miami-Dade,https://www.wlrn.org/show/radyo-lekol,WLRN,candidate_verify,Haitian Creole educational news program produced by Miami-Dade County Public Schools.
+FL006,Miami Diario,Florida,Miami / South Florida,https://miamidiario.com/,outlet website,candidate_verify,Spanish-language digital local-news outlet.
+FL007,The Florida News,Florida,Miami / Orlando / Tampa / West Palm Beach,https://www.theflorida.news/,outlet website,candidate_verify,Independent Spanish-language statewide/local digital outlet.
+FL008,Florida Latino News,Florida,Statewide / South Florida,https://floridalatino.news/,outlet website,candidate_verify,Latino-oriented digital news/community publication.
+FL009,The Haitian Times - Florida service,Florida,South Florida market,https://haitiantimes.com/,Haitian diaspora media discovery,candidate_verify,New York-based Haitian-American outlet with substantial South Florida audience/coverage; multistate market case.
+FL010,Radyo FANM / Vwa FANM,Florida,Miami / South Florida,,Little Haiti Book Festival media guide,candidate_verify,Long-running Haitian Creole community radio program hosted by FANM.
