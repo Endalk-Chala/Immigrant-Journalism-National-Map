@@ -1,0 +1,21 @@
+outlet_id,outlet_name,state,city_or_scope,website,discovery_source,screening_status,notes
+WA001,International Examiner,Washington,Seattle,https://iexaminer.org/,Seattle OIRA / outlet website,candidate_verify,Pan-Asian Pacific American community newspaper; nonprofit.
+WA002,Northwest Asian Weekly,Washington,Seattle,https://nwasianweekly.com/,Seattle ethnic media directory,candidate_verify,Asian community publication.
+WA003,Seattle Chinese Post,Washington,Seattle,https://seattlechinesepost.com/,Seattle ethnic media directory,candidate_verify,Chinese-language community media; hosted by APCC after transition.
+WA004,Seattle Chinese Times,Washington,Seattle,,Seattle OIRA / Seattle Votes media list,candidate_verify,Chinese-language community newspaper; verify current site.
+WA005,Northwest Vietnamese News,Washington,Seattle,https://nvnorthwest.com/,Seattle ethnic media directory,candidate_verify,Vietnamese community newspaper; detailed staff structure visible.
+WA006,Seattle Viet Times,Washington,Seattle,,Seattle OIRA / ethnic media lists,candidate_verify,Vietnamese-language outlet; verify current website.
+WA007,Runta News,Washington,Seattle,https://runtanews.com/,Seattle ethnic media directory,candidate_verify,Somali/East African community media.
+WA008,The North American Post,Washington,Seattle,https://napost.com/,Seattle ethnic media directory,candidate_verify,Japanese/Japanese American community newspaper.
+WA009,Korea Daily Seattle,Washington,Seattle,,Seattle ethnic media directory,candidate_verify,Korean-language outlet; verify current web presence.
+WA010,Korea Times Seattle,Washington,Seattle,,Washington ethnic media lists,candidate_verify,Korean-language outlet; verify current activity.
+WA011,Filipino American Herald,Washington,Seattle area,,Washington ethnic media directory,candidate_verify,Filipino community newspaper; verify active site.
+WA012,One Philippines,Washington,Seattle area,,Washington ethnic media directory,candidate_verify,Filipino community newspaper; verify active site.
+WA013,La Raza Noroeste,Washington,Seattle,,Seattle ethnic media listings,candidate_verify,Spanish-language Latino community publication; verify activity.
+WA014,El Mundo Seattle,Washington,Seattle,,Seattle ethnic media listings,candidate_verify,Spanish-language community media; verify current activity.
+WA015,Actitud Latina,Washington,Seattle,,Seattle ethnic media listings,candidate_verify,Latino community media; verify sustained journalism.
+WA016,Crossings TV Seattle service,Washington,Seattle / statewide,https://www.crossingstv.com/,Seattle OIRA / 3AF,candidate_verify,Multilingual Asian television service; outlet based outside WA but serves state.
+WA017,Ethiopian Community Media Association,Washington,Seattle,,Washington emergency/ethnic media directories,candidate_verify,Verify whether current operation produces sustained journalism.
+WA018,Seattle Korean Weekly candidate,Washington,Seattle,,Targeted ethnic-media search,candidate_verify,Korean community media; institutional verification needed.
+WA019,Chinese Radio Seattle candidate,Washington,Seattle,,Targeted ethnic-media search,candidate_verify,Chinese-language radio/news candidate; verify identity and current operation.
+WA020,Somali community radio Seattle candidate,Washington,Seattle,,Targeted ethnic-media search,candidate_verify,Additional Somali broadcast candidate; identify current outlet before inclusion.
