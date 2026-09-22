@@ -1,0 +1,91 @@
+outlet_id,outlet_name,state,city,website,discovery_source,screening_status
+MN001,Sahan Journal,Minnesota,St. Paul,https://sahanjournal.com/,Minneapolis multicultural media directory + outlet website,seed_verified_candidate
+MN002,Somali Media of Minnesota,Minnesota,Minneapolis,https://www.somalmedia.com/,Outlet website,seed_verified_candidate
+MN003,Hmong Times,Minnesota,St. Paul,https://hmongtimes.com/,Minneapolis multicultural media directory + outlet website,seed_verified_candidate
+MN004,Korean Quarterly,Minnesota,St. Paul,https://www.koreanquarterly.org/,Minneapolis multicultural media directory + outlet website,seed_verified_candidate
+MN005,La Prensa de Minnesota,Minnesota,Minneapolis,https://laprensademn.com/,Minneapolis multicultural media directory + outlet website,seed_verified_candidate
+MN006,KALY Somali American Radio,Minnesota,Minneapolis,https://kalyradio.org/,Minneapolis multicultural media directory + outlet website,seed_verified_candidate
+MN007,The AfricaPaper,Minnesota,,https://theafricapaper.com/,Outlet website,candidate_verify
+MN008,Mshale,Minnesota,Minneapolis,https://mshale.com/,Meet Minneapolis BIPOC/Multicultural Media Directory (updated 2025-07-15),candidate_verify
+MN009,The Somali American,Minnesota,Minneapolis,,Meet Minneapolis BIPOC/Multicultural Media Directory (updated 2025-07-15),candidate_verify
+MN010,Tusmo Times,Minnesota,Minneapolis,,Meet Minneapolis BIPOC/Multicultural Media Directory (updated 2025-07-15),candidate_verify
+MN011,Eritrean Community Radio,Minnesota,Minneapolis,https://kfai.org/,Meet Minneapolis BIPOC/Multicultural Media Directory (updated 2025-07-15),candidate_verify
+MN012,Somali Link Radio,Minnesota,Minneapolis,https://kfai.org/,Meet Minneapolis BIPOC/Multicultural Media Directory (updated 2025-07-15),candidate_verify
+MN013,Somalida Maanta,Minnesota,Minneapolis,https://kfai.org/,Meet Minneapolis BIPOC/Multicultural Media Directory (updated 2025-07-15),candidate_verify
+MN014,Voice of Oromiyaa,Minnesota,Minneapolis,https://kfai.org/,Meet Minneapolis BIPOC/Multicultural Media Directory (updated 2025-07-15),candidate_verify
+MN015,Voices of Ethiopia,Minnesota,Minneapolis,https://kfai.org/,Meet Minneapolis BIPOC/Multicultural Media Directory (updated 2025-07-15),candidate_verify
+MN016,Oromo TV,Minnesota,Minneapolis,,Meet Minneapolis BIPOC/Multicultural Media Directory (updated 2025-07-15),candidate_verify
+MN017,Somali TV Minnesota,Minnesota,Minneapolis,,Meet Minneapolis BIPOC/Multicultural Media Directory (updated 2025-07-15),candidate_verify
+MN018,China Insight,Minnesota,Twin Cities,,Meet Minneapolis BIPOC/Multicultural Media Directory (updated 2025-07-15),candidate_verify
+MN019,Hmong Radio Broadcast,Minnesota,Twin Cities,https://hmongradiobroadcast.com/,Meet Minneapolis BIPOC/Multicultural Media Directory (updated 2025-07-15),candidate_verify
+MN020,Vietnam MN Radio,Minnesota,Minneapolis,https://kfai.org/,Meet Minneapolis BIPOC/Multicultural Media Directory (updated 2025-07-15),candidate_verify
+MN021,3HMONGTV,Minnesota,Twin Cities,,Meet Minneapolis BIPOC/Multicultural Media Directory (updated 2025-07-15),candidate_verify
+MN022,El Minnesota de Hoy,Minnesota,Minneapolis,https://www.elminnesotadehoy.com/,Meet Minneapolis BIPOC/Multicultural Media Directory (updated 2025-07-15),candidate_verify
+MN023,La Voz Latina,Minnesota,St. Paul,,Meet Minneapolis BIPOC/Multicultural Media Directory (updated 2025-07-15),candidate_verify
+MN024,Latino American Today,Minnesota,Twin Cities,,Meet Minneapolis BIPOC/Multicultural Media Directory (updated 2025-07-15),candidate_verify
+WI001,La Comunidad News Online,Wisconsin,Madison,https://wisconsinlcnews.com/,Outlet website / prior discovery pass,candidate_verify
+WI002,Suab Hmong News,Wisconsin,Milwaukee,https://suabhmongnews.com/,CUNY immigrant media profile / prior discovery pass,candidate_verify
+WI003,El Conquistador Latino Newspaper,Wisconsin,Milwaukee,https://www.mkenews.com/,Outlet website / prior discovery pass,candidate_verify
+WI004,Wisconsin Latino News,Wisconsin,,https://wilatinonews.com/,Outlet website / Latino News Network,candidate_verify
+WI005,Spanish Journal,Wisconsin,Milwaukee,,Wisconsin targeted web search + Wisconsin/Hmong media resource directories,candidate_verify
+WI006,La Movida Radio,Wisconsin,Madison,,Wisconsin targeted web search + Wisconsin/Hmong media resource directories,candidate_verify
+WI007,Hmong Community Journal,Wisconsin,,,Wisconsin targeted web search + Wisconsin/Hmong media resource directories,candidate_verify
+WI008,Hmong Times Wisconsin,Wisconsin,,,Wisconsin targeted web search + Wisconsin/Hmong media resource directories,candidate_verify
+WI009,Nyob Zoo Milwaukee TV,Wisconsin,Milwaukee,,Wisconsin targeted web search + Wisconsin/Hmong media resource directories,candidate_verify
+WI010,WNRB-LP Hmong Radio,Wisconsin,Wausau,,Wisconsin targeted web search + Wisconsin/Hmong media resource directories,candidate_verify
+WI011,WORT Hmong Radio,Wisconsin,Madison,https://www.wortfm.org/,Wisconsin targeted web search + Wisconsin/Hmong media resource directories,candidate_verify
+WI012,WJYI Hmong Radio,Wisconsin,Milwaukee,,Wisconsin targeted web search + Wisconsin/Hmong media resource directories,candidate_verify
+WI013,Wisconsin Muslim Journal,Wisconsin,Milwaukee,,Wisconsin targeted web search + Wisconsin/Hmong media resource directories,candidate_verify
+WI014,El Hispano Wisconsin,Wisconsin,,,Wisconsin targeted web search + Wisconsin/Hmong media resource directories,candidate_verify
+IL001,Borderless Magazine,Illinois,Chicago,https://borderlessmag.org/,Outlet website / Chicago immigration-news ecosystem,seed_verified_candidate
+IL002,Cicero Independiente,Illinois,Cicero,https://www.ciceroindependiente.com/,Chicago immigration-news ecosystem,candidate_verify
+IL003,La Raza,Illinois,Chicago,https://laraza.com/,Chicago immigration-news ecosystem,candidate_verify
+IL004,La Voz Chicago,Illinois,Chicago,https://lavozchicago.com/,Chicago immigration-news ecosystem,candidate_verify
+IL005,Chinatown Spotlight,Illinois,Chicago,,Chicago immigration-news ecosystem,candidate_verify
+IL006,El Día Newspaper,Illinois,Chicago area,https://www.eldianews.net/,Chicago Independent Media Alliance directory + Chicago ethnic-media searches,candidate_verify
+IL007,Lawndale News,Illinois,Chicago,,Chicago Independent Media Alliance directory + Chicago ethnic-media searches,candidate_verify
+IL008,Chicago Chinese News,Illinois,Chicago,https://chicagochinesetimes.com/,Chicago Independent Media Alliance directory + Chicago ethnic-media searches,candidate_verify
+IL009,Dziennik Związkowy,Illinois,Chicago,,Chicago Independent Media Alliance directory + Chicago ethnic-media searches,candidate_verify
+IL010,India Bulletin,Illinois,Chicago,,Chicago Independent Media Alliance directory + Chicago ethnic-media searches,candidate_verify
+IL011,India Tribune,Illinois,Chicago,,Chicago Independent Media Alliance directory + Chicago ethnic-media searches,candidate_verify
+IL012,Sanghamam,Illinois,Chicago,,Chicago Independent Media Alliance directory + Chicago ethnic-media searches,candidate_verify
+IL013,Korea Times Chicago,Illinois,Chicago,,Chicago Independent Media Alliance directory + Chicago ethnic-media searches,candidate_verify
+IL014,Draugas,Illinois,Chicago,,Chicago Independent Media Alliance directory + Chicago ethnic-media searches,candidate_verify
+IL015,Chicago Shimpo,Illinois,Chicago,,Chicago Independent Media Alliance directory + Chicago ethnic-media searches,candidate_verify
+IL016,Polish News,Illinois,Chicago,,Chicago Independent Media Alliance directory + Chicago ethnic-media searches,candidate_verify
+IL017,Romanian Tribune,Illinois,Chicago,,Chicago Independent Media Alliance directory + Chicago ethnic-media searches,candidate_verify
+IL018,LATINEXT,Illinois,Chicago,https://latinext.media/en/,Chicago Independent Media Alliance directory + Chicago ethnic-media searches,candidate_verify
+IL019,Nuevo Siglo,Illinois,Chicago,,Chicago Independent Media Alliance directory + Chicago ethnic-media searches,candidate_verify
+IL020,Arab American News Chicago-area candidate,Illinois,Chicago area,,Chicago Independent Media Alliance directory + Chicago ethnic-media searches,candidate_verify
+WA001,International Examiner,Washington,Seattle,https://iexaminer.org/,Seattle Office of Immigrant and Refugee Affairs directory,seed_verified_candidate
+WA002,Northwest Asian Weekly,Washington,Seattle,https://nwasianweekly.com/,Seattle ethnic media directory / outlet website,seed_verified_candidate
+WA003,Seattle Chinese Post,Washington,Seattle,https://seattlechinesepost.com/,Seattle ethnic media directory / outlet website,candidate_verify
+WA004,Runta News,Washington,Seattle,https://runtanews.com/,Seattle ethnic media directory / outlet website,candidate_verify
+WA005,The North American Post,Washington,Seattle,https://napost.com/,Seattle ethnic media directory / outlet website,candidate_verify
+WA006,Northwest Vietnamese News,Washington,Seattle,https://nvnorthwest.com/,Seattle ethnic media directory / outlet website,candidate_verify
+WA007,Seattle Chinese Times,Washington,Seattle,,Seattle Office of Immigrant and Refugee Affairs Ethnic Media Program / Seattle Votes partner list,candidate_verify
+WA008,Seattle Viet Times,Washington,Seattle,,Seattle Office of Immigrant and Refugee Affairs Ethnic Media Program / Seattle Votes partner list,candidate_verify
+WA009,Korea Daily Seattle,Washington,Seattle,,Seattle Office of Immigrant and Refugee Affairs Ethnic Media Program / Seattle Votes partner list,candidate_verify
+WA010,La Raza Noroeste,Washington,Seattle,,Seattle Office of Immigrant and Refugee Affairs Ethnic Media Program / Seattle Votes partner list,candidate_verify
+WA011,Actitud Latina,Washington,Seattle,,Seattle Office of Immigrant and Refugee Affairs Ethnic Media Program / Seattle Votes partner list,candidate_verify
+WA012,Crossings TV Seattle,Washington,Seattle,,Seattle Office of Immigrant and Refugee Affairs Ethnic Media Program / Seattle Votes partner list,candidate_verify
+WA013,El Mundo Seattle,Washington,Seattle,,Seattle Office of Immigrant and Refugee Affairs Ethnic Media Program / Seattle Votes partner list,candidate_verify
+WA014,Immigration Matters,Washington,Seattle,,Seattle Office of Immigrant and Refugee Affairs Ethnic Media Program / Seattle Votes partner list,candidate_verify
+WA015,Univision Seattle,Washington,Seattle,,Seattle Office of Immigrant and Refugee Affairs Ethnic Media Program / Seattle Votes partner list,candidate_verify
+WA016,The Voice (Seattle ethnic media listing),Washington,Seattle,,Seattle Office of Immigrant and Refugee Affairs Ethnic Media Program / Seattle Votes partner list,candidate_verify
+WA017,Filipino American Herald,Washington,Seattle area,,Seattle Office of Immigrant and Refugee Affairs Ethnic Media Program / Seattle Votes partner list,candidate_verify
+WA018,One Philippines,Washington,Seattle area,,Seattle Office of Immigrant and Refugee Affairs Ethnic Media Program / Seattle Votes partner list,candidate_verify
+WA019,Ethiopian Community Media Association,Washington,Seattle,,Seattle Office of Immigrant and Refugee Affairs Ethnic Media Program / Seattle Votes partner list,candidate_verify
+WA020,Korean-language Seattle media candidate,Washington,Seattle,,Seattle Office of Immigrant and Refugee Affairs Ethnic Media Program / Seattle Votes partner list,candidate_verify
+NC001,Enlace Latino NC,North Carolina,Raleigh,https://enlacelatinonc.org/,Outlet website / American Journalism Project,seed_verified_candidate
+NC002,La Noticia,North Carolina,Charlotte,https://lanoticia.com/,Outlet website,seed_verified_candidate
+NC003,Qué Pasa / Acción Hispana,North Carolina,,https://accionhispana.org/,Outlet website,candidate_verify
+NC004,Hola Carolina,North Carolina,Asheville,https://holacarolina.org/,Outlet website,candidate_verify
+NC005,Alianza NC,North Carolina,Chapel Hill,https://www.alianzanc.com/,North Carolina targeted search + outlet websites + NC minority media lists,candidate_verify
+NC006,El Faro (Beacon Media NC),North Carolina,,https://www.beaconmedianc.org/el-faro/,North Carolina targeted search + outlet websites + NC minority media lists,candidate_verify
+NC007,Asian Herald,North Carolina,Charlotte,,North Carolina targeted search + outlet websites + NC minority media lists,candidate_verify
+NC008,Latino Communications / Spanish-language NC candidate,North Carolina,,,North Carolina targeted search + outlet websites + NC minority media lists,candidate_verify
+NC009,Mi Gente Newspaper,North Carolina,,,North Carolina targeted search + outlet websites + NC minority media lists,candidate_verify
+NC010,Qué Pasa Winston-Salem / Proyecto Mariposa,North Carolina,Winston-Salem,https://accionhispana.org/,North Carolina targeted search + outlet websites + NC minority media lists,candidate_verify
+NC011,La Conexión,North Carolina,,,North Carolina targeted search + outlet websites + NC minority media lists,candidate_verify
+NC012,Hola News NC candidate,North Carolina,,,North Carolina targeted search + outlet websites + NC minority media lists,candidate_verify
