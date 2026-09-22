@@ -1,0 +1,9 @@
+outlet_id,outlet_name,state,city_or_scope,website,discovery_source,screening_status,notes
+NE001,El Perico,Nebraska,Omaha,https://el-perico.com/,outlet website,candidate_verify,Bilingual Spanish-English community newspaper/digital platform.
+NE002,Mundo Latino Network,Nebraska,Omaha / statewide,https://mundolatinonetwork.com/,outlet website,candidate_verify,Immigrant-founded Spanish-language community news/information outlet.
+NE003,Hola Nebraska,Nebraska,Statewide / Omaha,https://holanebraska.org/,outlet website,candidate_verify,Fully bilingual news platform for Latino communities across Nebraska.
+NE004,Telemundo Nebraska,Nebraska,Statewide,https://www.floodcomm.com/telemundo-radio-lobo/,Flood Communications,candidate_verify,Statewide Spanish-language local TV news operation.
+NE005,Radio Lobo,Nebraska,Omaha / statewide,https://www.floodcomm.com/telemundo-radio-lobo/,Flood Communications,candidate_verify,Spanish-language radio service; verify journalism/public-affairs share.
+NE006,KZUM en Español,Nebraska,Lincoln,https://kzum.org/news/,KZUM,candidate_verify,Multilingual public-radio initiative in partnership with Mundo Latino.
+NE007,Mundo Latino on KZUM,Nebraska,Lincoln / statewide,https://kzum.org/news/,KZUM + Mundo Latino,candidate_verify,Hosted Spanish-language information/news partnership.
+NE008,Nebraska Public Media immigrant-language products,Nebraska,Statewide,https://nebraskapublicmedia.org/,targeted search,boundary_check,General public media with immigrant/refugee reporting; not immigrant-serving as primary mission.
