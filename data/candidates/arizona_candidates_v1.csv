@@ -1,0 +1,15 @@
+outlet_id,outlet_name,state,city_or_scope,website,discovery_source,screening_status,notes
+AZ001,Conecta Arizona,Arizona,Phoenix / Arizona-Sonora,https://conectaarizona.com/,Phoenix Magazine + outlet discovery,candidate_verify,Nonprofit bilingual/digital newsroom serving Latino communities in Arizona and Sonora.
+AZ002,Prensa Arizona,Arizona,Phoenix / statewide,https://prensaarizona.com/,Phoenix Magazine + outlet website,candidate_verify,Spanish-language print/digital community news outlet.
+AZ003,La Voz Arizona,Arizona,Phoenix / statewide,https://www.azcentral.com/la-voz/,Arizona Republic / Phoenix Magazine,candidate_verify,Spanish-language digital product owned by The Arizona Republic/Gannett.
+AZ004,Telemundo Arizona,Arizona,Phoenix / Tucson / statewide,https://www.telemundoarizona.com/,Phoenix Magazine + station website,candidate_verify,Spanish-language local TV newsroom.
+AZ005,Univision Arizona,Arizona,Phoenix / Tucson,https://www.univision.com/local/arizona-ktvw,Univision,candidate_verify,Spanish-language local TV newsroom/network affiliate.
+AZ006,Next Weekly,Arizona,Phoenix / statewide,https://www.nextweeklyaz.com/,Outlet website,candidate_verify,Chinese-language weekly newspaper distributed across Arizona.
+AZ007,AZ Chinese News,Arizona,Phoenix,https://asianmedianetwork.com/,Asian Media Network,candidate_verify,Chinese community news product under Arizona-based Asian Media Network.
+AZ008,Filipino American Journal,Arizona,Phoenix / statewide,https://asianmedianetwork.com/,Asian Media Network,candidate_verify,Biweekly Filipino-American publication under Asian Media Network.
+AZ009,Saigon Nho / Little Saigon Magazine Arizona,Arizona,Phoenix,https://asianmedianetwork.com/,Asian Media Network,candidate_verify,Vietnamese-language weekly magazine/news product.
+AZ010,VAATV - Vietnamese American Arizona Television,Arizona,Phoenix,https://asianmedianetwork.com/,Asian Media Network,candidate_verify,Vietnamese-American television/community media product.
+AZ011,Asian Sun Magazine,Arizona,Statewide,https://azasianchamber.com/asiansun,Arizona Asian Chamber of Commerce,candidate_verify,"Quarterly AAHPI culture, business and current-events magazine."
+AZ012,Asian Media Network,Arizona,Phoenix / statewide,https://asianmedianetwork.com/,Organization website,candidate_verify,Parent/intermediary for multiple Asian-language/community publications and broadcast products.
+AZ013,La Estrella de Tucsón,Arizona,Tucson,,Tucson Spotlight historical series,candidate_verify,Historic Spanish-language newsroom; current original-reporting status uncertain.
+AZ014,El Semanario / The Weekly Issue Arizona market,Arizona,Statewide,https://www.elsemanario.us/?lang=es,Outlet website,candidate_verify,Colorado-based bilingual weekly serving Arizona market; multistate case.
