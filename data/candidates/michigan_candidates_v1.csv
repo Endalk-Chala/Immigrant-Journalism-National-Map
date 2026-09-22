@@ -1,0 +1,15 @@
+outlet_id,outlet_name,state,city_or_scope,website,discovery_source,screening_status,notes
+MI001,The Arab American News,Michigan,Dearborn / Metro Detroit,https://arabamericannews.com/,New Michigan Media + outlet website,candidate_verify,Bilingual Arabic-English weekly serving Arab American communities.
+MI002,The Yemeni American,Michigan,Dearborn / Metro Detroit,https://yemeniamerican.com/en/,Outlet website,candidate_verify,English-Arabic Yemeni American community newspaper/digital outlet.
+MI003,EL CENTRAL Hispanic News,Michigan,Detroit / Southeast Michigan,https://elcentralmedia.com/,Outlet website,candidate_verify,Bilingual English-Spanish weekly focused on Metro Detroit Latino communities.
+MI004,Latino Press / Latino Detroit,Michigan,Detroit / Southeast Michigan,https://latinodetroit.com/,New Michigan Media + outlet website,candidate_verify,Spanish-language weekly and digital outlet serving Southeast Michigan.
+MI005,Michigan Korean Weekly,Michigan,Troy / Metro Detroit,https://michigankoreans.com/,New Michigan Media + outlet website,candidate_verify,Korean-language weekly/digital news outlet serving Michigan Korean community.
+MI006,Bangla Shangbad,Michigan,Metro Detroit,,New Michigan Media,candidate_verify,Bangladeshi community newspaper; current direct site needs identification.
+MI007,Chaldean News,Michigan,Metro Detroit,https://www.chaldeannews.com/,Outlet website + Chaldean American Chamber,candidate_verify,Monthly/digital news publication serving Michigan's Chaldean community.
+MI008,The Polish Weekly / Tygodnik Polski,Michigan,Orchard Lake / Metro Detroit,https://polishweekly.com/,Outlet website,candidate_verify,Bilingual Polish-English publication and Polish Media Center portal.
+MI009,MI Asian,Michigan,Metro Detroit,https://michigankoreans.com/,New Michigan Media,candidate_verify,Asian/Korean community publication associated with Michigan Korean Weekly; verify distinct outlet status.
+MI010,New Michigan Media,Michigan,Detroit / statewide,https://newmichiganmedia.com/,Organization website,candidate_verify,Network/intermediary connecting 140+ ethnic and minority media outlets; not a newsroom outlet itself.
+MI011,The Detroit Jewish News,Michigan,Metro Detroit,https://thejewishnews.com/,New Michigan Media,candidate_verify,Jewish community newspaper; boundary/diaspora comparison under current inclusion rule.
+MI012,Michigan Chronicle,Michigan,Detroit,https://michiganchronicle.com/,New Michigan Media,candidate_verify,Historic Black newspaper; boundary/comparison rather than immigrant-serving core.
+MI013,Sada Al-Watan,Michigan,Dearborn / Metro Detroit,https://sadaalwatan.com/,Outlet website,candidate_verify,Arabic-language edition/brand of The Arab American News; likely duplicate product rather than separate outlet.
+MI014,Polish Media Center,Michigan,Orchard Lake / Metro Detroit,https://polishweekly.com/,Outlet website,candidate_verify,Host/portal built around The Polish Weekly at the Polish Institute; likely host infrastructure.
