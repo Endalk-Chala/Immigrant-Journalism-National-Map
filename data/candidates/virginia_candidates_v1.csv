@@ -1,0 +1,10 @@
+outlet_id,outlet_name,state,city_or_scope,website,discovery_source,screening_status,notes
+VA001,Korea Times Washington,Virginia,Annandale / Northern Virginia / DMV,,Virginia Humanities + Korean directory,candidate_verify,Korean-language daily based in Annandale.
+VA002,Korea Daily Washington,Virginia,Annandale / Northern Virginia / DMV,https://www.koreadaily.com/,Korean business/media directories,candidate_verify,Korean-language daily/news operation with Annandale office.
+VA003,El Imparcial News,Virginia,Manassas / Northern Virginia / DMV,https://imparcialnews.com/,outlet website,candidate_verify,Spanish-language weekly founded by Salvadoran journalist.
+VA004,El Tiempo Latino - Virginia service,Virginia,Northern Virginia / DMV,https://eltiempolatino.com/,outlet website + Virginia Humanities,candidate_verify,DC-based Spanish newsroom serving Virginia, DC and Maryland; multistate market case.
+VA005,VATV / Viet Washington DC Radio,Virginia,Falls Church / Northern Virginia / DMV,https://vietwdcradio.com/,Vietnamese community directory + outlet website,candidate_verify,Vietnamese-American local media operation based in Falls Church.
+VA006,VirginiaLatino.com,Virginia,Statewide,https://www.virginialatino.com/,outlet/community portal website,candidate_verify,Spanish-language community information/news portal.
+VA007,VirginiaHispano.com,Virginia,Statewide,https://www.virginiahispano.com/,outlet/community portal website,candidate_verify,Spanish-language statewide directory/news portal.
+VA008,Las Américas Newspaper,Virginia,Falls Church / Northern Virginia,,Virginia newspaper listings,candidate_verify,Spanish-language weekly; current 2026 operation unclear.
+VA009,The Korean Weekly,Virginia,Fairfax / Northern Virginia,,Korean media directory,candidate_verify,Korean-language weekly newspaper; current operation needs verification.
