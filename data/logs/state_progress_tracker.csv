@@ -1,0 +1,52 @@
+state,status,notes
+Alabama,verification_complete,candidate + verification
+Alaska,not_started,
+Arizona,not_started,
+Arkansas,not_started,
+California,verification_complete,candidate + verification
+Colorado,not_started,
+Connecticut,not_started,
+Delaware,not_started,
+Florida,not_started,
+Georgia,not_started,
+Hawaii,not_started,
+Idaho,not_started,
+Illinois,candidate_discovery,candidate registry exists
+Indiana,not_started,
+Iowa,not_started,
+Kansas,not_started,
+Kentucky,not_started,
+Louisiana,not_started,
+Maine,not_started,
+Maryland,not_started,
+Massachusetts,not_started,
+Michigan,not_started,
+Minnesota,verification_complete,candidate + verification
+Mississippi,not_started,
+Missouri,not_started,
+Montana,not_started,
+Nebraska,not_started,
+Nevada,not_started,
+New Hampshire,not_started,
+New Jersey,not_started,
+New Mexico,not_started,
+New York,verification_complete,candidate + verification
+North Carolina,verification_complete,candidate + verification
+North Dakota,not_started,
+Ohio,candidate_discovery,candidate registry exists
+Oklahoma,not_started,
+Oregon,verification_complete,candidate + verification
+Pennsylvania,verification_complete,candidate + verification
+Rhode Island,not_started,
+South Carolina,verification_complete,candidate + verification
+South Dakota,not_started,
+Tennessee,not_started,
+Texas,verification_complete,candidate + verification
+Utah,not_started,
+Vermont,not_started,
+Virginia,not_started,
+Washington,verification_complete,candidate + verification
+West Virginia,not_started,
+Wisconsin,candidate_discovery,candidate registry exists
+Wyoming,not_started,
+District of Columbia,not_started,
