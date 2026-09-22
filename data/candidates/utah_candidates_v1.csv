@@ -1,0 +1,9 @@
+outlet_id,outlet_name,state,city_or_scope,website,discovery_source,screening_status,notes
+UT001,Utah Korean Newspaper,Utah,Salt Lake City / statewide,https://koreanutah.blogspot.com/,Korean American Federation of Utah,candidate_verify,Monthly Korean-language community newspaper; digital edition hosted by Korean American Federation of Utah.
+UT002,KUER En Español,Utah,Salt Lake City / statewide,https://www.kuer.org/kuer-en-espanol,KUER,candidate_verify,Spanish-language version of KUER statewide reporting with human review of AI translations.
+UT003,Avanza 88.3,Utah,Salt Lake City / statewide,https://www.avanzautah.org/,University of Utah public media,candidate_verify,"Bilingual public radio service launched by University of Utah, PBS Utah and KUER."
+UT004,Punto de Encuentro,Utah,Salt Lake City / statewide,https://www.avanzautah.org/,Avanza 88.3,candidate_verify,Spanish-language public-affairs/community program on Avanza.
+UT005,El Observador de Utah,Utah,Salt Lake City / statewide,,Deseret News historical/current discovery,candidate_verify,Spanish-language newspaper founded 2010; verify current operation.
+UT006,The Salt Lake Tribune En Español,Utah,Statewide,https://www.sltrib.com/en-espanol/,Salt Lake Tribune,candidate_verify,Spanish-language product within statewide nonprofit newsroom.
+UT007,Utah Latino News / Latino community digital candidate,Utah,Salt Lake City metro,,targeted discovery,candidate_verify,Placeholder for current Latino digital newsroom distinct from public-media products; requires verification.
+UT008,Utah Refugee & Immigrant community media programs,Utah,Salt Lake City / statewide,,targeted discovery,candidate_verify,Program-level discovery lead; verify whether sustained refugee-language journalism exists.
