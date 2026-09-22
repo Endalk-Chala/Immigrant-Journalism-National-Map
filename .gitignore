@@ -1,0 +1,30 @@
+# Sensitive or restricted research materials
+restricted/
+private/
+irb_private/
+interviews/
+transcripts/
+recruitment/
+consent/
+contacts/
+
+# Credentials and local environment
+.env
+.env.*
+*.key
+*.pem
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local outputs / scraper cache
+output/
+outputs/
+*.jsonl
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
