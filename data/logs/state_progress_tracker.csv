@@ -4,7 +4,7 @@ Alaska,not_started,
 Arizona,not_started,
 Arkansas,not_started,
 California,verification_complete,candidate + verification
-Colorado,not_started,
+Colorado,verification_complete,candidate + verification
 Connecticut,not_started,
 Delaware,not_started,
 Florida,not_started,
@@ -26,7 +26,7 @@ Mississippi,not_started,
 Missouri,not_started,
 Montana,not_started,
 Nebraska,not_started,
-Nevada,not_started,
+Nevada,verification_complete,candidate + verification
 New Hampshire,not_started,
 New Jersey,not_started,
 New Mexico,not_started,
