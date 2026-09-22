@@ -1,0 +1,16 @@
+outlet_id,outlet_name,state,city_or_scope,website,discovery_source,screening_status,notes
+OR001,The Asian Reporter,Oregon,Portland,https://www.asianreporter.com/,Outlet website / AAJA Portland context,candidate_verify,"Active Asian community newspaper; local, regional and international news."
+OR002,Noticias Noroeste,Oregon,Portland / Oregon & SW Washington,https://noticiasnw.com/,Outlet website,candidate_verify,Spanish-language digital newscast and community platform.
+OR003,Maidan Newspaper,Oregon,Portland,https://thegreatmediagroup.com/,Great Media Group website,candidate_verify,Ukrainian-language newspaper serving immigrants/refugees in Oregon and Washington.
+OR004,Afisha Magazine,Oregon,Portland,https://thegreatmediagroup.com/,Great Media Group website,candidate_verify,Russian/Ukrainian-language immigrant media; journalism mix needs verification.
+OR005,The Great Radio 1040 AM,Oregon,Portland,https://thegreatmediagroup.com/,Great Media Group website,candidate_verify,Slavic community radio; verify sustained news/public affairs.
+OR006,Oregon Hispano,Oregon,Statewide,https://www.oregonhispano.com/,Outlet website,candidate_verify,Spanish-language statewide community information/news site.
+OR007,El Latino de Hoy,Oregon,,,CUNY Latino Media Map,candidate_verify,Listed Oregon Latino news outlet; verify current site/activity.
+OR008,Tilde Noticias,Oregon,Portland,,CUNY Latino Media Map,candidate_verify,Latino news outlet; verify current site/activity.
+OR009,Radio Movimiento,Oregon,Woodburn,,CUNY Latino Media Map,candidate_verify,Spanish-language community radio; verify news/public-affairs output.
+OR010,Elemento Latino,Oregon,,,CUNY Latino Media Map,candidate_verify,Latino outlet; verify current site/activity.
+OR011,Noticias Latinas! Latin News,Oregon,,,CUNY Latino Media Map,candidate_verify,Latino news outlet; verify current site/activity.
+OR012,pdxlatino.com,Oregon,Portland,https://pdxlatino.com/,CUNY Latino Media Map,candidate_verify,Latino community digital outlet; verify sustained journalism.
+OR013,Azteca Oregon 37,Oregon,Portland,,CUNY Latino Media Map,candidate_verify,Spanish-language TV affiliate; comparison candidate.
+OR014,KUNP Univisión 16,Oregon,Portland,,CUNY Latino Media Map,candidate_verify,Spanish-language local television; comparison candidate.
+OR015,The Immigrant Story,Oregon,Portland,https://theimmigrantstory.org/,Targeted discovery / outlet website,candidate_verify,Immigrant-centered storytelling nonprofit; verify whether it meets sustained journalism criterion.
