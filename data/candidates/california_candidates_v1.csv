@@ -1,0 +1,31 @@
+outlet_id,outlet_name,state,city_or_scope,website,discovery_source,screening_status,notes
+CA001,El Tímpano,California,Oakland / Bay Area,https://www.eltimpano.org/,CUNY immigrant media / outlet website,candidate_verify,Immigrant-serving community newsroom; strong fit.
+CA002,El Tecolote,California,San Francisco,https://eltecolote.org/,San Francisco Independent Media Coalition / outlet website,candidate_verify,Bilingual Latino community newspaper; strong immigrant-serving orientation.
+CA003,India Currents,California,Bay Area,https://indiacurrents.com/,USC Ethnic Media Collaborative / outlet website,candidate_verify,South Asian community journalism; nonprofit/community-oriented.
+CA004,Nichi Bei News,California,San Francisco,https://www.nichibei.org/,SF Independent Media Coalition / outlet website,candidate_verify,Japanese American/community journalism; verify immigrant-serving fit.
+CA005,Rafu Shimpo,California,Los Angeles,https://rafu.com/,California ethnic media lists / outlet website,candidate_verify,Japanese American daily/community newspaper.
+CA006,Nguoi Viet Daily News,California,Garden Grove,https://www.nguoi-viet.com/,California ethnic media conference / outlet website,candidate_verify,Vietnamese-language community newspaper.
+CA007,Viet Bao Daily News,California,Westminster,https://vietbao.com/,California state ethnic media list,candidate_verify,Vietnamese-language community newspaper.
+CA008,Asian Journal,California,Los Angeles / Glendale,https://asianjournal.com/,California ethnic media conference / outlet website,candidate_verify,Filipino American community publication.
+CA009,The Korea Times Los Angeles,California,Los Angeles,https://www.koreatimes.com/,California state ethnic media list,candidate_verify,Korean-language newspaper; verify local institutional structure.
+CA010,Korea Daily / JoongAng Ilbo LA,California,Los Angeles,https://www.koreadaily.com/,California ethnic media directories,candidate_verify,Korean-language news outlet serving Southern California.
+CA011,World Journal California,California,Los Angeles / Bay Area,https://www.worldjournal.com/,California ethnic media directories,candidate_verify,Chinese-language news outlet with California bureaus.
+CA012,El Observador,California,San Jose,https://el-observador.com/,CUNY Latino media map / California lists,candidate_verify,Bilingual/Spanish Latino community newspaper.
+CA013,La Opinión,California,Los Angeles,https://laopinion.com/,CUNY Latino media map / outlet website,candidate_verify,Major Spanish-language newspaper; immigrant-serving orientation requires institutional coding.
+CA014,El Latino San Diego,California,San Diego,https://ellatinoonline.com/,CUNY Latino media map,candidate_verify,Spanish-language local news outlet.
+CA015,Peninsula 360 Press,California,San Mateo County,https://peninsula360press.com/,California ethnic media conference / outlet website,candidate_verify,Multilingual local/community newsroom; strong immigrant-community relevance.
+CA016,Alhambra Source,California,Alhambra,https://alhambrasource.org/,CUNY Latino media map / outlet website,candidate_verify,Community newsroom in highly immigrant San Gabriel Valley; verify sustained immigrant-serving orientation.
+CA017,ChicoSol News,California,Chico,https://chicosol.org/,California ethnic media conference / outlet website,candidate_verify,Nonprofit multicultural local journalism; includes immigrant communities.
+CA018,Radio Bilingüe,California,Fresno,https://radiobilingue.org/,USC Ethnic Media Collaborative / outlet website,candidate_verify,Nonprofit Spanish-language public radio network.
+CA019,KBBF 89.1 FM,California,Santa Rosa,https://kbbf.org/,CUNY Latino media map,candidate_verify,Bilingual community radio serving Latino/immigrant audiences.
+CA020,Radio Indígena,California,Oxnard,https://mixteco.org/radio-indigena/,California state ethnic media list / host organization,candidate_verify,Indigenous-language community radio; hosted by Mixteco/Indígena Community Organizing Project.
+CA021,La Nueva Voz,California,Pomona,https://www.lanuevavoz.net/,CUNY Latino media map,candidate_verify,Spanish-language local newspaper; verify current activity.
+CA022,Vida en el Valle,California,Central Valley,https://www.vidaenelvalle.com/,CUNY Latino media map,candidate_verify,Latino community news in California's Central Valley.
+CA023,San Fernando Valley Sun / El Sol,California,San Fernando Valley,https://sanfernandosun.com/,CUNY Latino media map,candidate_verify,Bilingual community newspaper with Latino/immigrant readership.
+CA024,El Popular,California,Bakersfield,https://elpopularnews.com/,California ethnic media conference / CUNY Latino media map,candidate_verify,Spanish-language community publication; verify current site.
+CA025,El Informador del Valle,California,Coachella Valley,,California ethnic media conference / state lists,candidate_verify,Spanish-language community newspaper; website verification needed.
+CA026,Al Enteshar Newspaper,California,Los Angeles,,California ethnic media conference / state ethnic media list,candidate_verify,Arab community newspaper; verify active website/current publication.
+CA027,Myanmar Gazette,California,Los Angeles area,,California ethnic media conference,candidate_verify,Burmese community media; verify current activity and website.
+CA028,Pakistan Times USA,California,Southern California,,California ethnic media conference,candidate_verify,Pakistani community publication; verify website/current activity.
+CA029,The Armenian Observer,California,Los Angeles area,,California state ethnic media list,candidate_verify,Armenian community publication; verify current activity.
+CA030,Crossings TV,California,Sacramento,https://www.crossingstv.com/,3AF media directory / outlet website,candidate_verify,Multilingual Asian-language television network; verify journalism/public-affairs share.
