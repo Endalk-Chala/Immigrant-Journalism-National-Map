@@ -1,0 +1,7 @@
+outlet_id,outlet_name,state,city_or_scope,website,discovery_source,screening_status,notes
+AL001,Latino News,Alabama,Birmingham / statewide,https://latino-news.com/,Alabama Press Association / CUNY Latino Media Map,candidate_verify,Active Spanish-language newspaper serving Hispanic/immigrant communities statewide.
+AL002,LIDER News,Alabama,Birmingham / statewide,https://lider.fm/,Alabama Press Association / outlet partner page,candidate_verify,Spanish-language newspaper; advertising-funded; statewide distribution.
+AL003,Hola Latino Radio,Alabama,Birmingham / statewide,https://holalatino.com/,Outlet website,candidate_verify,"Spanish-language radio, podcasts and news for New Americans; also Brazilian/Portuguese content."
+AL004,Hola Alabama Magazine,Alabama,Birmingham / statewide,https://holalatino.com/,Outlet website,candidate_verify,Bilingual Spanish/Portuguese monthly publication produced by Hola Latino.
+AL005,Alabama TV,Alabama,,,CUNY Latino Media Map,candidate_verify,"Latino media outlet listed by CUNY; verify current identity, site and activity."
+AL006,Vida em Alabama,Alabama,Birmingham / statewide,https://holalatino.com/,Hola Latino website,candidate_verify,Portuguese-language initiative for Brazilian immigrants; verify sustained journalism status.
