@@ -1,0 +1,15 @@
+outlet_id,outlet_name,state,city_or_scope,website,discovery_source,screening_status,notes
+OH001,Somali Link Newspaper,Ohio,Columbus,https://www.somalicommunitylink.com/,existing Ohio pilot + current site,candidate_verify,Somali community newspaper linked to Somali Community Link.
+OH002,Danjir News / Radio,Ohio,Columbus,,existing Ohio pilot,candidate_verify,Somali news/radio candidate; verify current operation.
+OH003,DZM News,Ohio,Columbus,,existing Ohio pilot,candidate_verify,Somali/East African media candidate; verify identity/current operation.
+OH004,Ohio in Arabic,Ohio,Statewide / Columbus,https://ohioinarabic.com/,existing Ohio pilot + current site,candidate_verify,Arabic-language nonprofit media and service organization founded by immigrant family.
+OH005,La Prensa Newspaper,Ohio,Toledo / NW Ohio,https://laprensanewspaper.com/,existing Ohio pilot + current site,candidate_verify,Bilingual Latino newspaper serving Ohio and Michigan.
+OH006,El Sol de Ohio,Ohio,Columbus,https://www.elsoldeohio.com/,existing Ohio pilot + current site,candidate_verify,Spanish-language community news outlet founded in 2010.
+OH007,Vocero Latino,Ohio,Cleveland,https://vocerolatino.com/,existing Ohio pilot + current site,candidate_verify,Spanish-language newspaper/digital outlet serving Cleveland Latino community.
+OH008,La Villa Cleveland,Ohio,Cleveland,https://www.lavillacle.org/,existing Ohio pilot + current site,candidate_verify,Community storytelling platform in Clark-Fulton; verify journalism fit.
+OH009,Onumba / Fawol Africa Media,Ohio,Columbus,https://onumba.com/,existing Ohio pilot + current site,candidate_verify,Nigerian/African diaspora online news and commentary outlet.
+OH010,OCA AsiaTown Voice / IMAGE TV Ohio,Ohio,Cleveland,,existing Ohio pilot,candidate_verify,Asian community media candidate; verify current operation and journalism share.
+OH011,Lazo Cultural,Ohio,Cincinnati / statewide,,existing Ohio pilot,candidate_verify,Latino cultural/community publication candidate.
+OH012,ApnaOhio,Ohio,Statewide,,existing Ohio pilot,candidate_verify,South Asian community media candidate; verify current operation.
+OH013,Al-Sahafa,Ohio,Columbus,,existing Ohio pilot,candidate_verify,Arabic community newspaper candidate; current status unclear.
+OH014,Connecting Cleveland,Ohio,Cleveland,,existing Ohio pilot,candidate_verify,Historical immigrant/community media candidate; verify active status.
