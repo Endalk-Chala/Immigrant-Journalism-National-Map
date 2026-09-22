@@ -1,0 +1,7 @@
+outlet_id,outlet_name,state,city_or_scope,website,discovery_source,screening_status,notes
+IN001,La Voz de Indiana,Indiana,Indianapolis / statewide,https://www.lavozdeindiana.com/,outlet website,candidate_verify,Bilingual statewide Latino newspaper.
+IN002,El Puente,Indiana,South Bend / Michiana,https://www.webelpuente.com/,outlet website,candidate_verify,Long-running bilingual Hispanic newspaper serving Michiana.
+IN003,Telemundo Indy,Indiana,Indianapolis / statewide,https://telemundoindy.com/,station website,candidate_verify,Spanish-language local TV newsroom/news platform.
+IN004,Macedonian Tribune,Indiana,Fort Wayne,https://macedonian.org/tribune-online/,Macedonian Patriotic Organization,candidate_verify,Long-running diaspora newspaper founded by Macedono-Bulgarian immigrants.
+IN005,Desi.Net Indianapolis,Indiana,Indianapolis,https://desi.net/indianapolis/,outlet website,candidate_verify,South Asian local digital news page within Desi.Net network.
+IN006,Indiana Latino Institute media/information products,Indiana,Statewide,https://indianalatinoinstitute.org/,targeted discovery,boundary_check,Community organization information products; not an independent newsroom.
