@@ -1,0 +1,6 @@
+outlet_id,outlet_name,state,city_or_scope,website,discovery_source,screening_status,notes
+KY001,Al Día en América,Kentucky,Louisville / Kentuckiana,https://www.aldiaenamerica.com/,outlet website,candidate_verify,Spanish-language local newspaper serving Louisville and Kentuckiana.
+KY002,El Kentubano,Kentucky,Louisville / Lexington,https://www.elkentubano.com/,outlet website,candidate_verify,Cuban/Hispanic community publication serving Kentucky.
+KY003,La Voz de Kentucky,Kentucky,Lexington / Central Kentucky,,University of Kentucky Libraries,candidate_verify,Historic bilingual newspaper published 2001–2019; archive case.
+KY004,Kentucky New Americans Media,Kentucky,Louisville,,Louisville Office for Immigrant Affairs media listings,candidate_verify,Community-media lead referenced in local immigrant-affairs materials; verify current independent operation.
+KY005,Louisville Public Media immigrant-language/community products,Kentucky,Louisville,https://www.lpm.org/,targeted discovery,boundary_check,Mainstream public-media organization with extensive immigrant coverage but not immigrant-serving primary mission.
