@@ -1,7 +1,7 @@
 state,status,notes
 Alabama,verification_complete,candidate + verification
 Alaska,not_started,
-Arizona,not_started,
+Arizona,verification_complete,candidate + verification
 Arkansas,not_started,
 California,verification_complete,candidate + verification
 Colorado,verification_complete,candidate + verification
@@ -29,7 +29,7 @@ Nebraska,not_started,
 Nevada,verification_complete,candidate + verification
 New Hampshire,not_started,
 New Jersey,not_started,
-New Mexico,not_started,
+New Mexico,verification_complete,candidate + verification
 New York,verification_complete,candidate + verification
 North Carolina,verification_complete,candidate + verification
 North Dakota,not_started,
@@ -42,7 +42,7 @@ South Carolina,verification_complete,candidate + verification
 South Dakota,not_started,
 Tennessee,not_started,
 Texas,verification_complete,candidate + verification
-Utah,not_started,
+Utah,verification_complete,candidate + verification
 Vermont,not_started,
 Virginia,not_started,
 Washington,verification_complete,candidate + verification
