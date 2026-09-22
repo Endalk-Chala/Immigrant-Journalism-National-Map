@@ -1,0 +1,5 @@
+outlet_id,outlet_name,state,city_or_scope,website,discovery_source,screening_status,notes
+ND001,Fargo-area Somali community media lead,North Dakota,Fargo,,targeted web search + community-media discovery,candidate_verify,No distinct current Somali newsroom verified; retain as gap-search lead.
+ND002,Fargo-area Spanish/Latino media lead,North Dakota,Fargo / statewide,,targeted web search,candidate_verify,No distinct current Spanish-language newsroom verified in first pass.
+ND003,MPR News Fargo-Moorhead regional reporting,North Dakota,Fargo-Moorhead,https://www.mprnews.org/,MPR News,boundary_check,Mainstream regional newsroom with Fargo-based reporter; not immigrant-serving as primary mission.
+ND004,North Dakota Monitor,North Dakota,Statewide,https://northdakotamonitor.com/,statewide news search,boundary_check,Statewide nonprofit newsroom that covers immigrant issues but is not immigrant-serving as primary mission.
