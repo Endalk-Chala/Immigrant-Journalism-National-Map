@@ -1,0 +1,11 @@
+outlet_id,outlet_name,state,city_or_scope,website,discovery_source,screening_status,notes
+NM001,Telemundo Nuevo México,New Mexico,Albuquerque / statewide,,2025 New Mexico Local News Ecosystem Report,candidate_verify,One of four outlets identified as offering local news in Spanish.
+NM002,Univision Nuevo México,New Mexico,Albuquerque / statewide,,2025 New Mexico Local News Ecosystem Report,candidate_verify,One of four outlets identified as offering local news in Spanish.
+NM003,KMVR-FM,New Mexico,Deming / Southwest New Mexico,,2025 New Mexico Local News Ecosystem Report,candidate_verify,Spanish-language radio identified as one of state's four local Spanish-news outlets.
+NM004,Camino Real,New Mexico,Santa Fe / New Mexico-El Paso market,,New Mexico statute + ecosystem report,candidate_verify,"Official Spanish-language newspaper; print source may be based in El Paso, requires location clarification."
+NM005,El Semanario / The Weekly Issue New Mexico market,New Mexico,Albuquerque / statewide,https://www.elsemanario.us/?lang=es,New Mexico statute + outlet website,candidate_verify,Bilingual weekly with New Mexico market presence and corporate office in Colorado.
+NM006,El Hispano,New Mexico,Albuquerque,,New Mexico statute,candidate_verify,Statutorily recognized Spanish-language newspaper; verify current operation.
+NM007,Más New Mexico,New Mexico,Santa Fe / Albuquerque,,New Mexico statute,candidate_verify,Statutorily recognized Spanish-language newspaper; verify current operation.
+NM008,Santa Fe New Mexican Spanish-language legal/news product,New Mexico,Santa Fe,https://www.santafenewmexican.com/,New Mexico statute,candidate_verify,English-language local newsroom recognized for Spanish legal notices; verify sustained Spanish journalism.
+NM009,El Semanario de Nuevo Mexico,New Mexico,Albuquerque,,New Mexico statute,candidate_verify,Official Spanish newspaper designation; may overlap with The Weekly Issue/El Semanario.
+NM010,Navajo-language local news outlets,New Mexico,Gallup / Farmington / Cibola County,,2025 New Mexico Local News Ecosystem Report,candidate_verify,"Three Navajo-language outlets identified; Indigenous rather than immigrant-serving, boundary/exclude core."
