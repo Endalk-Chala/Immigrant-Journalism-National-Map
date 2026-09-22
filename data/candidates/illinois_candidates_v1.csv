@@ -1,0 +1,21 @@
+outlet_id,outlet_name,state,city_or_scope,website,discovery_source,screening_status,notes
+IL001,Borderless Magazine,Illinois,Chicago,https://borderlessmag.org/,existing registry + outlet website,candidate_verify,Nonprofit immigration newsroom centered on immigrant voices.
+IL002,Cicero Independiente,Illinois,Cicero / Berwyn,https://www.ciceroindependiente.com/,existing registry + outlet website,candidate_verify,Independent bilingual nonprofit newsroom serving immigrant-heavy southwest suburbs.
+IL003,La Raza,Illinois,Chicago,https://laraza.com/,existing registry + outlet website,candidate_verify,Spanish-language Chicago news publication.
+IL004,La Voz Chicago,Illinois,Chicago,https://lavozchicago.com/,existing registry,candidate_verify,Spanish-language local/community outlet; verify current operation.
+IL005,Chinatown Spotlight,Illinois,Chicago,,existing registry,candidate_verify,Chinese community outlet candidate; verify identity/current operation.
+IL006,El Día Newspaper,Illinois,Chicago area,https://www.eldianews.net/,existing registry,candidate_verify,Spanish-language publication candidate.
+IL007,Lawndale News,Illinois,Chicago,,existing registry,candidate_verify,Latino/community newspaper candidate; verify current operation.
+IL008,Chicago Chinese News / Chicago Chinese Times,Illinois,Chicago / Naperville,https://chicagochinesetimes.com/,existing registry + current site,candidate_verify,Chinese-language weekly/digital outlet serving greater Chicago.
+IL009,Dziennik Związkowy,Illinois,Chicago,https://www.dziennikzwiazkowy.com/,existing registry + current site,candidate_verify,Polish-language newspaper serving Chicago Polonia.
+IL010,India Bulletin,Illinois,Chicago,,existing registry,candidate_verify,Indian-American community publication; verify current operation.
+IL011,India Tribune,Illinois,Chicago,https://www.indiatribune.com/,existing registry + current site,candidate_verify,Indian-American biweekly/digital newspaper founded in Chicago.
+IL012,Sanghamam,Illinois,Chicago,,existing registry,candidate_verify,South Asian community media candidate.
+IL013,Korea Times Chicago,Illinois,Wheeling / Chicago metro,https://chicagokoreatimes.com/,existing registry + current site,candidate_verify,Korean-American print/digital newsroom.
+IL014,Draugas,Illinois,Chicago,https://www.draugas.org/,existing registry + current site,candidate_verify,Lithuanian-language newspaper and English-language sister publication.
+IL015,Chicago Shimpo,Illinois,Chicago,https://www.chicagoshimpo.com/,existing registry + current site,candidate_verify,Japanese-English nonprofit digital newspaper.
+IL016,Polish News,Illinois,Chicago,,existing registry,candidate_verify,Polish-language outlet candidate; verify distinct identity/current operation.
+IL017,Romanian Tribune,Illinois,Chicago,https://www.archive.romaniantribune.com/,existing registry,candidate_verify,Romanian-language community publication; current status unclear.
+IL018,LATINEXT,Illinois,Chicago metro,https://latinext.media/en/,existing registry + current site,candidate_verify,Bilingual Chicagoland Latinx news collaborative.
+IL019,Nuevo Siglo,Illinois,Chicago,,existing registry,candidate_verify,Spanish-language community newspaper candidate.
+IL020,Arab American News Chicago-area candidate,Illinois,Chicago area,,existing registry,candidate_verify,Arab-American media candidate; exact distinct Illinois outlet needs verification.
