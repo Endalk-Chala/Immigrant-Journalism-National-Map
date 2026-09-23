@@ -1,0 +1,8 @@
+outlet_id,outlet_name,state,city_or_scope,website,discovery_source,screening_status,notes
+MD001,Washington Hispanic,Maryland,Silver Spring / DMV,https://washingtonhispanic.com/,outlet website + Hispanic newspaper directory,candidate_verify,Spanish-language weekly serving DC, Maryland and Virginia; company based in Silver Spring.
+MD002,MarylandHispano.com,Maryland,Statewide,https://www.marylandhispano.com/,outlet/community portal website,candidate_verify,Spanish-language Maryland community information/news portal.
+MD003,Latin Opinion,Maryland,Baltimore / statewide,,WYPR interview + targeted search,candidate_verify,Baltimore-based Spanish-language media network.
+MD004,El Tiempo Latino - Maryland service,Maryland,Montgomery / Prince George's / DMV,https://eltiempolatino.com/,outlet website,candidate_verify,DC-based Spanish-language newsroom with substantial Maryland coverage; multistate market case.
+MD005,Brazilian Times II - Maryland circulation,Maryland,DMV / statewide,https://www.braziliantimes.com/,Brazilian Times,candidate_verify,Massachusetts-based Brazilian Portuguese newspaper expanded circulation to Maryland.
+MD006,Maryland Ethiopian/Amharic media lead,Maryland,Silver Spring / Montgomery County,,targeted discovery,candidate_verify,Strong Ethiopian diaspora presence but no distinct current Maryland-based newsroom verified in first pass.
+MD007,Washington Hispanic DMV products,Maryland,Silver Spring / DMV,https://washingtonhispanic.com/,Washington Hispanic,candidate_verify,Supplement and digital products under Washington Hispanic host; classify at host/product level.
