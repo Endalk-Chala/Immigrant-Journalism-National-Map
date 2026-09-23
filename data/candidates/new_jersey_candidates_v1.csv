@@ -1,0 +1,11 @@
+outlet_id,outlet_name,state,city_or_scope,website,discovery_source,screening_status,notes
+NJ001,Radio Jornalera NJ,New Jersey,Newark / statewide,,Guardian + current reporting,candidate_verify,Grassroots immigrant-worker radio/news outlet launched in 2021.
+NJ002,Reporte Hispano,New Jersey,Statewide,https://reportehispano.com/,outlet website,candidate_verify,Spanish-language New Jersey news outlet.
+NJ003,Korean Bergen News,New Jersey,Bergen County,https://kbergennews.com/,outlet website,candidate_verify,Local Korean-language newspaper dedicated to Bergen County.
+NJ004,NJ Information Magazine,New Jersey,Fort Lee / Palisades Park,https://www.njjungbo.com/,outlet website,candidate_verify,Korean-American monthly information/article magazine.
+NJ005,News India Times,New Jersey,Edison / national,https://newsindiatimes.com/,outlet website,candidate_verify,Indian-American newspaper group headquartered in Edison with strong New Jersey coverage.
+NJ006,Central Desi,New Jersey,Statewide,https://centraldesi.beehiiv.com/,outlet website,candidate_verify,Community-run news platform focused on New Jersey South Asian communities.
+NJ007,Panjab Express,New Jersey,Avenel / statewide & diaspora,https://www.panjabexpress.com/,outlet website,candidate_verify,Punjabi-American digital newspaper published in New Jersey.
+NJ008,Desi.Net Edison,New Jersey,Edison,https://desi.net/edison/,Desi.Net,candidate_verify,Local South Asian digital news vertical within Desi.Net network.
+NJ009,NJ Spotlight News en Español,New Jersey,Statewide,https://www.njspotlightnews.org/,NJ PBS report,candidate_verify,Spanish translations/local-news vertical within NJ Spotlight News.
+NJ010,Korea Daily / Korea Times NJ market,New Jersey,Bergen / North Jersey,,Korean community directories,candidate_verify,Regional Korean dailies serving New Jersey; resolve New York-vs-New Jersey newsroom location before counting.
