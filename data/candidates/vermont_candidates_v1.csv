@@ -1,0 +1,6 @@
+outlet_id,outlet_name,state,city_or_scope,website,discovery_source,screening_status,notes
+VT001,"Many Voices, One Vermont",Vermont,Burlington / statewide,https://993wbtv.org/,WBTV-LP + CVRAN,candidate_verify,"30-minute current-affairs/community radio program centering refugees, asylum seekers and newcomers."
+VT002,Vermont Public Spanish-language radio hour,Vermont,Statewide,https://www.vermontpublic.org/,Vermont Public,candidate_verify,New Spanish-language radio hour announced in September 2026; program title/format requires deeper verification.
+VT003,Seven Days Spanish-translated immigration reporting,Vermont,Statewide,https://www.sevendaysvt.com/,Seven Days,boundary_check,Mainstream local newsroom occasionally commissioning professional Spanish translations of immigration reporting.
+VT004,Migrant Justice / Justicia Migrante media-information infrastructure,Vermont,Statewide,https://migrantjustice.net/es,organization website,boundary_check,Worker-led immigrant rights organization publishing bilingual information and media resources; not an independent newsroom.
+VT005,Independent Vermont Latino newsroom lead,Vermont,Burlington / Winooski / statewide,,targeted discovery,candidate_verify,No distinct current independent Latino newsroom firmly verified in first pass.
