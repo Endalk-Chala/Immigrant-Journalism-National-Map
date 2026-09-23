@@ -1,0 +1,52 @@
+jurisdiction,verified_records,core_verified,pending_verification,hold_for_review,contextual_noncore,other_review_status
+Alabama,6,5,1,0,0,0
+Alaska,3,3,0,0,0,0
+Arizona,14,10,1,0,1,2
+Arkansas,4,4,0,0,0,0
+California,30,25,4,0,0,1
+Colorado,10,7,1,0,2,0
+Connecticut,7,5,0,1,1,0
+Delaware,6,3,0,1,0,2
+District of Columbia,6,5,0,0,1,0
+Florida,10,4,0,0,1,5
+Georgia,8,8,0,0,0,0
+Hawaii,5,3,1,0,0,1
+Idaho,3,1,0,1,1,0
+Illinois,20,10,6,4,0,0
+Indiana,6,5,0,0,1,0
+Iowa,5,3,0,0,2,0
+Kansas,9,3,2,0,2,2
+Kentucky,5,2,0,1,0,2
+Louisiana,8,5,1,0,1,1
+Maine,7,6,0,0,0,1
+Maryland,7,2,0,1,2,2
+Massachusetts,8,7,0,0,0,1
+Michigan,14,7,1,0,2,4
+Minnesota Verification Batch1,9,9,0,0,0,0
+Mississippi,5,1,1,1,2,0
+Missouri,7,4,1,0,1,1
+Montana,3,0,2,1,0,0
+Nebraska,8,5,1,0,0,2
+Nevada,12,10,0,0,1,1
+New Hampshire,5,3,1,1,0,0
+New Jersey,10,9,0,0,1,0
+New Mexico,10,3,2,1,2,2
+New York,45,19,12,2,5,7
+North Carolina,12,8,1,1,0,2
+North Dakota,4,0,0,2,0,2
+Ohio,14,5,4,3,1,1
+Oklahoma,6,2,3,0,1,0
+Oregon,15,10,3,0,0,2
+Pennsylvania,30,13,11,1,3,2
+Rhode Island,6,2,1,0,0,3
+South Carolina,24,13,5,1,3,2
+South Dakota,4,3,0,1,0,0
+Tennessee,7,3,2,0,0,2
+Texas,30,17,6,4,2,1
+Utah,8,5,1,2,0,0
+Vermont,5,1,1,1,2,0
+Virginia,9,2,0,0,0,7
+Washington,20,12,7,1,0,0
+West Virginia,4,0,0,2,1,1
+Wisconsin,14,7,3,4,0,0
+Wyoming,4,2,0,1,1,0

@@ -1,0 +1,10 @@
+metric,value
+review_pairs_total,16
+review_pairs_resolved,13
+review_pairs_pending,3
+organization_ids_assigned,8
+records_with_organization_id,18
+decision::coincidental_similar_name,1
+decision::no_merge_pending_more_evidence,3
+decision::same_outlet_multiple_jurisdictions,7
+decision::shared_parent_distinct_products,5
