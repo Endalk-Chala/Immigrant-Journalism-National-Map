@@ -1,14 +1,143 @@
 # Immigrant Journalism National Map
 
-A national institutional sampling frame of immigrant and immigrant-serving journalism outlets and media products in the United States.
+## Research repository for *Epistemic Precarity: Risk Ecologies of Immigrant Journalism in the Emerging U.S. Local News Ecosystem*
+
+This repository contains the public research infrastructure, reproducible data workflow, institutional sampling frame, enrichment data, and documented risk-event materials developed for the research project:
+
+> **Epistemic Precarity: Risk Ecologies of Immigrant Journalism in the Emerging U.S. Local News Ecosystem**
+
+The project is being developed as a full manuscript for *Digital Journalism*'s special issue **“Epistemic Disorder: Journalism amid Democratic Decline and Media Insecurity,”** following an invitation to submit a full manuscript after selection of the project abstract for further consideration.
+
+## Authors
+
+**Endalkachew H. Chala, Ph.D.**  
+Fellow, Center for an Informed Public  
+University of Washington, USA  
+Corresponding author: endalk2006@gmail.com
+
+**Tewodros (Teddy) Workneh, Ph.D.**  
+Associate Professor of Global Communication  
+School of Communication Studies, Kent State University, USA  
+Email: tworkneh@kent.edu
+
+---
+
+## Project overview
+
+The study examines the institutional conditions under which immigrant-serving journalism operates in the United States and how financial, legal, digital, physical, professional, organizational, platform-related, and transnational risks interact across news organizations.
+
+Rather than beginning with a small convenience sample of journalists or newsrooms, the project first constructs a national institutional sampling frame and then enriches that frame with public evidence about organizational capacity, funding, staffing, legal and safety support, platform dependence, and documented risk events.
+
+The core methodological design separates three forms of evidence:
+
+1. **Institutional capacity** — what an outlet or host publicly appears to have in terms of staffing, governance, funding, legal support, safety infrastructure, network ties, audience infrastructure, and platform dependence.
+2. **Documented risk events** — what has happened to an outlet, newsroom, journalist, source community, or organizational operation, such as detention, assault, harassment, staffing disruption, legal pressure, funding loss, or platform restrictions.
+3. **Structural exposure** — wider conditions that may shape vulnerability, including platform referral decline, demonetization systems, changes in search or social distribution, philanthropic contraction, immigration-enforcement environments, and other sector-wide pressures.
+
+These layers are analyzed relationally but are **not collapsed into a single risk score**.
+
+The analytical logic is:
+
+> **institutional capacity → exposure → documented event → organizational response → consequence**
+
+This allows the project to examine how resources may mitigate, redistribute, or sometimes generate different forms of risk without assuming that small organizations are necessarily more vulnerable or that larger organizations are necessarily protected.
+
+---
+
+## Research phases
+
+### Phase 1A — National institutional sampling frame
+
+Phase 1A identifies and verifies immigrant and immigrant-serving journalism outlets and media products across all 50 U.S. states and the District of Columbia.
+
+The project distinguishes journalism **for or with immigrant communities** from general-interest journalism that merely reports **about immigration**.
+
+Phase 1A is complete and frozen.
+
+Current Phase 1A totals:
+
+- **531 assessed records**
+- **301 core verified outlets/products**
+- all 50 states plus the District of Columbia represented
+
+The frozen release is stored at:
+
+`releases/national-immigrant-journalism-map-v1.0-phase1a/`
+
+It includes SHA-256 checksums so that archived files can be verified against later changes.
+
+### Phase 1B — Institutional enrichment
+
+Phase 1B enriches the 301 core outlets using publicly available institutional evidence while leaving the frozen Phase 1A frame unchanged.
+
+The enrichment layer records, where publicly verifiable:
+
+- organizational and legal form;
+- parent, host, or fiscal-sponsor relationships;
+- staffing and newsroom capacity;
+- funding and revenue structure;
+- named funders and network affiliations;
+- legal-support capacity;
+- safety and security support;
+- editorial and accountability infrastructure;
+- publishing cadence and platform presence;
+- platform dependence and platform monetization;
+- referral dependence and owned-audience infrastructure;
+- publicly documented financial-security conditions;
+- public professional contact routes for later recruitment planning.
+
+A central coding rule is:
+
+> **Public silence is not evidence of institutional absence.**
+
+For example, an outlet is not coded as having “no legal support” merely because no attorney appears on its website. Relevant fields distinguish between explicitly disclosed, externally documented, not publicly disclosed, unclear, not searched, and not applicable.
+
+### Parallel risk-event layer
+
+Documented risk events are stored separately from institutional characteristics. This allows multiple events to be linked to the same outlet without permanently labeling the outlet itself as “high risk.”
+
+The risk-event layer includes publicly documented events such as:
+
+- physical assault;
+- arrest or detention;
+- immigration-enforcement exposure;
+- harassment or threats;
+- legal pressure;
+- cyber or digital-security incidents;
+- source or audience safety concerns;
+- staffing or organizational-capacity disruption;
+- funding loss or financial shock;
+- platform restrictions, demonetization, or visibility changes;
+- access restrictions;
+- other documented organizational disruptions.
+
+Sector-wide conditions such as declining social-media referrals, philanthropic contraction, or platform-policy changes are coded as **structural exposures** rather than automatically assigned to every outlet.
+
+### Phase 2 — Qualitative interviews
+
+The enriched national frame will support purposive interview sampling across meaningful institutional contrasts, including organizational form, staffing capacity, language model, media format, geographic scope, funding structure, platform dependence, legal and safety support, and documented risk exposure.
+
+Interview data will remain separate from the public institutional dataset and will be handled according to applicable IRB and human-subjects requirements.
+
+---
 
 ## Current stage
 
-**Phase 1A national first-pass mapping is complete for all 50 states plus the District of Columbia.**
+**Phase 1A is complete and frozen. Phase 1B institutional enrichment and the parallel risk-event scan are in progress.**
 
-The project identifies and verifies journalism organizations and media products that substantially serve immigrant, refugee, diaspora, language, ethnic, or immigrant-origin communities. The national map is designed as a transparent sampling frame for later qualitative and event-level research on risk ecologies.
+The project currently has:
 
-The project now has a **reproducible national analytical dataset** generated from the state/DC verification files and is moving into a controlled coding layer for national comparison.
+- a frozen national Phase 1A sampling frame;
+- a reproducible national analytical dataset;
+- controlled coding and review layers;
+- a 301-record Phase 1B enrichment template;
+- evidence-backed enrichment batches;
+- a separate risk-event dataset;
+- a platform monetization and financial-security coding framework;
+- public methodology and reproducibility documentation;
+- separate GitHub Actions workflows for Phase 1A and Phase 1B.
+
+---
 
 ## Repository structure
 
@@ -16,17 +145,26 @@ The project now has a **reproducible national analytical dataset** generated fro
 - `data/verification/` — manually reviewed state/DC verification files; authoritative source layer for the national dataset
 - `data/analysis/` — generated national analytical files; do not hand-edit
 - `data/analysis/audits/` — generated review queues and coding-consistency audits
-- `data/external_crosswalks/` — separate relational layer for comparison with CUNY, Medill, or other external outlet datasets
-- `data/logs/` — state search logs and national progress tracker
+- `data/external_crosswalks/` — relational layer for comparison with CUNY, Medill, and other external datasets
+- `data/logs/` — state search logs and national progress tracking
+- `data/phase1b/institutional_enrichment_v1.csv` — 301-record Phase 1B institutional-enrichment table
+- `data/phase1b/enrichment_batches/` — evidence-backed Phase 1B coding batches
+- `data/phase1b/risk_events_v1.csv` — outlet-specific, comparison-case, and structural risk-event records
 - `docs/METHODOLOGY_NOTE.md` — Phase 1A methodology
-- `docs/NATIONAL_DATASET_README.md` — national dataset architecture, external-data boundaries, and reproducibility rules
+- `docs/PHASE_1B_INSTITUTIONAL_ENRICHMENT_CODEBOOK.md` — Phase 1B variables and coding rules
+- `docs/PHASE_1B_PLATFORM_FINANCIAL_SECURITY_ADDENDUM.md` — platform monetization, referral dependence, and financial-security coding
+- `docs/PHASE_1B_RISK_ECOLOGY_METHODOLOGICAL_NOTE.md` — integrated institutional-capacity/risk-event methodology and reproducibility design
+- `docs/NATIONAL_DATASET_README.md` — national dataset architecture and reproducibility rules
 - `docs/DATA_DICTIONARY.md` — source and derived variable definitions
 - `docs/CONTROLLED_VARIABLES_CODEBOOK.md` — controlled analytical variables and coding rules
-- `docs/PHASE_1B_METHOD_AND_SAMPLING_MEMO.md` — documented-risk-event layer
 - `scripts/build_national_dataset.py` — reproducible national dataset builder and diagnostics
 - `scripts/audit_national_dataset.py` — reproducible duplicate/relationship and classification audit
-- `scripts/` — public-web collection and supporting scripts
-- `.github/workflows/build-national-dataset.yml` — automated national dataset rebuild and audit
+- `scripts/build_phase1b_enrichment_template.py` — creates the Phase 1B enrichment table from the frozen core frame
+- `.github/workflows/build-national-dataset.yml` — automated Phase 1A analytical rebuild and audit
+- `.github/workflows/build-phase1b-enrichment.yml` — separate Phase 1B template build and validation workflow
+- `releases/national-immigrant-journalism-map-v1.0-phase1a/` — frozen Phase 1A release
+
+---
 
 ## Generated national files
 
@@ -46,9 +184,11 @@ creates or refreshes:
 - `data/analysis/build_diagnostics_v1.csv` — reproducibility and integrity checks
 - `data/analysis/audits/` — relationship-review queues and coding-variation summaries
 
-The controlled coding schema is defined in `data/analysis/national_controlled_coding_v1.csv` and `docs/CONTROLLED_VARIABLES_CODEBOOK.md`. It is relational: controlled variables join back to the verified registry through `outlet_id` rather than replacing source evidence.
+The controlled coding schema is relational: controlled variables join back to the verified registry through `outlet_id` rather than replacing source evidence.
 
-Every generated national registry row carries `dataset_origin`, `source_file`, and `source_row_number` provenance fields.
+Every generated national registry row carries provenance fields identifying its dataset origin, source file, and source row number.
+
+---
 
 ## Geography rule
 
@@ -59,60 +199,80 @@ The analytical dataset deliberately separates:
 
 State-level national summaries use `jurisdiction`. This prevents multistate market descriptions and earlier header variation from distorting state counts.
 
+---
+
 ## Methodological principle
 
 > **Broad discovery, narrow verification, deeper coding only where analytically useful.**
 
-The database is a **sampling frame, not a census and not a risk score**. Missing public information must not be interpreted as evidence that an institution lacks a resource, capacity, or exposure.
+The national database is a **sampling frame, not a census and not a risk score**.
 
-## Controlled analytical layer
+The project preserves institutional variation rather than forcing all immigrant-serving outlets into a single organizational category. Important dimensions include nonprofit/commercial/fiscally sponsored/hosted forms, independent/networked operations, small and larger newsrooms, multiple language models, local and transnational reach, and print/digital/radio/television/social/mixed publishing systems.
 
-The controlled coding layer standardizes a limited set of dimensions for national analysis while preserving all raw Phase 1A evidence. Initial variables include:
-
-- record type
-- ownership/governance form
-- media format
-- language model
-- community orientation
-- geographic scope
-- institutional relationship
-- newsroom organizational form
-- activity status
-- journalism intensity
-- core population role
-- coding confidence
-
-Relationship identifiers such as `organization_id` will be assigned only after manual review of shared-host, multijurisdiction, and similar-name cases. The project does not automatically merge records merely because they share a website, name, owner, or host.
+---
 
 ## How this dataset differs from existing resources
 
 This project does not reproduce or silently merge external databases.
 
-- **CUNY Center for Community Media** is a discovery/comparison resource. Its community-media directories do not define this project's population.
-- **Medill State of Local News** is a broader local-news ecosystem resource. This project specifically centers immigrant-serving journalism and preserves hosted, diaspora, language-specific, and transnational institutional forms.
-- **U.S. Press Freedom Tracker** is an event-level resource, not an outlet registry. It belongs in the separate risk-event layer.
-- **Census ACS** is demographic context. It should be linked through geography for population/language analyses rather than treated as outlet data.
+- **CUNY Center for Community Media** is used as a discovery and comparison resource; its directories do not define this project's population.
+- **Medill State of Local News** provides broader local-news ecosystem context.
+- **U.S. Press Freedom Tracker** provides event-level evidence rather than an outlet registry and therefore belongs in the separate risk-event layer.
+- **Census ACS** provides demographic context and can be linked through geography rather than treated as outlet-level data.
 
-External records do not enter the core outlet registry simply because they appear in CUNY, Medill, or another directory. Future overlap analysis is stored in `data/external_crosswalks/` using explicit source labels, match methods, confidence, and review notes.
+External records do not enter the core outlet registry simply because they appear in an external directory. Comparison and overlap work is kept in explicit crosswalks with source labels, match methods, confidence levels, and review notes.
 
-## Reproducibility and auditability
+---
 
-Generated analytical files should not be hand-edited. Corrections belong in the state/DC source verification files or in documented reviewed-override tables, after which analytical files are rebuilt.
+## Reproducibility and public availability
 
-The public scripts:
+This repository is intended to make the public-source research workflow transparent and reproducible.
 
-1. read the project verification files;
-2. standardize analytical geography without erasing source geography;
-3. preserve detailed eligibility statuses;
-4. derive broad analytical tiers and a conservative core subset;
-5. add row-level provenance;
-6. generate integrity diagnostics and review queues; and
-7. write deterministic national outputs.
+It preserves:
 
-The GitHub Actions workflow runs the same public scripts when relevant source data or build logic change.
+- candidate and verification records;
+- the frozen Phase 1A release;
+- codebooks and controlled-variable definitions;
+- review and adjudication decisions;
+- Python scripts used to build analytical datasets;
+- GitHub Actions workflows;
+- Phase 1B enrichment rules;
+- evidence-backed enrichment batches;
+- the risk-event dataset;
+- source URLs and evidence notes;
+- version history through Git commits;
+- SHA-256 checksums for the frozen Phase 1A release.
+
+Reproducibility operates at two levels:
+
+### Computational reconstruction
+
+Researchers can use the archived source files, coding files, scripts, and workflows to rebuild the analytical sampling frame.
+
+### Procedural replication
+
+Researchers can apply the published discovery rules, inclusion criteria, source hierarchy, missing-data rules, enrichment codebook, and event-coding protocol to repeat the public-source collection process.
+
+Because news organizations, staff, funding, websites, platform systems, and risk events change over time, a later replication may not produce an identical contemporary dataset. The project therefore treats reproducibility as the transparent reconstruction of a **time-bounded and versioned research process**.
+
+---
 
 ## Public-data boundary
 
-This repository contains only public, non-sensitive research infrastructure. It must not contain private contact information, recruitment records, interview participation status, consent records, interview transcripts, confidential notes, or other human-subjects data.
+This repository contains public, non-sensitive research infrastructure and public-source institutional/event data appropriate for scholarly replication.
 
-See `docs/NATIONAL_DATASET_README.md`, `docs/DATA_DICTIONARY.md`, and `docs/CONTROLLED_VARIABLES_CODEBOOK.md` for the full architecture and coding rules.
+It must not contain private recruitment records, interview participation status, consent records, private contact information, interview transcripts, confidential field notes, immigration-status information, or other sensitive human-subject data.
+
+Future interview and human-subject materials will be stored separately and governed by applicable IRB requirements.
+
+---
+
+## Citation and manuscript status
+
+This repository supports an ongoing manuscript project and should not yet be cited as a published *Digital Journalism* article.
+
+**Working manuscript citation:**
+
+Chala, Endalkachew H., and Tewodros (Teddy) Workneh. “Epistemic Precarity: Risk Ecologies of Immigrant Journalism in the Emerging U.S. Local News Ecosystem.” Manuscript in preparation for *Digital Journalism*, special issue “Epistemic Disorder: Journalism amid Democratic Decline and Media Insecurity.”
+
+For questions about the research repository, contact the corresponding author: **endalk2006@gmail.com**.
