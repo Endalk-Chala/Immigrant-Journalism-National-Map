@@ -1,0 +1,8 @@
+outlet_id,outlet_name,state,city_or_scope,website,discovery_source,screening_status,notes
+CT001,La Voz Hispana de Connecticut,Connecticut,New Haven / statewide,https://lavozhispanact.com/,outlet website,candidate_verify,Spanish-language weekly newspaper distributed statewide.
+CT002,Identidad Latina Multimedia,Connecticut,Hartford / statewide,https://identidadlatina.com/,outlet website,candidate_verify,Latino multimedia organization with print magazine daily website and radio/social products.
+CT003,CT Mirror en Español,Connecticut,Statewide,https://ctmirror.org/espanol/,CT Mirror,candidate_verify,Spanish-language news product created with Identidad Latina Multimedia.
+CT004,ConnecticutLatino.com,Connecticut,Statewide,https://www.connecticutlatino.com/,community portal website,candidate_verify,Spanish-language news/services/community portal.
+CT005,Brazilian Times II - Connecticut circulation,Connecticut,Statewide / New England,https://www.braziliantimes.com/,Brazilian Times,candidate_verify,Massachusetts-based Brazilian Portuguese newspaper distributed in Connecticut.
+CT006,Identidad Latina Radio,Connecticut,Hartford / statewide,https://identidadlatina.com/,Identidad Latina Multimedia,candidate_verify,Radio product under Identidad Latina host.
+CT007,Connecticut Brazilian/Danbury community media lead,Connecticut,Danbury / Fairfield County,,targeted search,candidate_verify,Large Brazilian community; first pass did not firmly verify a distinct active Danbury-based newsroom.
