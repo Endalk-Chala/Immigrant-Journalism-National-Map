@@ -1,0 +1,50 @@
+name: Build national analytical dataset
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/verification/**'
+      - 'scripts/build_national_dataset.py'
+      - 'docs/NATIONAL_DATASET_README.md'
+      - 'docs/DATA_DICTIONARY.md'
+      - '.github/workflows/build-national-dataset.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Build national analytical files
+        run: python scripts/build_national_dataset.py
+
+      - name: Show generated file summary
+        run: |
+          echo "Generated files:"
+          ls -lh data/analysis
+          echo
+          echo "Row counts (including header):"
+          wc -l data/analysis/*.csv
+
+      - name: Commit generated analytical files when changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/analysis/
+          if git diff --cached --quiet; then
+            echo "Analytical files already up to date."
+          else
+            git commit -m "Rebuild national analytical dataset"
+            git push
+          fi
