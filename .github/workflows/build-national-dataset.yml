@@ -15,6 +15,10 @@ on:
       - 'scripts/audit_community_orientation.py'
       - 'scripts/extract_refugee_review_queue.py'
       - 'scripts/apply_community_orientation_reviews.py'
+      - 'scripts/generate_language_ethnic_review_decisions.py'
+      - 'scripts/apply_language_ethnic_reviews.py'
+      - 'scripts/generate_phase1a_completion_report.py'
+      - 'scripts/freeze_phase1a_v1.py'
       - 'docs/NATIONAL_DATASET_README.md'
       - 'docs/DATA_DICTIONARY.md'
       - 'docs/CONTROLLED_VARIABLES_CODEBOOK.md'
@@ -60,22 +64,37 @@ jobs:
       - name: Apply reviewed community orientation decisions
         run: python scripts/apply_community_orientation_reviews.py
 
+      - name: Generate bounded language versus ethnic decisions
+        run: python scripts/generate_language_ethnic_review_decisions.py
+
+      - name: Apply bounded language versus ethnic decisions
+        run: python scripts/apply_language_ethnic_reviews.py
+
+      - name: Generate Phase 1A completion report
+        run: python scripts/generate_phase1a_completion_report.py
+
+      - name: Freeze National Immigrant Journalism Map v1.0 Phase 1A
+        run: python scripts/freeze_phase1a_v1.py
+
       - name: Show generated file summary
         run: |
-          echo "Generated files:"
+          echo "Generated analytical files:"
           find data/analysis -maxdepth 2 -type f -name '*.csv' -print | sort
+          echo
+          echo "Frozen Phase 1A snapshot:"
+          find releases/national-immigrant-journalism-map-v1.0-phase1a -type f -print | sort
           echo
           echo "Row counts (including header):"
           find data/analysis -maxdepth 2 -type f -name '*.csv' -print0 | sort -z | xargs -0 wc -l
 
-      - name: Commit generated analytical files when changed
+      - name: Commit final Phase 1A outputs when changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/analysis/
+          git add data/analysis/ docs/PHASE_1A_COMPLETION_REPORT.md VERSION_PHASE1A.md releases/national-immigrant-journalism-map-v1.0-phase1a/
           if git diff --cached --quiet; then
-            echo "Analytical files already up to date."
+            echo "Phase 1A outputs already up to date."
           else
-            git commit -m "Rebuild national analytical dataset and reviewed community coding"
+            git commit -m "Finalize and freeze National Immigrant Journalism Map v1.0 Phase 1A"
             git push
           fi
