@@ -11,6 +11,7 @@ on:
       - 'scripts/code_controlled_variables.py'
       - 'scripts/code_interpretive_variables.py'
       - 'scripts/apply_relationship_reviews.py'
+      - 'scripts/audit_community_orientation.py'
       - 'docs/NATIONAL_DATASET_README.md'
       - 'docs/DATA_DICTIONARY.md'
       - 'docs/CONTROLLED_VARIABLES_CODEBOOK.md'
@@ -47,6 +48,9 @@ jobs:
       - name: Apply reviewed relationship decisions
         run: python scripts/apply_relationship_reviews.py
 
+      - name: Audit community orientation coding
+        run: python scripts/audit_community_orientation.py
+
       - name: Show generated file summary
         run: |
           echo "Generated files:"
@@ -63,6 +67,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "Analytical files already up to date."
           else
-            git commit -m "Rebuild national analytical dataset and reviewed relationships"
+            git commit -m "Rebuild national analytical dataset and validation audits"
             git push
           fi
