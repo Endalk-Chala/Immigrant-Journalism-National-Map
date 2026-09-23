@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 """Populate controlled analytical variables from the verified national registry.
 
-Pass 2 codes six comparatively high-confidence dimensions:
+Pass 3 codes eight structural/comparatively high-confidence dimensions:
 - record_type
 - ownership_or_governance_form
 - media_format
 - language_model
 - geographic_scope
+- institutional_relationship
+- newsroom_independence_form
 - activity_status
 
 The script preserves ambiguity by assigning `unclear` and producing a field-level
@@ -26,7 +28,7 @@ INPUT = ROOT / "data" / "analysis" / "national_verified_registry_v1.csv"
 OUTPUT = ROOT / "data" / "analysis" / "national_controlled_coding_v1.csv"
 REVIEW = ROOT / "data" / "analysis" / "audits" / "controlled_coding_manual_review_v1.csv"
 SUMMARY = ROOT / "data" / "analysis" / "audits" / "controlled_coding_summary_v1.csv"
-RULE_VERSION = "v1.0-pass2"
+RULE_VERSION = "v1.0-pass3"
 
 FIELDS = [
     "outlet_id",
@@ -128,7 +130,6 @@ def code_record_type(row: dict[str, str]) -> tuple[str, str, str | None]:
 
 def code_ownership(row: dict[str, str]) -> tuple[str, str, str | None]:
     text = combined_text(row)
-
     explicit_rules = [
         ("fiscally_sponsored", ("fiscally sponsored", "fiscal sponsor")),
         ("university_or_school_based", ("university", "college", "school based", "student media")),
@@ -140,26 +141,16 @@ def code_ownership(row: dict[str, str]) -> tuple[str, str, str | None]:
         ("community_or_civic_organization_based", ("community organization", "civic association", "community center", "immigrant organization", "refugee organization", "published by asian american civic association")),
         ("for_profit_private", (" llc", "inc ", "corporation", "privately owned", "commercial newspaper", "commercial radio", "for profit", "media company", "entertainment inc")),
     ]
-
-    matches = []
-    for value, tokens in explicit_rules:
-        if contains_any(f" {text} ", tokens):
-            matches.append(value)
-
+    matches = [value for value, tokens in explicit_rules if contains_any(f" {text} ", tokens)]
     matches = list(dict.fromkeys(matches))
     if not matches:
         return "unclear", "requires_manual_review", "no explicit governance/ownership signal found"
     if len(matches) == 1:
         return matches[0], "high", None
-
-    # Fiscal sponsorship is a specific governance condition and can coexist with nonprofit language.
     if "fiscally_sponsored" in matches and set(matches).issubset({"fiscally_sponsored", "nonprofit"}):
         return "fiscally_sponsored", "high", None
-
-    # Hosted programs in community organizations should preserve the host form rather than be forced to nonprofit.
     if "community_or_civic_organization_based" in matches and "nonprofit" in matches and "for_profit_private" not in matches:
         return "community_or_civic_organization_based", "medium", "community/civic host also described as nonprofit"
-
     return "mixed_or_hybrid", "requires_manual_review", "multiple governance signals detected: " + ", ".join(matches)
 
 
@@ -168,10 +159,8 @@ def code_media_format(row: dict[str, str]) -> tuple[str, str, str | None]:
     signals = norm(row.get("public_institutional_signals", ""))
     name = norm(row.get("outlet_name", ""))
     text = " ".join((form, signals, name))
-
     if contains_any(text, ("multi platform", "multiplatform", "print radio tv", "newspaper radio tv", "radio tv network", "print digital radio", "television and digital newsroom", "radio and digital media operation")):
         return "mixed_platform", "high", None
-
     explicit = []
     checks = [
         ("radio", ("radio", "fm station", "am station")),
@@ -185,7 +174,6 @@ def code_media_format(row: dict[str, str]) -> tuple[str, str, str | None]:
     for value, tokens in checks:
         if contains_any(f" {text} ", tokens):
             explicit.append(value)
-
     unique = list(dict.fromkeys(explicit))
     if len(unique) == 1:
         return unique[0], "high", None
@@ -193,21 +181,17 @@ def code_media_format(row: dict[str, str]) -> tuple[str, str, str | None]:
         if set(unique) == {"print", "digital"} and contains_any(form, ("newspaper", "magazine", "print")):
             return "print", "medium", "print plus companion digital presence; verify whether digital is co-primary"
         return "mixed_platform", "medium", "multiple central formats detected; manual check recommended"
-
     return "unclear", "requires_manual_review", "no clear primary format found"
 
 
 def code_language(row: dict[str, str], record_type: str) -> tuple[str, str, str | None]:
     text = combined_text(row)
-
     if record_type == "hosted_language_product" or "language product" in text:
         return "language_specific_product_within_host", "high", None
     if contains_any(text, ("multilingual", "multi lingual", "multiple languages", "three languages", "four languages")):
         return "multilingual", "high", None
     if contains_any(text, ("bilingual", "bi lingual")):
         return "bilingual", "high", None
-
-    # Explicit pairs such as Arabic-English or Korean-English often normalize into two language names.
     languages_found = sorted({lang for lang in NON_ENGLISH_LANGUAGES if lang in text})
     has_english = "english" in text
     if has_english and languages_found:
@@ -218,15 +202,10 @@ def code_language(row: dict[str, str], record_type: str) -> tuple[str, str, str 
         return "multilingual", "medium", "three or more non-English languages detected"
     if len(languages_found) == 2:
         return "bilingual", "medium", "two non-English languages detected; verify sustained dual-language output"
-
-    # Require explicit language-serving wording for a single-language classification.
     if len(languages_found) == 1 and contains_any(text, ("language newspaper", "language weekly", "language outlet", "language radio", "language television", "language digital", "language publication", "language news", "spanish language", "portuguese language", "korean language", "chinese language", "vietnamese language", "arabic language", "somali language", "hmong language", "french language", "russian language", "ukrainian language", "tagalog language", "filipino language")):
         return "single_non_english", "high", None
-
-    # English-dominant should be conservative: only explicit wording counts.
     if contains_any(text, ("english language outlet", "english dominant", "publishes primarily in english", "english only")):
         return "english_dominant", "high", None
-
     return "unclear", "requires_manual_review", "language output structure not explicit enough for deterministic coding"
 
 
@@ -236,7 +215,6 @@ def code_geographic_scope(row: dict[str, str], record_type: str) -> tuple[str, s
     notes = norm(row.get("verification_notes", ""))
     signals = norm(row.get("public_institutional_signals", ""))
     text = " ".join((scope, market, notes, signals))
-
     if contains_any(text, ("transnational", "diaspora", "homeland", "cross border", "central pacific", "u s and", "us and")) and contains_any(text, ("national", "diaspora", "cross border", "central pacific", "homeland")):
         return "transnational_or_diaspora", "medium", "transnational/diaspora reach indicated; verify principal service geography"
     if contains_any(text, ("national scope", "nationwide", "u s wide", "us wide", "across the united states", "national audience", "national us")):
@@ -249,13 +227,48 @@ def code_geographic_scope(row: dict[str, str], record_type: str) -> tuple[str, s
         return "metro", "high", None
     if contains_any(scope, ("neighborhood", "city", "local")):
         return "neighborhood_or_city", "high", None
-
-    # A city name alone is common in this field. Slash-separated city/statewide scope is not safe to reduce.
-    if scope and not contains_any(scope, ("statewide", "regional", "national", "diaspora", "multi", " / ")):
-        if len(scope.split()) <= 5:
-            return "neighborhood_or_city", "medium", "city/local scope inferred from concise city_or_scope field"
-
+    if scope and not contains_any(scope, ("statewide", "regional", "national", "diaspora", "multi", " / ")) and len(scope.split()) <= 5:
+        return "neighborhood_or_city", "medium", "city/local scope inferred from concise city_or_scope field"
     return "unclear", "requires_manual_review", "service geography not explicit enough for deterministic coding"
+
+
+def code_institutional_relationship(row: dict[str, str], record_type: str) -> tuple[str, str, str | None]:
+    text = combined_text(row)
+    status = norm(row.get("eligibility_status", ""))
+
+    if record_type == "market_appearance":
+        return "same_outlet_multijurisdiction", "medium", "market appearance implies cross-jurisdiction relationship but counterpart must be manually confirmed"
+    if record_type == "shared_operation_distinct_product" or "shared operation" in text:
+        return "shared_operation", "high", None
+    if record_type in {"hosted_program", "hosted_language_product"} or contains_any(status, ("hosted program", "hosted language product", "hosted collaboration")):
+        return "hosted", "high", None
+    if record_type == "network_affiliate_or_local_station" or contains_any(text, ("network affiliate", "local affiliate", "univision", "telemundo affiliate")):
+        return "network_affiliate", "medium", "network/local affiliation detected; verify parent structure"
+    if contains_any(text, ("subsidiary", "owned by", "published by", "part of", "under asian media network", "within norsan media", "gannett")):
+        return "subsidiary_or_parent_owned", "medium", "parent ownership/hosting language detected"
+    if contains_any(text, ("successor", "rebrand", "renamed", "formerly", "predecessor")):
+        return "successor_or_predecessor", "medium", "succession/rebrand language detected"
+    if record_type == "standalone_outlet" and not contains_any(text, ("within", "hosted by", "published by", "owned by", "affiliate", "part of", "under ")):
+        return "standalone", "medium", None
+    return "unclear", "requires_manual_review", "relationship structure not explicit enough for deterministic coding"
+
+
+def code_newsroom_independence(row: dict[str, str], record_type: str, relationship: str) -> tuple[str, str, str | None]:
+    text = combined_text(row)
+
+    if record_type == "information_infrastructure":
+        return "information_project_not_newsroom", "high", None
+    if record_type in {"hosted_program", "hosted_language_product"} or relationship == "hosted":
+        return "hosted_program_or_product", "high", None
+    if record_type == "network_affiliate_or_local_station" or relationship == "network_affiliate":
+        return "network_local_newsroom", "medium", "network structure detected; local newsroom autonomy is not being inferred"
+    if record_type == "shared_operation_distinct_product" or relationship == "shared_operation":
+        return "editorially_distinct_within_parent", "high", None
+    if relationship == "subsidiary_or_parent_owned" and contains_any(text, ("distinct publication", "distinct editorial", "edition", "newsroom", "publication under")):
+        return "editorially_distinct_within_parent", "medium", "distinct product/newsroom signals inside parent detected"
+    if relationship == "standalone" and row.get("core_inclusion") == "yes":
+        return "independent_newsroom", "medium", None
+    return "unclear", "requires_manual_review", "organizational separateness not explicit enough for deterministic coding"
 
 
 def code_activity(row: dict[str, str]) -> tuple[str, str, str | None]:
@@ -263,7 +276,6 @@ def code_activity(row: dict[str, str]) -> tuple[str, str, str | None]:
     notes = norm(row.get("verification_notes", ""))
     status = norm(row.get("eligibility_status", ""))
     text = " ".join((raw, notes, status))
-
     if contains_any(text, ("operationally disrupted", "temporarily disrupted", "tower loss", "suspended temporarily", "interruption")):
         return "temporarily_disrupted", "high", None
     if contains_any(status, ("exclude inactive", "inactive archive")) or contains_any(raw, ("inactive", "closed", "no current operation", "defunct")):
@@ -278,7 +290,6 @@ def code_activity(row: dict[str, str]) -> tuple[str, str, str | None]:
         return "unclear", "requires_manual_review", "source activity value is explicitly uncertain"
     if not raw:
         return "unclear", "requires_manual_review", "source activity value is blank"
-
     return "active_with_limited_or_uncertain_cadence", "medium", "nonstandard activity wording requires review"
 
 
@@ -300,12 +311,7 @@ def blank_controlled_row(outlet_id: str) -> dict[str, str]:
 
 
 def aggregate_confidence(values: list[str]) -> str:
-    rank = {
-        "high": 0,
-        "medium": 1,
-        "low": 2,
-        "requires_manual_review": 3,
-    }
+    rank = {"high": 0, "medium": 1, "low": 2, "requires_manual_review": 3}
     return max(values, key=lambda v: rank.get(v, 3))
 
 
@@ -316,6 +322,8 @@ def review_row(source: dict[str, str], field: str, value: str, reason: str) -> d
         "media_format": source.get("institutional_form", ""),
         "language_model": " | ".join(filter(None, (source.get("institutional_form", ""), source.get("public_institutional_signals", "")))),
         "geographic_scope": " | ".join(filter(None, (source.get("city_or_scope", ""), source.get("state_or_market", "")))),
+        "institutional_relationship": " | ".join(filter(None, (source.get("institutional_form", ""), source.get("eligibility_status", ""), source.get("verification_notes", "")))),
+        "newsroom_independence_form": " | ".join(filter(None, (source.get("institutional_form", ""), source.get("verification_notes", "")))),
         "activity_status": source.get("website_active", ""),
     }
     return {
@@ -335,8 +343,9 @@ def review_row(source: dict[str, str], field: str, value: str, reason: str) -> d
 def write_summary(coded: list[dict[str, str]]) -> None:
     tracked = [
         "record_type", "ownership_or_governance_form", "media_format",
-        "language_model", "geographic_scope", "activity_status",
-        "core_population_role", "coding_confidence",
+        "language_model", "geographic_scope", "institutional_relationship",
+        "newsroom_independence_form", "activity_status", "core_population_role",
+        "coding_confidence",
     ]
     rows = []
     for field in tracked:
@@ -362,6 +371,8 @@ def main() -> None:
         mf, mfc, mfr = code_media_format(source)
         lang, langc, langr = code_language(source, rt)
         geo, geoc, geor = code_geographic_scope(source, rt)
+        rel, relc, relr = code_institutional_relationship(source, rt)
+        news, newsc, newsr = code_newsroom_independence(source, rt, rel)
         ac, acc, acr = code_activity(source)
 
         out["record_type"] = rt
@@ -369,8 +380,10 @@ def main() -> None:
         out["media_format"] = mf
         out["language_model"] = lang
         out["geographic_scope"] = geo
+        out["institutional_relationship"] = rel
+        out["newsroom_independence_form"] = news
         out["activity_status"] = ac
-        out["coding_confidence"] = aggregate_confidence([rtc, ownc, mfc, langc, geoc, acc])
+        out["coding_confidence"] = aggregate_confidence([rtc, ownc, mfc, langc, geoc, relc, newsc, acc])
 
         if source.get("core_inclusion") == "yes":
             out["core_population_role"] = "core_outlet_or_product"
@@ -394,12 +407,13 @@ def main() -> None:
             ("media_format", mf, mfc, mfr),
             ("language_model", lang, langc, langr),
             ("geographic_scope", geo, geoc, geor),
+            ("institutional_relationship", rel, relc, relr),
+            ("newsroom_independence_form", news, newsc, newsr),
             ("activity_status", ac, acc, acr),
         )
         for field, value, confidence, reason in assignments:
             if confidence == "requires_manual_review" or reason:
                 review.append(review_row(source, field, value, reason or "manual review requested"))
-
         coded.append(out)
 
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
