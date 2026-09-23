@@ -1,0 +1,17 @@
+outlet_id_a,outlet_name_a,jurisdiction_a,outlet_id_b,outlet_name_b,jurisdiction_b,name_similarity,same_website_host,review_type
+AZ012,Asian Media Network,Arizona,CA008,Asian Journal,California,1.000,no,possible_name_duplicate_or_related_product
+KS004,Dos Mundos,Kansas,MO001,Dos Mundos,Missouri,1.000,yes,possible_name_duplicate_or_related_product
+NM006,El Hispano,New Mexico,PA002,El Hispano,Pennsylvania,1.000,no,possible_name_duplicate_or_related_product
+NM006,El Hispano,New Mexico,TX021,El Hispano News,Texas,1.000,no,possible_name_duplicate_or_related_product
+PA002,El Hispano,Pennsylvania,TX021,El Hispano News,Texas,1.000,no,possible_name_duplicate_or_related_product
+KS005,KC Hispanic News,Kansas,MO002,KC Hispanic News,Missouri,1.000,yes,possible_name_duplicate_or_related_product
+NJ005,News India Times,New Jersey,NY015,News India Times,New York,1.000,yes,possible_name_duplicate_or_related_product
+DC002,Washington Hispanic,District of Columbia,MD001,Washington Hispanic,Maryland,1.000,yes,possible_name_duplicate_or_related_product
+ME003,Maine Public News Connect - Somali,Maine,ME006,Maine Public News Connect - Spanish,Maine,0.873,yes,possible_name_duplicate_or_related_product
+ME004,Maine Public News Connect - French,Maine,ME006,Maine Public News Connect - Spanish,Maine,0.836,yes,possible_name_duplicate_or_related_product
+AZ014,El Semanario / The Weekly Issue Arizona market,Arizona,NM005,El Semanario / The Weekly Issue New Mexico market,New Mexico,0.812,yes,possible_name_duplicate_or_related_product
+ME004,Maine Public News Connect - French,Maine,ME005,Maine Public News Connect - Portuguese,Maine,0.793,yes,possible_name_duplicate_or_related_product
+CT005,Brazilian Times II - Connecticut circulation,Connecticut,MD005,Brazilian Times II - Maryland circulation,Maryland,0.790,yes,possible_name_duplicate_or_related_product
+MD004,El Tiempo Latino - Maryland service,Maryland,VA004,El Tiempo Latino - Virginia service,Virginia,0.788,yes,possible_name_duplicate_or_related_product
+ME005,Maine Public News Connect - Portuguese,Maine,ME006,Maine Public News Connect - Spanish,Maine,0.780,yes,possible_name_duplicate_or_related_product
+ME004,Maine Public News Connect - French,Maine,ME003,Maine Public News Connect - Somali,Maine,0.778,yes,possible_name_duplicate_or_related_product

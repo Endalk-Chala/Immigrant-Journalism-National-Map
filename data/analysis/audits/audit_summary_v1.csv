@@ -1,0 +1,9 @@
+metric,value
+records_audited,531
+core_records,301
+shared_website_host_groups,35
+possible_similar_name_pairs,16
+classification_flagged_records,17
+distinct_institutional_form_strings,490
+distinct_eligibility_status_strings,75
+distinct_website_active_strings,65
