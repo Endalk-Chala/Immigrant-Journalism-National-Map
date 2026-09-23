@@ -6,7 +6,7 @@ Arkansas,not_started,
 California,verification_complete,candidate + verification
 Colorado,verification_complete,candidate + verification
 Connecticut,verification_complete,candidate + verification
-Delaware,not_started,
+Delaware,verification_complete,candidate + verification
 Florida,verification_complete,candidate + verification
 Georgia,verification_complete,candidate + verification
 Hawaii,not_started,
@@ -17,7 +17,7 @@ Iowa,verification_complete,candidate + verification
 Kansas,verification_complete,candidate + verification
 Kentucky,verification_complete,candidate + verification
 Louisiana,not_started,
-Maine,not_started,
+Maine,verification_complete,candidate + verification
 Maryland,verification_complete,candidate + verification
 Massachusetts,verification_complete,candidate + verification
 Michigan,verification_complete,candidate + verification
@@ -27,7 +27,7 @@ Missouri,verification_complete,candidate + verification
 Montana,not_started,
 Nebraska,verification_complete,candidate + verification
 Nevada,verification_complete,candidate + verification
-New Hampshire,not_started,
+New Hampshire,verification_complete,candidate + verification
 New Jersey,verification_complete,candidate + verification
 New Mexico,verification_complete,candidate + verification
 New York,verification_complete,candidate + verification
@@ -37,7 +37,7 @@ Ohio,verification_complete,candidate + verification
 Oklahoma,not_started,
 Oregon,verification_complete,candidate + verification
 Pennsylvania,verification_complete,candidate + verification
-Rhode Island,not_started,
+Rhode Island,verification_complete,candidate + verification
 South Carolina,verification_complete,candidate + verification
 South Dakota,verification_complete,candidate + verification
 Tennessee,verification_complete,candidate + verification
