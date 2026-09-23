@@ -18,11 +18,13 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 VERIFICATION_DIR = ROOT / "data" / "verification"
 OUTPUT_DIR = ROOT / "data" / "analysis"
+DATASET_ORIGIN = "National Immigrant Journalism Map Phase 1A"
 
 MASTER_COLUMNS = [
     "outlet_id",
     "outlet_name",
-    "state",
+    "jurisdiction",
+    "state_or_market",
     "city_or_scope",
     "website",
     "website_active",
@@ -35,6 +37,7 @@ MASTER_COLUMNS = [
     "verification_notes",
     "analysis_tier",
     "core_inclusion",
+    "dataset_origin",
     "source_file",
     "source_row_number",
 ]
@@ -54,12 +57,27 @@ CONTEXTUAL_STATUS_TOKENS = (
 )
 
 
-def normalize_row(row: dict[str, str], source_file: str, source_row: int) -> dict[str, str]:
+def jurisdiction_from_path(path: Path) -> str:
+    """Derive the Phase 1A search jurisdiction from the verification filename."""
+    suffix = "_verification_v1"
+    stem = path.stem
+    slug = stem[:-len(suffix)] if stem.endswith(suffix) else stem
+    label = slug.replace("_", " ").title()
+    if label == "District Of Columbia":
+        return "District of Columbia"
+    return label
+
+
+def normalize_row(
+    row: dict[str, str], source_file: str, source_row: int, jurisdiction: str
+) -> dict[str, str]:
     """Normalize minor schema differences while preserving source-language coding."""
     normalized = {k: (v or "").strip() for k, v in row.items() if k is not None}
 
-    # Minnesota batch used `city`; most later files use `city_or_scope`.
+    # Early files used `city`; files also varied between `state` and
+    # `state_or_market`. Preserve outlet geography separately from the search frame.
     city_or_scope = normalized.get("city_or_scope") or normalized.get("city", "")
+    state_or_market = normalized.get("state_or_market") or normalized.get("state", "")
     status = normalized.get("eligibility_status", "").strip()
     status_l = status.lower()
 
@@ -85,7 +103,8 @@ def normalize_row(row: dict[str, str], source_file: str, source_row: int) -> dic
     return {
         "outlet_id": normalized.get("outlet_id", ""),
         "outlet_name": normalized.get("outlet_name", ""),
-        "state": normalized.get("state", ""),
+        "jurisdiction": jurisdiction,
+        "state_or_market": state_or_market,
         "city_or_scope": city_or_scope,
         "website": normalized.get("website", ""),
         "website_active": normalized.get("website_active", ""),
@@ -98,6 +117,7 @@ def normalize_row(row: dict[str, str], source_file: str, source_row: int) -> dic
         "verification_notes": normalized.get("verification_notes", ""),
         "analysis_tier": analysis_tier,
         "core_inclusion": core_inclusion,
+        "dataset_origin": DATASET_ORIGIN,
         "source_file": source_file,
         "source_row_number": str(source_row),
     }
@@ -113,12 +133,20 @@ def input_files() -> list[Path]:
 def build_rows() -> list[dict[str, str]]:
     rows: list[dict[str, str]] = []
     for path in input_files():
+        jurisdiction = jurisdiction_from_path(path)
+        source_file = str(path.relative_to(ROOT))
         with path.open("r", encoding="utf-8-sig", newline="") as fh:
             reader = csv.DictReader(fh)
             for row_number, row in enumerate(reader, start=2):
-                rows.append(normalize_row(row, str(path.relative_to(ROOT)), row_number))
+                rows.append(normalize_row(row, source_file, row_number, jurisdiction))
 
-    rows.sort(key=lambda r: (r["state"], r["outlet_name"].casefold(), r["outlet_id"]))
+    rows.sort(
+        key=lambda r: (
+            r["jurisdiction"],
+            r["outlet_name"].casefold(),
+            r["outlet_id"],
+        )
+    )
     return rows
 
 
@@ -130,24 +158,26 @@ def write_csv(path: Path, rows: list[dict[str, str]], columns: list[str]) -> Non
         writer.writerows(rows)
 
 
-def build_state_summary(rows: list[dict[str, str]]) -> list[dict[str, str]]:
-    by_state: dict[str, list[dict[str, str]]] = defaultdict(list)
+def build_jurisdiction_summary(rows: list[dict[str, str]]) -> list[dict[str, str]]:
+    by_jurisdiction: dict[str, list[dict[str, str]]] = defaultdict(list)
     for row in rows:
-        by_state[row["state"]].append(row)
+        by_jurisdiction[row["jurisdiction"]].append(row)
 
     summary = []
-    for state in sorted(by_state):
-        state_rows = by_state[state]
-        tiers = Counter(r["analysis_tier"] for r in state_rows)
+    for jurisdiction in sorted(by_jurisdiction):
+        jurisdiction_rows = by_jurisdiction[jurisdiction]
+        tiers = Counter(r["analysis_tier"] for r in jurisdiction_rows)
         summary.append(
             {
-                "state": state,
-                "verified_records": str(len(state_rows)),
+                "jurisdiction": jurisdiction,
+                "verified_records": str(len(jurisdiction_rows)),
                 "core_verified": str(tiers["core_verified"]),
                 "pending_verification": str(tiers["pending_verification"]),
                 "hold_for_review": str(tiers["hold_for_review"]),
                 "contextual_noncore": str(tiers["contextual_noncore"]),
-                "other_review_status": str(tiers["other_review_status"] + tiers["missing_status"]),
+                "other_review_status": str(
+                    tiers["other_review_status"] + tiers["missing_status"]
+                ),
             }
         )
     return summary
@@ -161,6 +191,21 @@ def build_status_summary(rows: list[dict[str, str]]) -> list[dict[str, str]]:
     ]
 
 
+def build_diagnostics(rows: list[dict[str, str]]) -> list[dict[str, str]]:
+    outlet_ids = [r["outlet_id"] for r in rows if r["outlet_id"]]
+    duplicate_ids = sum(n - 1 for n in Counter(outlet_ids).values() if n > 1)
+    metrics = [
+        ("verification_files", len(input_files())),
+        ("jurisdictions", len({r["jurisdiction"] for r in rows if r["jurisdiction"]})),
+        ("national_verified_records", len(rows)),
+        ("core_verified_records", sum(r["core_inclusion"] == "yes" for r in rows)),
+        ("blank_jurisdiction_records", sum(not r["jurisdiction"] for r in rows)),
+        ("blank_outlet_id_records", sum(not r["outlet_id"] for r in rows)),
+        ("duplicate_outlet_id_extra_rows", duplicate_ids),
+    ]
+    return [{"metric": metric, "value": str(value)} for metric, value in metrics]
+
+
 def main() -> None:
     rows = build_rows()
     core_rows = [r for r in rows if r["core_inclusion"] == "yes"]
@@ -168,8 +213,8 @@ def main() -> None:
     write_csv(OUTPUT_DIR / "national_verified_registry_v1.csv", rows, MASTER_COLUMNS)
     write_csv(OUTPUT_DIR / "national_core_outlets_v1.csv", core_rows, MASTER_COLUMNS)
 
-    state_columns = [
-        "state",
+    summary_columns = [
+        "jurisdiction",
         "verified_records",
         "core_verified",
         "pending_verification",
@@ -177,14 +222,24 @@ def main() -> None:
         "contextual_noncore",
         "other_review_status",
     ]
-    write_csv(OUTPUT_DIR / "state_summary_v1.csv", build_state_summary(rows), state_columns)
+    write_csv(
+        OUTPUT_DIR / "state_summary_v1.csv",
+        build_jurisdiction_summary(rows),
+        summary_columns,
+    )
     write_csv(
         OUTPUT_DIR / "eligibility_status_summary_v1.csv",
         build_status_summary(rows),
         ["eligibility_status", "n"],
     )
+    write_csv(
+        OUTPUT_DIR / "build_diagnostics_v1.csv",
+        build_diagnostics(rows),
+        ["metric", "value"],
+    )
 
     print(f"Verification files: {len(input_files())}")
+    print(f"Jurisdictions: {len({r['jurisdiction'] for r in rows})}")
     print(f"National verified records: {len(rows)}")
     print(f"Core verified outlets/products: {len(core_rows)}")
     print(f"Output directory: {OUTPUT_DIR}")
