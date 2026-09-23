@@ -1,0 +1,7 @@
+outlet_id,outlet_name,state,city_or_scope,website,discovery_source,screening_status,notes
+DE001,HOY en Delaware,Delaware,Statewide,https://hoyendelaware.com/,outlet website,candidate_verify,Long-running Hispanic publication covering all three Delaware counties.
+DE002,El Tiempo Hispano,Delaware,Statewide,https://eltiempohispano.com/,outlet website + Spotlight Delaware,candidate_verify,Bilingual statewide newspaper published by Hola Delaware LLC.
+DE003,Delaware Hispano Magazine,Delaware,Newark / statewide,https://delhispano.com/,outlet website,candidate_verify,Monthly Hispanic community magazine with local Delaware news and resources.
+DE004,El Mundo (Wilmington),Delaware,Wilmington,,Library of Congress,candidate_verify,Historic Spanish-language weekly founded in 1960; current status unknown/inactive.
+DE005,Hola Delaware LLC,Delaware,Newark / statewide,https://eltiempohispano.com/,El Tiempo Hispano,candidate_verify,Parent/host organization for El Tiempo Hispano.
+DE006,Delaware Spanish-language radio lead,Delaware,Wilmington / statewide,,targeted discovery,candidate_verify,Potential Spanish-language radio/media operations; no distinct journalism-focused outlet firmly verified in first pass.
