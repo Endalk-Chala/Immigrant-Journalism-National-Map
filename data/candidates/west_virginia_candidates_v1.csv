@@ -1,0 +1,5 @@
+outlet_id,outlet_name,state,city_or_scope,website,discovery_source,screening_status,notes
+WV001,West Virginia Latino/Spanish newsroom lead,West Virginia,Charleston / statewide,,targeted discovery,candidate_verify,No distinct current immigrant-serving Spanish-language newsroom firmly verified in first pass.
+WV002,Charleston Gazette-Mail Spanish-language content,West Virginia,Charleston / statewide,https://www.wvgazettemail.com/,media directory,boundary_check,Mainstream newspaper listed as publishing some Spanish-language content; not immigrant-serving primary mission.
+WV003,Nuevos Comienzos information network,West Virginia,Parkersburg / Wood County,,West Virginia United Methodist Conference,boundary_check,Immigrant-support ministry providing translation and information; not a newsroom.
+WV004,West Virginia immigrant/refugee community media lead,West Virginia,Charleston / Morgantown / Parkersburg,,targeted discovery,candidate_verify,No distinct sustained refugee/diaspora newsroom verified in first pass.
