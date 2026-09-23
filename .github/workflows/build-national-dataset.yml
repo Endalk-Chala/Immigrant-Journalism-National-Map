@@ -6,6 +6,7 @@ on:
     paths:
       - 'data/verification/**'
       - 'data/analysis/relationship_review_decisions_v1.csv'
+      - 'data/analysis/community_orientation_review_decisions_v1.csv'
       - 'scripts/build_national_dataset.py'
       - 'scripts/audit_national_dataset.py'
       - 'scripts/code_controlled_variables.py'
@@ -13,6 +14,7 @@ on:
       - 'scripts/apply_relationship_reviews.py'
       - 'scripts/audit_community_orientation.py'
       - 'scripts/extract_refugee_review_queue.py'
+      - 'scripts/apply_community_orientation_reviews.py'
       - 'docs/NATIONAL_DATASET_README.md'
       - 'docs/DATA_DICTIONARY.md'
       - 'docs/CONTROLLED_VARIABLES_CODEBOOK.md'
@@ -55,6 +57,9 @@ jobs:
       - name: Extract refugee orientation review queue
         run: python scripts/extract_refugee_review_queue.py
 
+      - name: Apply reviewed community orientation decisions
+        run: python scripts/apply_community_orientation_reviews.py
+
       - name: Show generated file summary
         run: |
           echo "Generated files:"
@@ -71,6 +76,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "Analytical files already up to date."
           else
-            git commit -m "Rebuild national analytical dataset and validation audits"
+            git commit -m "Rebuild national analytical dataset and reviewed community coding"
             git push
           fi
