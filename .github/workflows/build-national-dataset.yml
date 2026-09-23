@@ -5,10 +5,12 @@ on:
     branches: [main]
     paths:
       - 'data/verification/**'
+      - 'data/analysis/relationship_review_decisions_v1.csv'
       - 'scripts/build_national_dataset.py'
       - 'scripts/audit_national_dataset.py'
       - 'scripts/code_controlled_variables.py'
       - 'scripts/code_interpretive_variables.py'
+      - 'scripts/apply_relationship_reviews.py'
       - 'docs/NATIONAL_DATASET_README.md'
       - 'docs/DATA_DICTIONARY.md'
       - 'docs/CONTROLLED_VARIABLES_CODEBOOK.md'
@@ -42,6 +44,9 @@ jobs:
       - name: Code interpretive controlled variables
         run: python scripts/code_interpretive_variables.py
 
+      - name: Apply reviewed relationship decisions
+        run: python scripts/apply_relationship_reviews.py
+
       - name: Show generated file summary
         run: |
           echo "Generated files:"
@@ -58,6 +63,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "Analytical files already up to date."
           else
-            git commit -m "Rebuild national analytical dataset and controlled coding"
+            git commit -m "Rebuild national analytical dataset and reviewed relationships"
             git push
           fi
