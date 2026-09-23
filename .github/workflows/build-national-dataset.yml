@@ -6,6 +6,7 @@ on:
     paths:
       - 'data/verification/**'
       - 'scripts/build_national_dataset.py'
+      - 'scripts/audit_national_dataset.py'
       - 'docs/NATIONAL_DATASET_README.md'
       - 'docs/DATA_DICTIONARY.md'
       - '.github/workflows/build-national-dataset.yml'
@@ -29,13 +30,16 @@ jobs:
       - name: Build national analytical files
         run: python scripts/build_national_dataset.py
 
+      - name: Audit national analytical files
+        run: python scripts/audit_national_dataset.py
+
       - name: Show generated file summary
         run: |
           echo "Generated files:"
-          ls -lh data/analysis
+          find data/analysis -maxdepth 2 -type f -name '*.csv' -print | sort
           echo
           echo "Row counts (including header):"
-          wc -l data/analysis/*.csv
+          find data/analysis -maxdepth 2 -type f -name '*.csv' -print0 | sort -z | xargs -0 wc -l
 
       - name: Commit generated analytical files when changed
         run: |
@@ -45,6 +49,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "Analytical files already up to date."
           else
-            git commit -m "Rebuild national analytical dataset"
+            git commit -m "Rebuild national analytical dataset and audit"
             git push
           fi
