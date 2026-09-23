@@ -1,0 +1,6 @@
+outlet_id,outlet_name,state,city_or_scope,website,discovery_source,screening_status,notes
+NH001,"¿Qué Hay de Nuevo, New Hampshire?",New Hampshire,Statewide,https://www.nhpr.org/noticias-en-espanol,NHPR,candidate_verify,Regular Spanish-language newscast/news service at NHPR.
+NH002,Visibles,New Hampshire,Statewide,https://www.nhpr.org/visibles-stories-from-our-community,NHPR,candidate_verify,Spanish/English Latino community storytelling series within Qué Hay de Nuevo.
+NH003,Made En NH,New Hampshire,Statewide,https://www.nhpr.org/made-en-nh,NHPR,candidate_verify,Latino community/culture series within NHPR Spanish-language initiative.
+NH004,Rumbo - New Hampshire market,New Hampshire,Nashua / Manchester / Merrimack Valley,,NH Business Review historical profile,candidate_verify,Massachusetts-based Spanish weekly historically distributed into southern New Hampshire; current status unclear.
+NH005,New Hampshire independent Latino media lead,New Hampshire,Manchester / Nashua,,targeted discovery,candidate_verify,No distinct current independent Spanish-language newsroom verified in first pass beyond NHPR initiative.
