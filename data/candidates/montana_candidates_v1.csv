@@ -1,0 +1,4 @@
+outlet_id,outlet_name,state,city_or_scope,website,discovery_source,screening_status,notes
+MT001,Noticias Montaña,Montana,Bozeman / Gallatin County,,NBC News/Telemundo profile,candidate_verify,Spanish-language online newspaper founded in 2020 to provide local and regional news for southwest Montana's Latino community; current 2026 operation not firmly established in first pass.
+MT002,Montana Latino News / HDN Noticias Latinas,Montana,Statewide,https://montanalatinonews.com/,current website,candidate_verify,Spanish-language site branded for Montana and active in 2026; local-news production versus syndicated/PR-heavy content requires verification.
+MT003,Independent non-English newsroom gap lead,Montana,Statewide,,LOR Foundation statewide media inventory,candidate_verify,Recent statewide media inventory found no Spanish-language or other non-English news/information outlets; retain as documented gap-search case rather than inferred absence.
