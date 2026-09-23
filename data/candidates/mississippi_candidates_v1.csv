@@ -1,0 +1,6 @@
+outlet_id,outlet_name,state,city_or_scope,website,discovery_source,screening_status,notes
+MS001,La Noticias de MS,Mississippi,Biloxi / statewide,,El Pueblo staff profile,candidate_verify,Spanish-language newspaper identified as first Spanish newspaper published in Mississippi.
+MS002,La Costa Latina - Mississippi Gulf Coast service,Mississippi,Biloxi / Gulf Coast,https://latinomediainc.com/,Latino Media Gulf Coast,candidate_verify,Florida/Alabama-based Latino publication with active Mississippi Gulf Coast coverage; multistate market case.
+MS003,Mississippi Today en Español,Mississippi,Statewide,https://mississippitoday.org/,Mississippi Today,candidate_verify,Spanish translations of selected statewide reporting.
+MS004,Vietnamese Gulf Coast community media lead,Mississippi,Biloxi / Gulfport,,targeted discovery,candidate_verify,Large Vietnamese diaspora documented on Gulf Coast, but no distinct current Vietnamese newsroom firmly verified in first pass.
+MS005,El Pueblo media programs,Mississippi,Biloxi / Gulf Coast,https://elpueblo-ms.org/,El Pueblo,candidate_verify,Community organization director has published La Noticias de MS and created Spanish radio programs; classify host/infrastructure.
