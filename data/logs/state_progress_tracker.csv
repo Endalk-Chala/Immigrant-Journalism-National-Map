@@ -1,16 +1,16 @@
 state,status,notes
 Alabama,verification_complete,candidate + verification
-Alaska,not_started,
+Alaska,verification_complete,candidate + verification
 Arizona,verification_complete,candidate + verification
-Arkansas,not_started,
+Arkansas,verification_complete,candidate + verification
 California,verification_complete,candidate + verification
 Colorado,verification_complete,candidate + verification
 Connecticut,verification_complete,candidate + verification
 Delaware,verification_complete,candidate + verification
 Florida,verification_complete,candidate + verification
 Georgia,verification_complete,candidate + verification
-Hawaii,not_started,
-Idaho,not_started,
+Hawaii,verification_complete,candidate + verification
+Idaho,verification_complete,candidate + verification
 Illinois,verification_complete,candidate + verification
 Indiana,verification_complete,candidate + verification
 Iowa,verification_complete,candidate + verification
