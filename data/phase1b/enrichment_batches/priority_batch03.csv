@@ -1,0 +1,33 @@
+outlet_id,field,value,evidence_url,evidence_note
+NY004,founding_year,2004,https://www.fi2w.org/about-us/,Feet in 2 Worlds states that it has operated since 2004.
+NY004,legal_organizational_form,nonprofit_501c3,https://www.fi2w.org/about-us/,Fi2W identifies itself as a nonprofit news and training organization; exact IRS classification should be independently verified for quantitative tax-status analysis.
+NY004,public_staff_count,6,https://www.fi2w.org/our-team/,Current team page lists six staff/fellowship roles.
+NY004,staff_size_band,6_10,https://www.fi2w.org/our-team/,Band based on six publicly listed current staff/fellowship roles.
+NY004,governing_board_public,yes,https://www.fi2w.org/our-team/,Eight board members are publicly listed.
+NY004,network_memberships,Institute for Nonprofit News;LION Publishers,https://www.fi2w.org/about-us/,Fi2W explicitly states membership in INN and LION Publishers.
+NY004,network_membership_status,verified_member,https://www.fi2w.org/about-us/,Formal membership is explicitly disclosed.
+NY004,revenue_model,philanthropy_or_grants_primary,https://www.fi2w.org/a-letter-from-our-managing-director/,Public materials identify foundation support individual donors and NewsMatch contributions.
+NY004,revenue_sources_public,foundation_grants;individual_donations;matching_campaigns,https://www.fi2w.org/a-letter-from-our-managing-director/,Foundation and donor support are explicitly disclosed.
+NY004,funders_publicly_named,yes,https://www.fi2w.org/a-letter-from-our-managing-director/,Current and recent named supporters are publicly disclosed.
+NY004,named_funders,John D. and Catherine T. MacArthur Foundation;Ford Foundation;Fernandez Pave the Way Foundation;NewsMatch contributors,https://www.fi2w.org/a-letter-from-our-managing-director/,Named funders from the public managing-director letter.
+NY004,safety_support_status,training_or_guidance_disclosed,https://www.fi2w.org/who-tells-the-story-and-whose-story-is-it-values-and-practices-when-reporting-on-ice/,Managing editor describes routine risk assessment and safety planning for reporters covering ICE.
+NY004,safety_support_types,physical_safety;legal_risk_assessment;field_reporting_protocols,https://www.fi2w.org/who-tells-the-story-and-whose-story-is-it-values-and-practices-when-reporting-on-ice/,Public article describes assessment of physical legal and personal threats before field assignments.
+NY004,legal_support_status,not_publicly_disclosed,https://www.fi2w.org/who-tells-the-story-and-whose-story-is-it-values-and-practices-when-reporting-on-ice/,Fi2W explicitly described lacking local legal support for a planned Colorado assignment; this does not establish absence of all legal support organization-wide.
+NY004,editorial_policy_public,yes,https://www.fi2w.org/about-us/,Fi2W publishes an explicit editorial-independence statement.
+NY004,financial_security_note,Fi2W describes itself as a small newsroom sustained by foundations and individual donors and participating in NewsMatch; public evidence supports nonprofit/philanthropic dependence but not a precise current revenue concentration measure.,https://www.fi2w.org/a-letter-from-our-managing-director-2025/,Use current donor/funder evidence without inferring insolvency or financial instability.
+CA017,legal_organizational_form,fiscally_sponsored_project,https://chicosol.org/about/,ChicoSol states that North Valley Community Foundation is its fiscal sponsor while it pursues independent 501(c)(3) status as Sol News.
+CA017,parent_or_host_name,North Valley Community Foundation,https://chicosol.org/about/,Fiscal sponsor is explicitly identified.
+CA017,governing_board_public,yes,https://chicosol.org/about/,Current community-led advisory board is publicly listed.
+CA017,revenue_model,donations_primary,https://chicosol.org/about/,ChicoSol states that it depends largely on tax-deductible donor contributions to its NVCF fund for operating expenses and writer stipends.
+CA017,revenue_sources_public,individual_donations;parent_or_host_support,https://chicosol.org/about/,Donations through fiscal sponsor are the primary publicly disclosed support mechanism.
+CA017,financial_security_note,ChicoSol publicly states that operating expenses and writer stipends depend largely on donor contributions through its fiscal sponsor; this is evidence of donor dependence but not a finding of financial distress.,https://chicosol.org/about/,Preserve distinction between dependence and demonstrated instability.
+CA017,editorial_policy_public,yes,https://chicosol.org/about/,ChicoSol states that it maintains full editorial independence from its fiscal sponsor.
+CA017,public_contact_available,yes_general,https://chicosol.org/about/,Public site provides organizational contact and board information.
+AR002,founding_year,2015,https://chikinmelele.com/celebrating-5-years-of-chikin-melele-news/,The paper was established in print in Springdale in 2015 and moved online in 2020.
+AR002,founder_or_origin_note,Founded by two Marshallese men in Springdale Arkansas; rights transferred to executive editor Melanie Carbine in 2023,https://chikinmelele.com/celebrating-5-years-of-chikin-melele-news/,Institutional history is explicitly described by the outlet.
+AR002,ownership_structure,independent_owner_operated,https://chikinmelele.com/celebrating-5-years-of-chikin-melele-news/,Executive editor states that all rights were purchased and transferred to her in 2023; no broader corporate parent is identified.
+AR002,public_staff_count,not_publicly_disclosed,https://chikinmelele.com/celebrating-5-years-of-chikin-melele-news/,Outlet describes itself as a small group of writers and translators but does not provide a precise current headcount on this page.
+AR002,staff_size_band,unclear,https://chikinmelele.com/celebrating-5-years-of-chikin-melele-news/,Public evidence supports a small-team description but not a defensible numeric band.
+AR002,governing_board_public,yes,https://chikinmelele.com/how-we-report-and-who-guides-our-work/,Five-member editorial advisory board is publicly listed.
+AR002,editorial_policy_public,yes,https://chikinmelele.com/how-we-report-and-who-guides-our-work/,Outlet explains the advisory board's role in supporting fairness accuracy respect and editorial independence.
+AR002,financial_security_note,Current public pages do not disclose sufficient budget or revenue information to classify revenue model or scale; retain missingness rather than infer financial precarity from small-team language.,https://chikinmelele.com/celebrating-5-years-of-chikin-melele-news/,No unsupported financial inference.
