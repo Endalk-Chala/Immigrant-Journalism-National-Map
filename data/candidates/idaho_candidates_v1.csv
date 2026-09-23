@@ -1,0 +1,4 @@
+outlet_id,outlet_name,state,city_or_scope,website,discovery_source,screening_status,notes
+ID001,IdahoLatino.com,Idaho,Statewide,https://www.idaholatino.com/,official website,candidate_verify,Spanish-language Latino information portal with statewide news section and service directory; journalism intensity requires eligibility review.
+ID002,Mosaics,Idaho,Boise / statewide,https://mosaics.castos.com/,official podcast + Idaho Office for Refugees,candidate_verify,Podcast presented by Idaho Office for Refugees featuring sustained reporting/interviews with Idahoans from refugee and immigrant backgrounds; active 2026.
+ID003,Idaho Office for Refugees newsletters and media,Idaho,Statewide,https://www.idahorefugees.org/,official organization website,candidate_verify,Service organization produces newsletters blog and media but is primarily resettlement infrastructure; retain as host/information infrastructure linked to Mosaics rather than independent outlet.
