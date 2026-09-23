@@ -7,8 +7,10 @@ on:
       - 'data/verification/**'
       - 'scripts/build_national_dataset.py'
       - 'scripts/audit_national_dataset.py'
+      - 'scripts/code_controlled_variables.py'
       - 'docs/NATIONAL_DATASET_README.md'
       - 'docs/DATA_DICTIONARY.md'
+      - 'docs/CONTROLLED_VARIABLES_CODEBOOK.md'
       - '.github/workflows/build-national-dataset.yml'
   workflow_dispatch:
 
@@ -33,6 +35,9 @@ jobs:
       - name: Audit national analytical files
         run: python scripts/audit_national_dataset.py
 
+      - name: Code controlled analytical variables
+        run: python scripts/code_controlled_variables.py
+
       - name: Show generated file summary
         run: |
           echo "Generated files:"
@@ -49,6 +54,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "Analytical files already up to date."
           else
-            git commit -m "Rebuild national analytical dataset and audit"
+            git commit -m "Rebuild national analytical dataset, audit, and controlled coding"
             git push
           fi
