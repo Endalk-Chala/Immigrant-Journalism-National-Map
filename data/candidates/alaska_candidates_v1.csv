@@ -1,0 +1,4 @@
+outlet_id,outlet_name,state,city_or_scope,website,discovery_source,screening_status,notes
+AK001,Sol de Medianoche,Alaska,Anchorage / statewide,https://www.soldemedianochenews.org/,official outlet website,candidate_verify,Monthly bilingual Spanish-English publication serving Alaska's Latino community with current local reporting and civic information.
+AK002,Anchorage Korean News,Alaska,Anchorage / statewide,https://akn907.com/,official outlet website + Alaska Public Media,candidate_verify,Bilingual Korean-English print and digital newspaper serving Alaska Korean community; active 2026 and part of consolidated Korean media operation.
+AK003,Alaska Korean Community News,Alaska,Anchorage / statewide,https://knewsak907.com/,official outlet website + Alaska Current,candidate_verify,Korean-language newspaper with active 2026 issues; merged operationally with Anchorage Korean News while retaining distinct editorial identity and alternating print schedule.
