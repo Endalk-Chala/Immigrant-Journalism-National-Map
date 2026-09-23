@@ -1,0 +1,8 @@
+outlet_id,outlet_name,state,city_or_scope,website,discovery_source,screening_status,notes
+ME001,Amjambo Africa,Maine,Portland / Lewiston / statewide,https://www.amjamboafrica.com/,outlet website,candidate_verify,Nonprofit multilingual immigrant-serving newsroom focused on New Mainers.
+ME002,Maine Public News Connect,Maine,Statewide,https://www.mainepublic.org/about-maine-public-news-connect,Maine Public,candidate_verify,"Multilingual translated-news initiative in French, Spanish, Somali, Portuguese, Khmer and Arabic."
+ME003,Maine Public News Connect - Somali,Maine,Statewide,https://contact.mainepublic.org/page/66230/subscribe/1?locale=en-US,Maine Public,candidate_verify,Somali-language weekly newscast/newsletter product.
+ME004,Maine Public News Connect - French,Maine,Statewide,https://contact.mainepublic.org/page/66230/subscribe/1?locale=en-US,Maine Public,candidate_verify,French-language weekly translated-news product.
+ME005,Maine Public News Connect - Portuguese,Maine,Statewide,https://contact.mainepublic.org/page/66230/subscribe/1?locale=en-US,Maine Public,candidate_verify,Portuguese-language weekly translated-news product.
+ME006,Maine Public News Connect - Spanish,Maine,Statewide,https://contact.mainepublic.org/page/66230/subscribe/1?locale=en-US,Maine Public,candidate_verify,Spanish-language weekly translated-news product.
+ME007,Twin Cities Media,Maine,Lewiston/Auburn,,recent news reports,candidate_verify,Claimed multilingual outlet; credibility and authenticity disputed in 2026 reporting.
