@@ -1,0 +1,49 @@
+outlet_id,field,value,evidence_url,evidence_note
+AZ001,legal_organizational_form,fiscally_sponsored_project,https://conectaarizona.com/donor-policy/,Conecta Arizona states it is fiscally sponsored by Alternative Newsweekly Foundation.
+AZ001,revenue_model,philanthropy_or_grants_primary,https://conectaarizona.com/donor-policy/,Donor policy identifies donations and grants and publicly lists major contributors over $5,000.
+AZ001,revenue_sources_public,individual_donations;foundation_grants,https://conectaarizona.com/donor-policy/,Public donor policy documents donations and grants.
+AZ001,funders_publicly_named,yes,https://conectaarizona.com/donor-policy/,Major funders over $5,000 are publicly disclosed.
+AZ001,named_funders,JSK Community Impact Fellowship at Stanford;The Listening Post Collective;NAHJ;American Press Institute;Solutions Journalism Network;Election SOS;Feet in 2 Worlds;Google News Initiative,https://conectaarizona.com/donor-policy/,Names reproduced from outlet donor disclosure.
+AZ001,financial_security_note,Public donor policy shows reliance on multiple journalism and philanthropic funders rather than one disclosed funder.,https://conectaarizona.com/donor-policy/,Do not infer total grant dependence without budget data.
+CA001,legal_organizational_form,fiscally_sponsored_project,https://www.eltimpano.org/mission-story/,El Tímpano states it is a nonprofit organization fiscally sponsored by Mission Edge San Diego.
+CA001,parent_or_host_name,Mission Edge San Diego,https://www.eltimpano.org/mission-story/,Fiscal sponsor disclosed by outlet.
+CA001,revenue_sources_public,individual_donations;foundation_grants;sponsorships,https://www.eltimpano.org/mission-story/,Mission page states gifts grants and sponsorships are accepted.
+CA001,funders_publicly_named,yes,https://www.eltimpano.org/mission-story/,Outlet states it publicly discloses donors of $5,000 or more annually.
+CA001,corrections_policy_public,yes,https://www.eltimpano.org/mission-story/,Mission page contains an explicit corrections commitment.
+CA001,governing_board_public,yes,https://www.eltimpano.org/mission-story/,Outlet links to fiscal sponsor governing board and its own leadership/staff/advisory council.
+CA002,parent_or_host_name,Acción Latina,https://accionlatina.org/en/history/,Acción Latina identifies El Tecolote as its flagship community media program.
+CA002,legal_organizational_form,community_or_civic_host,https://accionlatina.org/en/history/,El Tecolote is published as a program of nonprofit Acción Latina.
+CA002,ownership_structure,parent_organization_owned,https://accionlatina.org/en/history/,Acción Latina is the nonprofit publisher/host.
+CA002,public_staff_count,4,https://accionlatina.org/en/our-team/,Current public team page lists four named El Tecolote-specific staff roles: editor-in-chief business manager Spanish copy editor and distribution manager.
+CA002,staff_size_band,2_5,https://accionlatina.org/en/our-team/,Band based on four currently named El Tecolote-specific staff on host team page; volunteers/contributors are additional.
+CA002,public_editorial_roles,editor_in_chief;business_manager;spanish_copy_editor;distribution_manager,https://accionlatina.org/en/our-team/,Roles explicitly listed by host organization.
+CA002,employment_model_public,volunteer_heavy,https://accionlatina.org/en/el-tecolote-history/,Acción Latina states approximately 90 percent of El Tecolote staff are dedicated volunteers.
+CA002,revenue_sources_public,foundation_grants;advertising;parent_or_host_support,https://eltecolote.org/content/en/accion-latina-executive-director-fatima-ramirez/,Acción Latina reported over $1 million in national grants; current El Tecolote advertising materials document advertising sales.
+CA002,funders_publicly_named,yes,https://eltecolote.org/content/en/accion-latina-executive-director-fatima-ramirez/,Mellon and MacArthur Foundations are named among more than a dozen funders.
+CA002,financial_security_note,In September 2026 Mission Local reported staff departures and stalled contracts despite budgeted positions; keep this as an event in the risk table rather than treating it as a static organizational trait.,https://missionlocal.org/2026/09/el-tecolote-longtime-mission-paper-loses-top-editor-as-staffers-exit/,Current staffing instability publicly documented.
+CA003,legal_organizational_form,nonprofit_501c3,https://indiacurrents.com/how-were-funded/,India Currents states it is a 501(c)(3) nonprofit and nonpartisan news organization.
+CA003,revenue_model,mixed_revenue,https://indiacurrents.com/how-were-funded/,Outlet states it is funded through foundations sponsors and donors.
+CA003,revenue_sources_public,foundation_grants;sponsorships;individual_donations,https://indiacurrents.com/how-were-funded/,Funding mix explicitly disclosed.
+CA003,network_memberships,Institute for Nonprofit News;URL Media;LION Publishers,https://indiacurrents.com/how-were-funded/,INN membership explicitly stated; 2026 impact report documents support/collaboration from URL Media and LION Publishers.
+CA003,network_membership_status,verified_member,https://indiacurrents.com/how-were-funded/,INN membership explicitly verified.
+CA003,funders_publicly_named,yes,https://indiacurrents.com/india-currents-impact-report-2026/,2026 impact report names institutional supporters.
+CA003,named_funders,Silicon Valley Community Foundation;URL Media;Press Forward;LION Publishers;UC Berkeley Local News Fellowship,https://indiacurrents.com/india-currents-impact-report-2026/,Named supporters and investments in current impact report.
+CA003,owned_audience_channels,whatsapp;direct_web;social_media,https://indiacurrents.com/india-currents-impact-report-2026/,Impact report documents website traffic WhatsApp community and social platforms.
+CA003,platform_dependence_public_signal,platform_substantial,https://indiacurrents.com/india-currents-impact-report-2026/,Impact report documents substantial audience reach and engagement through Instagram TikTok and WhatsApp while also reporting direct website traffic.
+MN002,founding_year,2023,https://www.somalmedia.com/about-us/,About page states founded in February 2023.
+MN002,legal_organizational_form,nonprofit_501c3,https://www.somalmedia.com/about-us/,Outlet describes itself as a nonprofit digital newsroom; exact IRS classification should be separately verified before tax-specific use.
+MN002,public_staff_count,4,https://www.somalmedia.com/our-team/,Public team page lists four named newsroom team members.
+MN002,staff_size_band,2_5,https://www.somalmedia.com/our-team/,Band based on four named team members.
+MN002,editorial_leadership_public,yes,https://www.somalmedia.com/our-team/,Founder/director roles are publicly listed.
+MN002,governing_board_public,yes,https://www.somalmedia.com/our-team/,Five board members are publicly listed.
+MN002,platform_presence,website;social_media;community_events,https://www.somalmedia.com/about-us/,Outlet states stories reach audiences via website social media TV and community event coverage.
+MN002,public_contact_available,multiple_contact_routes,https://www.somalmedia.com/contact-us/,Public email phone address and contact form are available.
+MN004,legal_organizational_form,nonprofit_501c3,https://www.koreanquarterly.org/staff/,Korean Quarterly states it is a 501(c)(3) nonprofit; ProPublica independently lists tax exemption.
+MN004,public_staff_count,9,https://www.koreanquarterly.org/staff/,Nine unique named publisher/editor/writer/design-production contributors are publicly listed; this may not equal FTE employment.
+MN004,staff_size_band,6_10,https://www.koreanquarterly.org/staff/,Band based on nine unique named contributors.
+MN004,revenue_model,donations_primary,https://projects.propublica.org/nonprofits/organizations/411876410,2025 Form 990-EZ data show contributions were 74.8% of reported revenue.
+MN004,revenue_sources_public,individual_donations;advertising;subscriptions,https://www.koreanquarterly.org/staff/,Outlet states it is supported by donations advertisers and subscribers.
+MN004,annual_revenue_amount,20016,https://projects.propublica.org/nonprofits/organizations/411876410,ProPublica Nonprofit Explorer reports 2025 revenue of $20,016 from IRS filing data.
+MN004,annual_revenue_year,2025,https://projects.propublica.org/nonprofits/organizations/411876410,IRS fiscal year ending December 2025.
+MN004,revenue_band,under_100k,https://projects.propublica.org/nonprofits/organizations/411876410,Band derived from documented $20,016 revenue.
+MN004,financial_security_note,Very small publicly reported annual revenue and heavy contribution dependence suggest limited financial scale; this is descriptive capacity evidence not a risk score.,https://projects.propublica.org/nonprofits/organizations/411876410,Do not infer insolvency or instability from size alone.
