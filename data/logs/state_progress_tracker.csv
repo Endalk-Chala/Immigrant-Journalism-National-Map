@@ -16,13 +16,13 @@ Indiana,verification_complete,candidate + verification
 Iowa,verification_complete,candidate + verification
 Kansas,verification_complete,candidate + verification
 Kentucky,verification_complete,candidate + verification
-Louisiana,not_started,
+Louisiana,verification_complete,candidate + verification
 Maine,verification_complete,candidate + verification
 Maryland,verification_complete,candidate + verification
 Massachusetts,verification_complete,candidate + verification
 Michigan,verification_complete,candidate + verification
 Minnesota,verification_complete,candidate + verification
-Mississippi,not_started,
+Mississippi,verification_complete,candidate + verification
 Missouri,verification_complete,candidate + verification
 Montana,not_started,
 Nebraska,verification_complete,candidate + verification
@@ -43,10 +43,10 @@ South Dakota,verification_complete,candidate + verification
 Tennessee,verification_complete,candidate + verification
 Texas,verification_complete,candidate + verification
 Utah,verification_complete,candidate + verification
-Vermont,not_started,
+Vermont,verification_complete,candidate + verification
 Virginia,verification_complete,candidate + verification
 Washington,verification_complete,candidate + verification
-West Virginia,not_started,
+West Virginia,verification_complete,candidate + verification
 Wisconsin,verification_complete,candidate + verification
 Wyoming,not_started,
 District of Columbia,not_started,
