@@ -8,8 +8,8 @@ This dictionary distinguishes **source verification fields** from **derived anal
 |---|---|---|
 | `outlet_id` | Stable project identifier for the outlet/media product | State/DC prefix plus sequence number; used for relational linkage |
 | `outlet_name` | Public name of outlet or media product | Preserve public-facing name |
-| `state` | Primary state/jurisdiction recorded in the verification file | May describe a market-serving or multistate case; consult status/notes |
-| `city_or_scope` | City, metro, statewide, regional, or other geographic scope | Early Minnesota file used `city`; normalized during build |
+| `state` or `state_or_market` | Source-file geography field | Phase 1A files used both headers; the national build preserves the value as `state_or_market` |
+| `city_or_scope` | City, metro, statewide, regional, or other geographic scope | Early files may use `city`; normalized during build |
 | `website` | Primary public website | Blank when no reliable current site was identified |
 | `website_active` | Publicly observed website/activity status | Controlled language evolved during Phase 1A; preserve original value |
 | `sustained_journalism` | Evidence assessment of sustained journalism/news/public-affairs production | Do not reduce nuanced values to yes/no without a documented recode |
@@ -24,10 +24,19 @@ This dictionary distinguishes **source verification fields** from **derived anal
 
 | Field | Meaning | Derivation |
 |---|---|---|
+| `jurisdiction` | State/DC Phase 1A search frame | Derived from the verification filename, not from the outlet's market field |
+| `state_or_market` | Verbatim outlet geography/market value from source verification row | Normalizes source `state_or_market` or `state` without redefining it |
 | `analysis_tier` | Broad analytical grouping for reproducible filtering | Derived from `eligibility_status` by the build script |
 | `core_inclusion` | Conservative flag for the core analytical subset | `yes` only when status begins with `verified_include` or `verified_core` |
+| `dataset_origin` | Identifies records as originating in this project's Phase 1A verification process | Constant value in the national analytical files |
 | `source_file` | Verification CSV from which the row came | Added automatically for provenance |
 | `source_row_number` | Original 1-based CSV line number including header offset | Added automatically for provenance |
+
+### Why `jurisdiction` and `state_or_market` are separate
+
+The distinction is methodological. `jurisdiction` answers **where the Phase 1A search was conducted**. `state_or_market` preserves **how the outlet itself was geographically coded**, including regional and multistate markets. State-level counts must use `jurisdiction`; outlet-market analysis may use `state_or_market`.
+
+This prevents a multistate outlet from becoming a false extra "state" in summary tables and prevents early schema variation from creating blank-state records.
 
 ## Analytical tiers
 
@@ -47,18 +56,26 @@ This dictionary distinguishes **source verification fields** from **derived anal
 3. **Do not overwrite detailed source coding with simplified analytical tiers.** Recode in analysis scripts or separate derived tables.
 4. **Do not insert external-directory rows directly into the master verification registry.** CUNY/Medill records first enter the discovery layer and must pass the project's own verification rules.
 5. **Keep event and demographic data relational.** Press Freedom Tracker and Phase 1B event records link to outlets; ACS data link by geography. They are not outlet attributes by default.
+6. **Use `jurisdiction` for state/DC sampling-frame summaries.** Do not use `state_or_market` as a substitute.
 
-## External comparison/enrichment variables (future layer)
+## External comparison layer
 
-The project may later create separate crosswalk tables containing fields such as:
+External sources are stored separately from the national analytical registry. The comparison table should use fields such as:
 
 - `outlet_id`
-- `cuny_match_status`
-- `cuny_record_id_or_url`
-- `medill_match_status`
-- `medill_record_id_or_url`
+- `external_source`
+- `external_match_status`
+- `external_record_id_or_url`
 - `match_method`
 - `match_confidence`
 - `match_review_note`
 
+Recommended controlled values for `external_source` include `CUNY_CCM` and `MEDILL_SOLN`.
+
+A match indicates overlap or discoverability in an external resource. It does **not** mean the external resource defines inclusion in this project's population.
+
 Likewise, demographic and risk-event enrichment should use separate tables keyed by geography or `outlet_id`. Keeping these layers separate prevents external resources from silently redefining the project's population.
+
+## Build diagnostics
+
+`data/analysis/build_diagnostics_v1.csv` is generated automatically and reports basic integrity checks including jurisdiction count, blank jurisdiction records, blank outlet IDs, and duplicate outlet-ID extra rows. These diagnostics should be reviewed whenever the analytical dataset is rebuilt.
