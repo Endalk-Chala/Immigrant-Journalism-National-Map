@@ -1,0 +1,54 @@
+name: Build Phase 1B enrichment template
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/build_phase1b_enrichment_template.py'
+      - 'docs/PHASE_1B_INSTITUTIONAL_ENRICHMENT_CODEBOOK.md'
+      - 'docs/PHASE_1B_PLATFORM_FINANCIAL_SECURITY_ADDENDUM.md'
+      - '.github/workflows/build-phase1b-enrichment.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Build Phase 1B institutional enrichment template
+        run: python scripts/build_phase1b_enrichment_template.py
+
+      - name: Validate Phase 1B row count
+        run: |
+          python - <<'PY'
+          import csv
+          from pathlib import Path
+          p = Path('data/phase1b/institutional_enrichment_v1.csv')
+          with p.open(encoding='utf-8-sig', newline='') as f:
+              rows = list(csv.DictReader(f))
+          assert len(rows) == 301, f'Expected 301 Phase 1B rows, found {len(rows)}'
+          assert len({r['outlet_id'] for r in rows}) == 301, 'Duplicate outlet_id in Phase 1B template'
+          print('Validated 301 unique Phase 1B core records')
+          PY
+
+      - name: Commit Phase 1B template when changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/phase1b/institutional_enrichment_v1.csv
+          if git diff --cached --quiet; then
+            echo "Phase 1B template already up to date."
+          else
+            git commit -m "Build Phase 1B institutional enrichment template"
+            git push
+          fi
