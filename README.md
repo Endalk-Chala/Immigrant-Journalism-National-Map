@@ -22,6 +22,16 @@ Email: tworkneh@kent.edu
 
 ---
 
+## Project summary
+
+Immigrant-serving news organizations occupy an increasingly important but unevenly resourced part of the U.S. local news ecosystem. They often serve communities navigating immigration enforcement, multilingual information needs, political uncertainty, platform dependence, and limited access to legal, financial, and safety infrastructure. Yet these outlets are difficult to study systematically because they are dispersed across languages, organizational forms, platforms, and local markets, and because existing media directories, local-news databases, and press-freedom trackers capture different parts of the ecosystem.
+
+This project addresses that gap through a sequential, multi-layered research design. First, it constructs a national institutional sampling frame of immigrant and immigrant-serving journalism outlets across all 50 states and the District of Columbia. Second, it enriches the verified outlet population with publicly available evidence about organizational form, staffing, governance, funding, legal and safety support, network membership, platform dependence, monetization, and audience infrastructure. Third, it builds a separate event-level dataset of publicly documented risks and organizational disruptions, including detention, physical assault, harassment, legal pressure, immigration-enforcement exposure, staffing loss, funding shocks, source-safety concerns, and platform-related disruptions. Sector-wide conditions such as philanthropic contraction or declining platform referral traffic are coded separately as structural exposures rather than automatically attributed to individual outlets.
+
+The study does not collapse these dimensions into a single risk score. Instead, it examines the relationship among **institutional capacity, structural exposure, documented events, organizational responses, and consequences**. The resulting national map and enrichment layers provide the sampling infrastructure for a later qualitative interview phase focused on how immigrant-serving news organizations experience, interpret, and respond to risk. The public repository is designed to make the institutional and event-level components of the study transparent, versioned, and reproducible while keeping future human-subjects data separate and protected.
+
+---
+
 ## Project overview
 
 The study examines the institutional conditions under which immigrant-serving journalism operates in the United States and how financial, legal, digital, physical, professional, organizational, platform-related, and transnational risks interact across news organizations.
