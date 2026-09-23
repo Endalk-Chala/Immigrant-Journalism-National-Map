@@ -12,6 +12,7 @@ on:
       - 'scripts/code_interpretive_variables.py'
       - 'scripts/apply_relationship_reviews.py'
       - 'scripts/audit_community_orientation.py'
+      - 'scripts/extract_refugee_review_queue.py'
       - 'docs/NATIONAL_DATASET_README.md'
       - 'docs/DATA_DICTIONARY.md'
       - 'docs/CONTROLLED_VARIABLES_CODEBOOK.md'
@@ -50,6 +51,9 @@ jobs:
 
       - name: Audit community orientation coding
         run: python scripts/audit_community_orientation.py
+
+      - name: Extract refugee orientation review queue
+        run: python scripts/extract_refugee_review_queue.py
 
       - name: Show generated file summary
         run: |
