@@ -24,7 +24,7 @@ Michigan,verification_complete,candidate + verification
 Minnesota,verification_complete,candidate + verification
 Mississippi,verification_complete,candidate + verification
 Missouri,verification_complete,candidate + verification
-Montana,not_started,
+Montana,verification_complete,candidate + verification
 Nebraska,verification_complete,candidate + verification
 Nevada,verification_complete,candidate + verification
 New Hampshire,verification_complete,candidate + verification
@@ -34,7 +34,7 @@ New York,verification_complete,candidate + verification
 North Carolina,verification_complete,candidate + verification
 North Dakota,verification_complete,candidate + verification
 Ohio,verification_complete,candidate + verification
-Oklahoma,not_started,
+Oklahoma,verification_complete,candidate + verification
 Oregon,verification_complete,candidate + verification
 Pennsylvania,verification_complete,candidate + verification
 Rhode Island,verification_complete,candidate + verification
@@ -48,5 +48,5 @@ Virginia,verification_complete,candidate + verification
 Washington,verification_complete,candidate + verification
 West Virginia,verification_complete,candidate + verification
 Wisconsin,verification_complete,candidate + verification
-Wyoming,not_started,
-District of Columbia,not_started,
+Wyoming,verification_complete,candidate + verification
+District of Columbia,verification_complete,candidate + verification
