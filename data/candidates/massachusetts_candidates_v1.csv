@@ -1,0 +1,9 @@
+outlet_id,outlet_name,state,city_or_scope,website,discovery_source,screening_status,notes
+MA001,El Planeta,Massachusetts,Greater Boston / statewide,https://elplaneta.com/,outlet website,candidate_verify,Latino/family-owned Spanish-language local news outlet.
+MA002,El Mundo Boston,Massachusetts,Boston / statewide,https://elmundoboston.com/,outlet website,candidate_verify,Long-running Spanish-language weekly/digital newspaper.
+MA003,Brazilian Times,Massachusetts,Somerville / New England,https://www.braziliantimes.com/,outlet website,candidate_verify,Brazilian Portuguese newspaper serving Massachusetts and New England.
+MA004,Sampan,Massachusetts,Greater Boston,https://www.sampan.org/,outlet website,candidate_verify,Bilingual Chinese-English nonprofit newspaper.
+MA005,Khmer Post USA,Massachusetts,Lowell / Cambodian diaspora,https://khmerpostusa.com/,outlet website + UMass Lowell,candidate_verify,Khmer/Cambodian-American news outlet with Lowell focus.
+MA006,Boston Orange,Massachusetts,Greater Boston,https://www.bostonorange.com/,outlet website,candidate_verify,Chinese-language community reporting blog/publication.
+MA007,The Boston Korea,Massachusetts,Allston / Greater Boston,,Massachusetts court registered-media list,candidate_verify,Korean-language news organization registered in Massachusetts.
+MA008,Massachusetts multicultural radio/TV outlets,Massachusetts,Greater Boston / statewide,,Mass.gov multicultural-media list,candidate_verify,Discovery cluster including Haitian Creole Spanish Vietnamese and Chinese broadcast outlets; verify individually later.
