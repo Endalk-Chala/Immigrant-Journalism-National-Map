@@ -24,33 +24,47 @@ Email: tworkneh@kent.edu
 
 ## Project summary
 
-Immigrant-serving news organizations occupy an increasingly important but unevenly resourced part of the U.S. local news ecosystem. They often serve communities navigating immigration enforcement, multilingual information needs, political uncertainty, platform dependence, and limited access to legal, financial, and safety infrastructure. Yet these outlets are difficult to study systematically because they are dispersed across languages, organizational forms, platforms, and local markets, and because existing media directories, local-news databases, and press-freedom trackers capture different parts of the ecosystem.
+Immigrant-serving journalism occupies a consequential but poorly mapped position in the U.S. information environment. Scholarship on ethnic and immigrant media has long shown that these outlets do more than represent identity: they produce culturally and linguistically specific information, connect communities to local institutions, mediate between homeland and host-country politics, and sustain forms of civic visibility often weakly supplied by mainstream news organizations (Matsaganis, Katz, & Ball-Rokeach, 2010; Lin & Song, 2006; Shumow, 2012, 2014). Recent work further demonstrates that geo-ethnic journalism can shape trust, political information access, and participation precisely because it is embedded in the social worlds of the communities it serves (Zonszein, 2025; Moon et al., 2026).
 
-This project addresses that gap through a sequential, multi-layered research design. First, it constructs a national institutional sampling frame of immigrant and immigrant-serving journalism outlets across all 50 states and the District of Columbia. Second, it enriches the verified outlet population with publicly available evidence about organizational form, staffing, governance, funding, legal and safety support, network membership, platform dependence, monetization, and audience infrastructure. Third, it builds a separate event-level dataset of publicly documented risks and organizational disruptions, including detention, physical assault, harassment, legal pressure, immigration-enforcement exposure, staffing loss, funding shocks, source-safety concerns, and platform-related disruptions. Sector-wide conditions such as philanthropic contraction or declining platform referral traffic are coded separately as structural exposures rather than automatically attributed to individual outlets.
+Yet immigrant-serving journalism remains analytically fragmented across several literatures. Ethnic-media research has often emphasized identity, community formation, and transnationalism; local-news scholarship has focused on institutional decline, market failure, and “news deserts”; platformization research has examined publishers' growing dependencies on large technology firms; and press-freedom datasets typically record discrete incidents rather than the organizational conditions that make harms more or less consequential. These literatures identify important pieces of the problem, but they rarely provide a common institutional frame for asking why similar threats produce different consequences across differently resourced news organizations. Critical work on local news also cautions against treating the mere presence or absence of an outlet as an adequate measure of information provision, while platformization research shows that dependence on distribution infrastructures varies with organizational resources and context (Usher, 2023; Hartley et al., 2023).
 
-The study does not collapse these dimensions into a single risk score. Instead, it examines the relationship among **institutional capacity, structural exposure, documented events, organizational responses, and consequences**. The resulting national map and enrichment layers provide the sampling infrastructure for a later qualitative interview phase focused on how immigrant-serving news organizations experience, interpret, and respond to risk. The public repository is designed to make the institutional and event-level components of the study transparent, versioned, and reproducible while keeping future human-subjects data separate and protected.
+This project addresses that gap by treating immigrant-serving news organizations as **epistemic institutions embedded in unequal risk ecologies**. “Epistemic precarity” refers here not simply to unstable employment or financial insecurity, but to the condition in which a newsroom's capacity to produce, verify, distribute, and protect community-relevant knowledge depends on fragile combinations of organizational resources, legal and safety infrastructure, platform access, funding, linguistic capacity, and relationships with the communities it serves. The project therefore asks not only whether immigrant-serving journalists encounter threats, but **how institutional form conditions exposure, response, and consequence**.
+
+Methodologically, the project uses a sequential, multi-layered design. Phase 1A constructs a national institutional sampling frame of immigrant and immigrant-serving journalism outlets across all 50 states and the District of Columbia. Phase 1B enriches the verified outlet population with publicly available evidence about organizational form, staffing, governance, funding, legal and safety support, network membership, platform dependence, monetization, referral structure, and owned-audience infrastructure. A separate risk-event layer records publicly documented incidents and disruptions, including detention, physical assault, harassment, legal pressure, immigration-enforcement exposure, staffing loss, funding shocks, source-safety concerns, and platform-related disruptions. Sector-wide conditions such as philanthropic contraction or declining platform referral traffic are coded separately as structural exposures rather than automatically attributed to individual outlets.
+
+The study does **not** collapse these dimensions into a composite risk score. Instead, it preserves the relationship among:
+
+> **institutional capacity → structural exposure → documented event → organizational response → consequence**
+
+This design makes it possible to examine how resources may buffer some harms, redistribute others, or create new dependencies. It also avoids assuming that small outlets are necessarily more vulnerable, that larger outlets are necessarily more secure, or that absence of a publicly documented incident is evidence of safety.
+
+The resulting national map and enrichment layers provide the sampling infrastructure for a later qualitative interview phase focused on how immigrant-serving news organizations experience, interpret, and respond to risk. The public repository is designed to make the institutional and event-level components of the study transparent, versioned, and reproducible while keeping future human-subjects data separate and protected.
 
 ---
 
-## Project overview
+## Research questions guiding the project
 
-The study examines the institutional conditions under which immigrant-serving journalism operates in the United States and how financial, legal, digital, physical, professional, organizational, platform-related, and transnational risks interact across news organizations.
+The broader study is organized around four linked questions:
 
-Rather than beginning with a small convenience sample of journalists or newsrooms, the project first constructs a national institutional sampling frame and then enriches that frame with public evidence about organizational capacity, funding, staffing, legal and safety support, platform dependence, and documented risk events.
+1. **What is the institutional landscape of immigrant-serving journalism in the United States?**
+2. **How are financial, legal, digital, physical, professional, organizational, platform-related, and transnational risks distributed across different kinds of immigrant-serving news organizations?**
+3. **How do organizational resources and dependencies shape whether a threat becomes a manageable disruption, a chilling constraint, or an existential risk?**
+4. **How do journalists and news organizations themselves interpret, negotiate, and respond to these interacting risks?**
 
-The core methodological design separates three forms of evidence:
+The first three questions structure the public mapping and enrichment work in this repository. The fourth will be addressed primarily through the later qualitative interview phase.
 
-1. **Institutional capacity** — what an outlet or host publicly appears to have in terms of staffing, governance, funding, legal support, safety infrastructure, network ties, audience infrastructure, and platform dependence.
-2. **Documented risk events** — what has happened to an outlet, newsroom, journalist, source community, or organizational operation, such as detention, assault, harassment, staffing disruption, legal pressure, funding loss, or platform restrictions.
-3. **Structural exposure** — wider conditions that may shape vulnerability, including platform referral decline, demonetization systems, changes in search or social distribution, philanthropic contraction, immigration-enforcement environments, and other sector-wide pressures.
+---
 
-These layers are analyzed relationally but are **not collapsed into a single risk score**.
+## Conceptual contribution
 
-The analytical logic is:
+The project brings together four bodies of scholarship that are often treated separately:
 
-> **institutional capacity → exposure → documented event → organizational response → consequence**
+- **Ethnic and immigrant media studies**, which show how community media support identity, local information needs, representation, and transnational connection (Matsaganis et al., 2010; Lin & Song, 2006; Shumow, 2012, 2014).
+- **Local-news and information-ecosystem scholarship**, which treats journalism as institutional infrastructure while also warning against overly simple “news desert” measures that ignore place, power, and uneven information provision (Usher, 2023; Barclay et al., 2025).
+- **Platformization research**, which emphasizes that news organizations experience digital platforms through unequal configurations of autonomy and dependence shaped by organizational resources and market context (Hartley et al., 2023).
+- **Journalism-precarity and safety research**, which demonstrates that vulnerability is shaped not only by discrete threats but by institutional, labor, and contextual conditions that affect journalists' capacity to absorb and respond to harm.
 
-This allows the project to examine how resources may mitigate, redistribute, or sometimes generate different forms of risk without assuming that small organizations are necessarily more vulnerable or that larger organizations are necessarily protected.
+The project's intervention is to operationalize these insights at the **organizational level**. Instead of treating risk as an individual journalist characteristic or as a count of incidents, it examines how risk is produced relationally through the interaction of organizational capacity, external exposure, and institutional response.
 
 ---
 
@@ -274,6 +288,28 @@ This repository contains public, non-sensitive research infrastructure and publi
 It must not contain private recruitment records, interview participation status, consent records, private contact information, interview transcripts, confidential field notes, immigration-status information, or other sensitive human-subject data.
 
 Future interview and human-subject materials will be stored separately and governed by applicable IRB requirements.
+
+---
+
+## Selected scholarly references
+
+Barclay, S., Barnett, S., Moore, M., & Townend, J. (2025). Local news as political institution and the repercussions of “news deserts”: A qualitative study of seven UK local areas. *Journalism, 26*(9). https://doi.org/10.1177/14648849241272255
+
+Hartley, J. M., Petre, C., Bengtsson, M., & Kammer, A. (2023). Autonomies and dependencies: Shifting configurations of power in the platformization of news. *Digital Journalism, 11*(8), 1375–1390. https://doi.org/10.1080/21670811.2023.2257759
+
+Lin, W.-Y., & Song, H. (2006). Geo-ethnic storytelling: An examination of ethnic media content in contemporary immigrant communities. *Journalism, 7*(3), 362–388. https://doi.org/10.1177/1464884906065518
+
+Matsaganis, M. D., Katz, V. S., & Ball-Rokeach, S. J. (2010). *Understanding Ethnic Media: Producers, Consumers, and Societies*. SAGE.
+
+Moon, Y. E., Hays, C., Xu, Z., Roschke, K., & Kwon, K. H. (2026). Contextualizing trust: Geo-ethnic media, relatable storytelling, and audience trust. *Journalism & Mass Communication Quarterly*. https://doi.org/10.1177/10776990261416899
+
+Shumow, M. (2012). Immigrant journalism, ideology and the production of transnational media spaces. *Media, Culture & Society, 34*(7). https://doi.org/10.1177/0163443712452770
+
+Shumow, M. (2014). Media production in a transnational setting: Three models of immigrant journalism. *Journalism, 15*(8). https://doi.org/10.1177/1464884914521581
+
+Usher, N. (2023). The real problems with the problem of news deserts: Toward rooting place, precision, and positionality in scholarship on local news and democracy. *Political Communication, 40*(2), 238–253. https://doi.org/10.1080/10584609.2023.2175399
+
+Zonszein, S. (2025). Turn on, tune in, turn out: Ethnic radio and immigrants' political engagement. *American Journal of Political Science*. https://doi.org/10.1111/ajps.12911
 
 ---
 
