@@ -28,7 +28,11 @@ Immigrant-serving journalism occupies a consequential but poorly mapped position
 
 Yet immigrant-serving journalism remains analytically fragmented across several literatures. Ethnic-media research has often emphasized identity, community formation, and transnationalism; local-news scholarship has focused on institutional decline, market failure, and “news deserts”; platformization research has examined publishers' growing dependencies on large technology firms; and press-freedom datasets typically record discrete incidents rather than the organizational conditions that make harms more or less consequential. These literatures identify important pieces of the problem, but they rarely provide a common institutional frame for asking why similar threats produce different consequences across differently resourced news organizations. Critical work on local news also cautions against treating the mere presence or absence of an outlet as an adequate measure of information provision, while platformization research shows that dependence on distribution infrastructures varies with organizational resources and context (Usher, 2023; Hartley et al., 2023).
 
-This project addresses that gap by treating immigrant-serving news organizations as **epistemic institutions embedded in unequal risk ecologies**. “Epistemic precarity” refers here not simply to unstable employment or financial insecurity, but to the condition in which a newsroom's capacity to produce, verify, distribute, and protect community-relevant knowledge depends on fragile combinations of organizational resources, legal and safety infrastructure, platform access, funding, linguistic capacity, and relationships with the communities it serves. The project therefore asks not only whether immigrant-serving journalists encounter threats, but **how institutional form conditions exposure, response, and consequence**.
+Journalist-safety scholarship provides an additional foundation. Contemporary research increasingly treats safety as multidimensional rather than reducible to physical attack. Slavtcheva-Petkova et al. (2023) conceptualize occupational safety through physical, psychological, digital, and financial dimensions operating across societal, organizational, and individual levels. Westlund, Krøvel, and Orgeret's (2022) concept of **Newsafety** further treats safety as a sociotechnical problem involving infrastructures, practices, and consequences. Research on online harassment and occupational hazard similarly shows that the burden of risk is often displaced onto individual journalists when organizations lack systematic support (Holton et al., 2021; Bélair-Gagnon et al., 2024). Together, this literature moves the field from counting harms toward examining the institutional conditions under which harms are anticipated, absorbed, redistributed, or intensified.
+
+This project builds on that scholarship but shifts the analytical center from the individual journalist to the **organizational ecology of immigrant-serving journalism**. It treats immigrant-serving news organizations as **epistemic institutions embedded in unequal risk ecologies**. “Epistemic precarity” refers here not simply to unstable employment or financial insecurity, but to the condition in which a newsroom's capacity to produce, verify, distribute, and protect community-relevant knowledge depends on fragile and uneven combinations of organizational resources, legal and safety infrastructure, platform access, funding, linguistic capacity, and relationships with the communities it serves.
+
+The concept of **risk ecology** is informed by Chala's earlier study of journalist exposure in Ethiopia (2026), which argues that risk is relational rather than additive: political environment, professional orientation, visibility, organizational mediation, platforms, and other conditions interact to shape exposure. The present project extends that move while changing the unit and scale of analysis. Rather than asking primarily how individual journalists' exposure changes within a national political system, it asks how **organizationally heterogeneous immigrant-serving news outlets occupy different risk ecologies within the same national media system**.
 
 Methodologically, the project uses a sequential, multi-layered design. Phase 1A constructs a national institutional sampling frame of immigrant and immigrant-serving journalism outlets across all 50 states and the District of Columbia. Phase 1B enriches the verified outlet population with publicly available evidence about organizational form, staffing, governance, funding, legal and safety support, network membership, platform dependence, monetization, referral structure, and owned-audience infrastructure. A separate risk-event layer records publicly documented incidents and disruptions, including detention, physical assault, harassment, legal pressure, immigration-enforcement exposure, staffing loss, funding shocks, source-safety concerns, and platform-related disruptions. Sector-wide conditions such as philanthropic contraction or declining platform referral traffic are coded separately as structural exposures rather than automatically attributed to individual outlets.
 
@@ -38,7 +42,7 @@ The study does **not** collapse these dimensions into a composite risk score. In
 
 This design makes it possible to examine how resources may buffer some harms, redistribute others, or create new dependencies. It also avoids assuming that small outlets are necessarily more vulnerable, that larger outlets are necessarily more secure, or that absence of a publicly documented incident is evidence of safety.
 
-The resulting national map and enrichment layers provide the sampling infrastructure for a later qualitative interview phase focused on how immigrant-serving news organizations experience, interpret, and respond to risk. The public repository is designed to make the institutional and event-level components of the study transparent, versioned, and reproducible while keeping future human-subjects data separate and protected.
+The distinctive question is therefore not only **whether journalists are safe**, but **how organizational conditions shape what can be reported, verified, translated, distributed, and sustained when risk enters the news-production process**. That is the link between journalist safety and epistemic precarity.
 
 ---
 
@@ -57,14 +61,40 @@ The first three questions structure the public mapping and enrichment work in th
 
 ## Conceptual contribution
 
-The project brings together four bodies of scholarship that are often treated separately:
+The project brings together five bodies of scholarship that are often treated separately:
 
 - **Ethnic and immigrant media studies**, which show how community media support identity, local information needs, representation, and transnational connection (Matsaganis et al., 2010; Lin & Song, 2006; Shumow, 2012, 2014).
 - **Local-news and information-ecosystem scholarship**, which treats journalism as institutional infrastructure while also warning against overly simple “news desert” measures that ignore place, power, and uneven information provision (Usher, 2023; Barclay et al., 2025).
 - **Platformization research**, which emphasizes that news organizations experience digital platforms through unequal configurations of autonomy and dependence shaped by organizational resources and market context (Hartley et al., 2023).
-- **Journalism-precarity and safety research**, which demonstrates that vulnerability is shaped not only by discrete threats but by institutional, labor, and contextual conditions that affect journalists' capacity to absorb and respond to harm.
+- **Journalist-safety research**, which increasingly treats safety as multidimensional, sociotechnical, and organizational rather than simply physical or individual (Westlund et al., 2022; Slavtcheva-Petkova et al., 2023; Krøvel, Palumbo, & Orgeret, 2023).
+- **Organizational and occupational-risk research**, which shows that harassment, psychological burden, and attacks on journalism become more consequential when institutions shift prevention and coping onto individual journalists (Holton et al., 2021; Bélair-Gagnon et al., 2024).
 
-The project's intervention is to operationalize these insights at the **organizational level**. Instead of treating risk as an individual journalist characteristic or as a count of incidents, it examines how risk is produced relationally through the interaction of organizational capacity, external exposure, and institutional response.
+The project's intervention is to operationalize these insights at the **organizational level**. Instead of treating risk as an individual journalist characteristic or as a count of incidents, it examines how risk is produced relationally through the interaction of organizational capacity, external exposure, institutional response, and consequence.
+
+### From journalist safety to organizational risk ecology
+
+Existing safety frameworks establish that journalists face interlocking physical, psychological, digital, and financial threats, and that those threats operate across macro, meso, and micro levels. Newsafety adds the role of infrastructures and practices. Research on harassment and occupational hazard makes organizational responsibility explicit.
+
+This project asks what follows when those insights are applied systematically to a heterogeneous institutional population. Two journalists may encounter comparable threats while their news organizations possess radically different capacities to respond. One newsroom may have counsel, safety training, replacement staff, insurance, diversified revenue, and direct audience channels; another may depend on a founder, volunteers, a single platform, fragile grant support, or informal community networks. The event may therefore be similar while the organizational consequence is not.
+
+Risk ecology names this relational configuration. It directs attention to the interaction among:
+
+- the **source and type of threat**;
+- the **institutional capacities available before the event**;
+- the **infrastructures and dependencies through which journalism is produced**;
+- the **organizational response**;
+- the **consequences for journalists, the outlet, sources, audiences, and coverage**;
+- and the **feedback effects** through which responses may generate new capacities or new vulnerabilities.
+
+### Epistemic precarity
+
+The project uses **epistemic precarity** to identify the point at which these risk ecologies affect the production and circulation of knowledge itself. A safety problem becomes epistemically consequential when it alters what a newsroom can know, report, verify, translate, distribute, or sustain.
+
+Examples may include canceling an assignment because legal support is unavailable; changing source practices to protect undocumented community members; reducing publication after staff departures; withdrawing from a platform because harassment becomes intolerable; losing referral traffic or monetization that finances reporting; or narrowing coverage because threats generate chilling effects.
+
+This is the project's principal theoretical distinction: **journalist safety concerns the conditions under which journalists can work; epistemic precarity concerns how those conditions shape the continuity, integrity, and reach of community knowledge production.** The two are connected, but they are not identical.
+
+A fuller theoretical memo is available at `docs/JOURNALIST_SAFETY_AND_RISK_ECOLOGY_FRAMEWORK.md`.
 
 ---
 
@@ -178,6 +208,7 @@ The project currently has:
 - `docs/PHASE_1B_INSTITUTIONAL_ENRICHMENT_CODEBOOK.md` — Phase 1B variables and coding rules
 - `docs/PHASE_1B_PLATFORM_FINANCIAL_SECURITY_ADDENDUM.md` — platform monetization, referral dependence, and financial-security coding
 - `docs/PHASE_1B_RISK_ECOLOGY_METHODOLOGICAL_NOTE.md` — integrated institutional-capacity/risk-event methodology and reproducibility design
+- `docs/JOURNALIST_SAFETY_AND_RISK_ECOLOGY_FRAMEWORK.md` — journalist-safety literature, risk ecology, and epistemic-precarity framework
 - `docs/NATIONAL_DATASET_README.md` — national dataset architecture and reproducibility rules
 - `docs/DATA_DICTIONARY.md` — source and derived variable definitions
 - `docs/CONTROLLED_VARIABLES_CODEBOOK.md` — controlled analytical variables and coding rules
@@ -295,19 +326,35 @@ Future interview and human-subject materials will be stored separately and gover
 
 Barclay, S., Barnett, S., Moore, M., & Townend, J. (2025). Local news as political institution and the repercussions of “news deserts”: A qualitative study of seven UK local areas. *Journalism, 26*(9). https://doi.org/10.1177/14648849241272255
 
+Bélair-Gagnon, V., Searles, K., Vraga, E., Holton, A. E., & Tandoc, E. C. Jr. (2024). Attacks on journalism as an occupational hazard. *International Journal of Communication, 18*, 4603–4622.
+
+Chala, E. H. (2026). From multidimensional safety to risk ecologies: A four-coordinate analysis of journalist exposure in Ethiopia, 1992–2024. *Journalism Practice*, 1–23. https://doi.org/10.1080/17512786.2026.2637127
+
 Hartley, J. M., Petre, C., Bengtsson, M., & Kammer, A. (2023). Autonomies and dependencies: Shifting configurations of power in the platformization of news. *Digital Journalism, 11*(8), 1375–1390. https://doi.org/10.1080/21670811.2023.2257759
+
+Holton, A. E., Bélair-Gagnon, V., Bossio, D., & Molyneux, L. (2021). “Not their fault, but their problem”: Organizational responses to the online harassment of journalists. *Journalism Practice, 17*(4), 859–874. https://doi.org/10.1080/17512786.2021.1946417
+
+Krøvel, R., Palumbo, F., & Orgeret, K. S. (2023). Introduction: Understanding roots and betweenness—Defining safety of journalists as a sub-field of research. *Journalism Studies, 24*(7), 825–837.
 
 Lin, W.-Y., & Song, H. (2006). Geo-ethnic storytelling: An examination of ethnic media content in contemporary immigrant communities. *Journalism, 7*(3), 362–388. https://doi.org/10.1177/1464884906065518
 
 Matsaganis, M. D., Katz, V. S., & Ball-Rokeach, S. J. (2010). *Understanding Ethnic Media: Producers, Consumers, and Societies*. SAGE.
 
+Mesquita, L., & de-Lima-Santos, M.-F. (2023). Blurred boundaries of journalism to guarantee safety: Approaches of resistance and resilience for investigative journalism in Latin America. *Journalism Studies, 24*(7), 916–935. https://doi.org/10.1080/1461670X.2023.2185078
+
 Moon, Y. E., Hays, C., Xu, Z., Roschke, K., & Kwon, K. H. (2026). Contextualizing trust: Geo-ethnic media, relatable storytelling, and audience trust. *Journalism & Mass Communication Quarterly*. https://doi.org/10.1177/10776990261416899
+
+Orgeret, K. S., & Tayeebwa, W. (2020). Introduction: Rethinking safety of journalists. *Media and Communication, 8*(1). https://doi.org/10.17645/mac.v8i1.2873
 
 Shumow, M. (2012). Immigrant journalism, ideology and the production of transnational media spaces. *Media, Culture & Society, 34*(7). https://doi.org/10.1177/0163443712452770
 
 Shumow, M. (2014). Media production in a transnational setting: Three models of immigrant journalism. *Journalism, 15*(8). https://doi.org/10.1177/1464884914521581
 
+Slavtcheva-Petkova, V., Ramaprasad, J., Springer, N., Hughes, S., Hanitzsch, T., Hoxha, A., Hamada, B., & Steindl, N. (2023). Conceptualising journalists' safety around the world. *Digital Journalism*.
+
 Usher, N. (2023). The real problems with the problem of news deserts: Toward rooting place, precision, and positionality in scholarship on local news and democracy. *Political Communication, 40*(2), 238–253. https://doi.org/10.1080/10584609.2023.2175399
+
+Westlund, O., Krøvel, R., & Orgeret, K. S. (2022). Newsafety: Infrastructures, practices and consequences. *Journalism Practice, 16*(9), 1811–1828. https://doi.org/10.1080/17512786.2022.2130818
 
 Zonszein, S. (2025). Turn on, tune in, turn out: Ethnic radio and immigrants' political engagement. *American Journal of Political Science*. https://doi.org/10.1111/ajps.12911
 
