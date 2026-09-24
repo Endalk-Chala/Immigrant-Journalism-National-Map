@@ -50,7 +50,7 @@ The study does **not** combine these dimensions into a single risk score.
 
 We first identify and verify immigrant and immigrant-serving journalism outlets across all 50 states and the District of Columbia. The map distinguishes journalism **for or with immigrant communities** from general-interest journalism that only reports **about immigration**.
 
-The completed national frame contains **531 assessed records**, including **301 core verified outlets or journalism products** across **51 jurisdictions**. These figures are documented in the project completion report and frozen release. 
+The completed national frame contains **531 assessed records**, including **301 core verified outlets or journalism products** across **51 jurisdictions**. These figures are documented in the project completion report and frozen release.
 
 ### 2. Enrich the verified outlets
 
@@ -71,6 +71,23 @@ Sector-wide conditions, such as declining referral traffic or philanthropic cont
 ### 4. Use the map for qualitative interviews
 
 The national map and enrichment data will support purposive sampling for interviews across meaningful institutional contrasts. Interview and other human-subject data will remain separate from this public repository and will be handled under applicable IRB requirements.
+
+---
+
+## Relation to existing media databases and trackers
+
+This national map was **built independently from the ground up**. Existing directories, databases, and trackers were useful for discovery, comparison, cross-checking, and contextualization, but they did not define the study population and were not copied into the core dataset.
+
+That distinction is important because these resources were created for different purposes:
+
+- The **Center for Community Media at CUNY's Newmark J-School** maintains community-media maps and directories, including national and local directories of community and ethnic media. These resources are useful for finding and checking outlets, but their populations and inclusion criteria are not identical to this project's definition of immigrant-serving journalism.
+- The **Medill Local News Initiative's State of Local News** database maps the broader U.S. local-news ecosystem. It is an important benchmark, but this project uses a narrower substantive population centered on journalism that substantially serves immigrant, refugee, diaspora, language, ethnic, or immigrant-origin communities.
+- The **U.S. Press Freedom Tracker** is an incident database documenting press-freedom violations such as arrests, assaults, equipment seizures, border stops, subpoenas, and denials of access. It is used here as one source of event-level evidence, not as an outlet directory and not as a measure of whether an organization is generally “safe” or “unsafe.”
+- **Census and other demographic sources** may be used to contextualize language and immigrant populations geographically. They provide contextual information rather than outlet-level evidence.
+
+An outlet is therefore **not included simply because it appears in CUNY, Medill, or another external directory**. Each record must meet this project's own inclusion rules and be independently verified. Likewise, absence from an external directory or tracker is not treated as evidence that an outlet does not exist or that no risk occurred.
+
+This separation is part of the project's validity strategy. External resources can help identify possible omissions, compare coverage, and validate parts of the frame, while final inclusion and coding decisions remain traceable to this project's own evidence and review process.
 
 ---
 
