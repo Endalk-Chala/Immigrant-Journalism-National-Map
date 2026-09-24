@@ -50,7 +50,7 @@ The study does **not** combine these dimensions into a single risk score.
 
 We first identify and verify immigrant and immigrant-serving journalism outlets across all 50 states and the District of Columbia. The map distinguishes journalism **for or with immigrant communities** from general-interest journalism that only reports **about immigration**.
 
-The completed national frame contains **531 assessed records**, including **301 core verified outlets or journalism products** across **51 jurisdictions**. These figures are documented in the project completion report and frozen release. fileciteturn262file0L2-L2
+The completed national frame contains **531 assessed records**, including **301 core verified outlets or journalism products** across **51 jurisdictions**. These figures are documented in the project completion report and frozen release. 
 
 ### 2. Enrich the verified outlets
 
