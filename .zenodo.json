@@ -1,0 +1,29 @@
+{
+  "title": "Immigrant Journalism National Map: A National Baseline of Immigrant-Serving Journalism in the United States (v1.0, Phase 1A)",
+  "upload_type": "dataset",
+  "version": "1.0-phase1a",
+  "publication_date": "2026-09-26",
+  "creators": [
+    {
+      "name": "Chala, Endalkachew H.",
+      "affiliation": "Center for an Informed Public, University of Washington",
+      "orcid": "0000-0001-6210-6706"
+    },
+    {
+      "name": "Workneh, Tewodros W.",
+      "affiliation": "School of Communication Studies, Kent State University"
+    }
+  ],
+  "description": "<p>A versioned research infrastructure for studying immigrant-serving journalism across the United States. Version 1.0 (Phase 1A) is a frozen national baseline: 531 assessed records and 301 core verified outlets or journalism products across all 50 states and the District of Columbia, with codebooks, a data dictionary, review decisions, audit summaries, build scripts, and SHA-256 checksums.</p><p>The frozen snapshot is in <code>releases/national-immigrant-journalism-map-v1.0-phase1a/</code>. The map is a sampling frame, not a census. Later phases add institutional enrichment, external support infrastructure, and risk events coded across legal, physical, political, economic, and informational domains.</p><p>Data and documentation are licensed CC BY 4.0; source code in <code>scripts/</code> and <code>.github/workflows/</code> is licensed MIT.</p>",
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "keywords": ["immigrant journalism", "ethnic media", "diaspora media", "local news", "journalist safety", "risk ecology", "epistemic precarity", "news organizations"],
+  "related_identifiers": [
+    {
+      "identifier": "10.1080/17512786.2026.2637127",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    }
+  ]
+}
