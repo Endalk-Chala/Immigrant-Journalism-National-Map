@@ -219,3 +219,20 @@ The manuscript proposal/abstract was selected for further consideration for *Dig
 **Working manuscript citation:**
 
 Chala, Endalkachew H., and Tewodros (Teddy) Workneh. “Epistemic Precarity: Risk Ecologies of Immigrant Journalism in the Emerging U.S. Local News Ecosystem.” Manuscript in preparation for *Digital Journalism*, special issue “Epistemic Disorder: Journalism amid Democratic Decline and Media Insecurity.”
+
+---
+
+## How to cite this dataset
+
+If you use the national map, codebooks, or scripts, please cite the archived release:
+
+Chala, E. H., & Workneh, T. W. (2026). *Immigrant Journalism National Map: A national baseline of immigrant-serving journalism in the United States* (Version 1.0, Phase 1A) [Data set]. https://github.com/Endalk-Chala/Immigrant-Journalism-National-Map
+
+GitHub's "Cite this repository" button (from `CITATION.cff`) provides APA and BibTeX formats.
+
+## License
+
+- **Data, codebooks, and documentation** (`data/`, `releases/`, `docs/`, and Markdown files): [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). See [`LICENSE-DATA`](LICENSE-DATA).
+- **Source code** (`scripts/`, `.github/workflows/`): [MIT License](LICENSE).
+
+Outlet names, websites, and quoted public material referenced in the data remain the property of their respective owners; the licenses cover the authors' compilation, verification, coding, and documentation.
